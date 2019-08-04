@@ -1,0 +1,183 @@
+{
+  "navbar": {
+    "inicio": "Acceuil",
+    "equipe": "Équipe",
+    "precos": "Donateurs",
+    "sobre": "À Propos",
+    "servidor": "Serveur",
+    "tutoriais": "Tutoriels",
+    "entrar": "S'identifier",
+    "dashboard": "Tableau de bord",
+    "sair": "Quitter",
+    "idioma": "Language",
+    "linguas": {
+      "portugues": "Portugais",
+      "ingles": "Anglais",
+      "espanhol": "Espagnol",
+      "frances": "Le français",
+      "tcheco": "Tchèque"
+    }
+  },
+  "header": {
+    "texto_primario": "Votre bot est en ligne 24h sur 24 maintenant!",
+    "texto_secundario": "DisCloud est né avec le désir d'offrir un hébergement simple, gratuit et de qualité pour les bots Discord.",
+    "icones": {
+      "ping": "de latence de l'API",
+      "clientes": "Clients",
+      "bots": "Bots actifs"
+    }
+  },
+  "footer": {
+    "descricao": "Â© 2019 DisCloud. Tout droits réservés | Discloudbot.com n'est pas affilié à Discord Inc.",
+    "bibliotecas": "Bibliothèques Supportées",
+    "definicoes": "Paramètres légaux",
+    "termos": "Conditions",
+    "politica": "Politique d'usage",
+    "privacidade": "Confidentialité",
+    "suporte": "Aide",
+    "solucao": "Solutions Problèmes",
+    "obter": "Demander de l'Aide",
+    "doc": "Documentation"
+  },
+  "paginas": {
+    "blacklist": {
+      "header": "Vous avez essayé de vous connecter à notre système avec un autre compte, vous êtes sur la liste noire et le système est verrouillé pour vous.",
+      "content": "Si vous pensez que c'est un malentendu, parlez-en à nos administrateurs.",
+      "link": "Revenir en arrière"
+    },
+    "main": {
+      "linguagens": "Travaillez avec la langue que vous utilisez.",
+      "precos": {
+        "titulo": "Avantages des donateurs",
+        "cards": {
+          "gratis": {
+            "titulo": "Gratuit",
+            "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
+            "ram": "RAM Limitée",
+            "cpu": "CPU Limité",
+            "armazenamento": "Stockage SSD",
+            "network": "Réseau illimité",
+            "botao": "Commencez maintenant"
+          },
+          "padrao": {
+            "titulo": "Or",
+            "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
+            "ram": "200MB de RAM",
+            "cpu": "CPU Limité",
+            "armazenamento": "Stockage SSD",
+            "network": "Réseau illimité",
+            "botao": "Veuillez vous connecter"
+          },
+          "platina": {
+            "titulo": "Platine",
+            "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
+            "ram": "500MB de RAM",
+            "cpu": "1 vCPU",
+            "armazenamento": "Stockage SSD",
+            "network": "Réseau illimité",
+            "botao": "Veuillez vous connecter"
+          }
+        }
+      },
+      "recursos": {
+        "titulo": "Fonctionnalitées prises en charge par nos serveurs",
+        "ffmpeg": "Prise en charge du codec FFMPEG intégré",
+        "database": "Base de données locale avec sauvegardes facile",
+        "transferencia": "Taux de transfert de données illimité",
+        "suporte": "Assistance en portugais quand vous en avez besoin"
+      },
+      "sobre": {
+        "titulo": "À Propos",
+        "p_1": "DisCloud est une plate-forme de cloud gratuite, conviviale et flexible, basée sur un conteneur. Nous proposons aux développeurs un moyen simple et rapide pour mettre leurs Bots Discord en ligne, 24h / 24 et 7j / 7.",
+        "p_2": "Nous comptons sur la collaboration des donateurs pour rester actif et améliorer la qualité de nos services. Nous n'avons aucune relation avec Discord Inc."
+      },
+      "equipe": {
+        "titulo": "Équipe",
+        "pr": "PDG & Développeur Final",
+        "bruno": "Développeur Final",
+        "luis": "Développeur Principal"
+      },
+      "paypal": {
+        "success": "Votre paiement est réussi, connectez-vous à notre site et profitez des avantages. DisCloud vous remercie de votre préférence!",
+        "error": "Une erreur s'est produite lors du traitement du paiement, veuillez nous contacter. DisCloud vous remercie de votre préférence!"
+      }
+    },
+    "dashboard": {
+      "limitBots": "Nous avons une très forte demande d'hébergement, nous ne pouvons pas héberger plus de bots pour le moment, veuillez réessayer plus tard.",
+      "apps": {
+        "sem_bot": "Pas de bot hébergé"
+      },
+      "breadcrumb": {
+        "dashboard": "Panneau de contrôle",
+        "meusBots": "Mes bots"
+      },
+      "buttonAddBot": "Ajouter un bot",
+      "upload": {
+        "initialMessage": "Création d'instance pour le bot ...",
+        "successMessage": "Le bot a démarré avec succès, merci d'avoir utilisé DisCloud! : D",
+        "errorMessages": {
+          "errorInvalidBot": "L'identifiant de bot que vous avez entré n'est pas valide.",
+          "errorAllocateSpace": "Une erreur s'est produite lors de l'attribution de l'espace.",
+          "errorZipIncorrect": "Assurez-vous que le fichier compressé que vous avez soumis est correct!",
+          "errorCompact": "Vous avez compressé le mauvais fichier!",
+          "errorNodeModules": "Supprimez le dossier node_modules de votre fichier .zip et réessayez.",
+          "errorMainFile": "Le fichier principal que vous avez choisi n'existe pas!",
+          "errorConfigureAmbient": "Une erreur s'est produite lors de la configuration de l'environnement.",
+          "errorBuild": "Une erreur s'est produite lors de la création de l'application.",
+          "errorTotalRam": "Vous ne pouvez plus créer d'instances, la mémoire minimale requise par instance est de 100MB et vous avez {{totalRam}}MB",
+          "erroForaDoServidor":"Vous devez être membre de notre serveur pour utiliser nos services.",
+          "errorContaDuplicada":"Vous avez déjà un compte enregistré dans notre système, contactez un Administrateur pour résoudre votre problème.",
+          "errorLimiteBot": "Nous sommes en train de traiter de nombreux bots gratuits, réessayez plus tard ou faites un don et hébergez votre bot maintenant sans limite."
+        },
+        "idBot": "Bot ID",
+        "mainFile": "Fichier du bot principal",
+        "buttonCreateInstance": "Créer une instance",
+        "dropdownMessage": "Glissez votre fichier .zip ici"
+      },
+      "commit": {
+        "buttonExclude": "Effacer",
+        "buttonCommit": "Valider les modifications",
+        "dropdownMessage": "Glissez votre fichier .zip ici",
+        "mainFile": "Fichier du bot principal",
+        "idBot": "Bot ID",
+        "initialMessage": {
+          "commit": "Mise à jour de votre bot, veuillez patienter ...",
+          "exclude": "Suppression du bot, attendez un instant ..."
+        },
+        "successMessage": {
+          "successExclude": "Votre bot et tous les paramètres ont été supprimés.",
+          "successCommit": "Votre bot a été mis à jour et est de nouveau en ligne!"
+        },
+        "errorMessages": {
+          "errorRemoveApp": "Une erreur s'est produite lors de la suppression de votre application.",
+          "errorReadDir": "Une erreur s'est produite lors de la lecture du répertoire de votre application.",
+          "errorUpBot": "Une erreur est survenue en laissant le bot en ligne.",
+          "errorBuildBot": "Une erreur est survenue lors de la création des fichiers du bot.",
+          "errorKillBot": "Une erreur s'est produite lors de la fin du processus du bot.",
+          "errorConfigureAmbient": "Une erreur s'est produite lors de la configuration de l'environnement.",
+          "errorUpRar": "Vérifiez l'étendue de votre fichier. Les fichiers compressés ne sont acceptés que en .zip!",
+          "errorNoFile": "Vous devez joindre un fichier à commettre",
+          "errorInstaciaParada":"Votre bot est arrêté, démarrez-le avant de vous engager."
+        }
+      },
+      "navbar": {
+        "sair": "Quitter"
+      },
+      "errorMessages": {
+        "errorStopApp": "Une erreur s'est produite lors de l'arrêt de votre application. Veuillez contacter notre équipe pour la gérer.",
+        "errorStartApp": "Une erreur s'est produite lors du démarrage de votre application. Veuillez contacter notre équipe pour la gérer.",
+        "errorConfigureAmbient": "Une erreur s'est produite lors de la configuration de l'environnement."
+      },
+      "successMessages": {
+        "successStopApp": "Votre application a été complétée avec succès!",
+        "successStartApp": "Votre application a démarré avec succès!"
+      }
+    }
+  },
+  "terms": {
+    "text": "En cliquant sur Valider les modifications, vous acceptez nos",
+    "link": " Conditions de service ",
+    "link_2": " Politique d'utilisation",
+    "and": "et de la "
+  }
+}

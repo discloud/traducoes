@@ -1,0 +1,184 @@
+{
+  "navbar": {
+    "inicio": "Inicio",
+    "equipe": "Equipo",
+    "precos": "Donantes",
+    "sobre": "Sobre",
+    "servidor": "Servidor",
+    "tutoriais": "Tutoriales",
+    "entrar": "Entrar",
+    "dashboard": "Panel de control",
+    "sair": "Salir",
+    "idioma": "Idioma",
+    "linguas": {
+      "portugues": "Portugués",
+      "ingles": "Inglés",
+      "espanhol": "Español",
+      "frances": "Francés",
+      "tcheco": "Checo"
+    }
+  },
+  "header": {
+    "texto_primario": "Su Bot 24 horas en línea ahora!",
+    "texto_secundario": "DisCloud nació con el deseo de ofrecer alojamiento fácil, gratuito y de calidad para Bots Discord.",
+    "icones": {
+      "ping": "Latencia de API",
+      "clientes": "Clientes",
+      "bots": "Bots Activos"
+    }
+  },
+  "footer": {
+    "descricao": "© 2019 DisCloud. Todos los derechos reservados | Discloudbot.com no es asociado a Discord Inc.",
+    "bibliotecas": "Bibliotecas Soportadas",
+    "definicoes": "Definiciones Legales",
+    "termos": "Términos de servicio",
+    "politica": "Politicas de Uso",
+    "privacidade": "Política de privacidad",
+    "suporte": "Titular",
+    "solucao": "Solucion de problemas",
+    "obter": "Obtener Soporte",
+    "doc": "Documentación"
+  },
+  "paginas": {
+    "blacklist": {
+      "header": "Intentó iniciar sesión en nuestro sistema con otra cuenta, está en nuestra lista negra y el sistema está bloqueado para usted.",
+      "content": "Si cree que fue un malentendido, hable con nuestros administradores.",
+      "link": "Espalda"
+    },
+    "main": {
+      "linguagens": "Trabaje con el lenguaje que usted ya ama.",
+      "precos": {
+        "titulo": "Beneficios de los donantes",
+        "cards": {
+          "gratis": {
+            "titulo": "Gratis",
+            "descricao": "La instancia nunca se reinicia por inactividad",
+            "ram": "RAM Limitada",
+            "cpu": "CPU Limitada",
+            "armazenamento": "Almacenamiento SSD",
+            "network": "Red Ilimitada",
+            "botao": "Comenzar ahora"
+          },
+          "padrao": {
+            "titulo": "Oro",
+            "descricao": "La instancia nunca se reinicia por inactividad",
+            "ram": "300MB RAM",
+            "cpu": "0.5 vCPU",
+            "armazenamento": "Almacenamiento SSD",
+            "network": "Red Ilimitada",
+            "botao": "Iniciar sesión por favor"
+          },
+          "platina": {
+            "titulo": "Platino",
+            "descricao": "La instancia nunca se reinicia por inactividad",
+            "ram": "660MB RAM",
+            "cpu": "1 vCPU",
+            "armazenamento": "Almacenamiento SSD",
+            "network": "Red Ilimitada",
+            "botao": "Iniciar sesión por favor"
+          }
+        }
+      },
+      "recursos": {
+        "titulo": "Recursos soportados por nuestros servidores",
+        "ffmpeg": "Suporte para o FFMPEG Codec integrado",
+        "database": "Base de datos local con copia de seguridad sencilla",
+        "transferencia": "Tasa de transferencia de datos ilimitada",
+        "suporte": "Soporte en portugués, siempre que lo necesite"
+      },
+      "sobre": {
+        "titulo": "Sobre",
+        "p_1": "DisCloud es una plataforma de nube basada en contenedores flexible, gratuita y fácil de usar, ofrecemos a los desarrolladores una forma sencilla y rápida de colocar sus Bots Discord en línea 24/7.",
+        "p_2": "Contamos con la colaboración de donantes para mantenerse en el aire y mejorar la calidad de nuestros servicios. No tenemos ningún tipo de vínculo con Discord Inc."
+      },
+      "equipe": {
+        "titulo": "Equipo",
+        "pr": "CEO & Revelador Back-end",
+        "bruno": "Revelador Back-end",
+        "luis": "Revelador Front-end"
+      },
+      "paypal": {
+        "success": "Su pago se realizó con éxito, inicie sesión en nuestro sitio y disfrute de sus beneficios. ¡DisCloud agradece la preferencia!",
+        "error": "Se ha producido un error al procesar su pago, entre en contacto con nosotros. ¡DisCloud agradece la preferencia!"
+      }
+    },
+    "dashboard": {
+      "limitBots": "Tenemos una gran demanda de bots, no podemos alojar bots en este momento, por favor intente nuevamente más tarde.",
+      "apps": {
+        "sem_bot": "Bot no alojado"
+      },
+      "breadcrumb": {
+        "dashboard": "Panel de control",
+        "meusBots": "Mis bots"
+      },
+      "buttonAddBot": "Añadir bot",
+      "upload": {
+        "initialMessage": "Creando instancia de bot ...",
+        "successMessage": "El bot ha comenzado con éxito, ¡gracias por usar DisCloud! :D",
+        "errorMessages": {
+          "errorInvalidBot": "La identificación del bot que ingresaste no es válida.",
+          "errorAllocateSpace": "Se ha producido un error al asignar espacio.",
+          "errorZipIncorrect": "Asegúrese de que el archivo zip que ha enviado es correcto!",
+          "errorCompact": "¡Has comprimido el archivo incorrecto!",
+          "errorNodeModules": "Relimine la carpeta node_modules de su archivo .zip e intente nuevamente.",
+          "errorMainFile": "¡El archivo principal que ha configurado no existe!",
+          "errorConfigureAmbient": "Se ha producido un error al configurar el entorno.",
+          "errorBuild": "Hubo un error al construir la aplicación.",
+          "errorTotalRam": "Usted no puede crear instancias, la memoria mínima requerida por instancia es de 100MB y tiene {{totalRam}}MB",
+          "erroForaDoServidor":"Debe ser miembro de nuestro servidor para utilizar nuestros servicios.",
+          "errorContaDuplicada":"Ya tiene una cuenta registrada en nuestro sistema, póngase en contacto con el servicio de asistencia para resolver su problema.",
+          "errorLimiteBot": "Estamos procesando muchos bots de planes gratuitos en ese momento, inténtalo de nuevo más tarde o haz una donación y aloja tu bot ahora sin límites.",
+          "errorLimiteRam": "Ya estás utilizando el límite de memoria de tu plan."
+        },
+        "idBot": "ID de bot",
+        "mainFile": "Archivo bot principal",
+        "buttonCreateInstance": "Crear instancia",
+        "dropdownMessage": "Arrastrar su archivo .zip para acá"
+      },
+      "commit": {
+        "buttonExclude": "Borrar",
+        "buttonCommit": "Confirmar cambios",
+        "dropdownMessage": "Arrastrar su archivo .zip para acá",
+        "mainFile": "Archivo bot principal",
+        "idBot": "ID de bot",
+        "initialMessage": {
+          "commit": "Actualizando tu bot, por favor espera ...",
+          "exclude": "Eliminando tu bot, espera un momento ..."
+        },
+        "successMessage": {
+          "successExclude": "Su bot ha sido eliminado y todas las configuraciones han sido eliminadas.",
+          "successCommit": "Tu bot bot se ha actualizado y está de nuevo en línea ahora!"
+        },
+        "errorMessages": {
+          "errorRemoveApp": "Se produjo un error al quitar su aplicación.",
+          "errorReadDir": "Se produjo un error al leer el directorio de su aplicación.",
+          "errorUpBot": "Se produjo un error al dejar el bot en línea.",
+          "errorBuildBot": "Se produjo un error al construir los archivos bot.",
+          "errorKillBot": "Se ha producido un error al finalizar el proceso del bot.",
+          "errorConfigureAmbient": "Se produjo un error al configurar el entorno.",
+          "errorUpRar": "Compruebe la extensión de su archivo. Los archivos comprimidos sólo se aceptan en .zip!",
+          "errorNoFile": "Debe adjuntar un archivo para realizar el commit",
+          "errorInstaciaParada":"Su bot se detiene, comience antes de cometer."
+        }
+      },
+      "navbar": {
+        "sair": "Salir"
+      },
+      "errorMessages": {
+        "errorStopApp": "Se ha producido un error al parar su aplicación, hable con nuestro equipo para tratar el error.",
+        "errorStartApp": "Se ha producido un error al iniciar su aplicación, hable con nuestro equipo para tratar el error.",
+        "errorConfigureAmbient": "Se produjo un error al configurar el entorno."
+      },
+      "successMessages": {
+        "successStopApp": "Su aplicación ha finalizado con éxito!",
+        "successStartApp": "Su aplicación se inició con éxito!"
+      }
+    }
+  },
+  "terms": {
+    "text": "Al hacer clic en la Confirmación Cambios, usted acepta nuestros",
+    "link": " Términos de servicio ",
+    "link_2": " Política de uso",
+    "and": "y la "
+  }
+}

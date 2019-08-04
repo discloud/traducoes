@@ -1,0 +1,183 @@
+{
+  "navbar": {
+    "inicio": "Domov",
+    "equipe": "Tým",
+    "precos": "Dárci",
+    "sobre": "O nás",
+    "servidor": "Server",
+    "tutoriais": "Tutoriály",
+    "entrar": "Příhlášení",
+    "dashboard": "Řídící deska",
+    "sair": "Odejít",
+    "idioma": "Jazyk",
+    "linguas": {
+      "portugues": "Portugalština",
+      "ingles": "Angličtina",
+      "espanhol": "Španělština",
+      "frances": "Francouzsky",
+      "tcheco": "Česky"
+    }
+  },
+  "header": {
+    "texto_primario": "Tvůj bot je právě online!",
+    "texto_secundario": "DisCloud se narodil s touhou nabídnout snadné, bezplatné a kvalitní hosting pro Discord Boty.",
+    "icones": {
+      "ping": "Latence API",
+      "clientes": "Zákazníci",
+      "bots": "Aktivní boti"
+    }
+  },
+  "footer": {
+    "descricao": "© 2019 DisCloud. Všechna práva vyhrazena | Discloudbot.com není přidružen k Discord Inc.",
+    "bibliotecas": "Podporované knihovny",
+    "definicoes": "Legalní nastavení",
+    "termos": "Servisní podmínky",
+    "politica": "Zásady používání",
+    "privacidade": "Zásady ochrany osobních údajů",
+    "suporte": "Podpora",
+    "solucao": "Řešení problémů",
+    "obter": "Získat podporu",
+    "doc": "Dokumentace"
+  },
+  "paginas": {
+    "blacklist": {
+      "header": "Pokusili jste se přihlásit do našeho systému pomocí jiného účtu, jste na naší černé listině a systém je pro vás uzamčen.",
+      "content": "Pokud si myslíte, že to bylo nějaké nedorozumění, promluvte si s našimi administrátory.",
+      "link": "Vraťte se"
+    },
+    "main": {
+      "linguagens": "Pracujte s jazykem který máte rádi.",
+      "precos": {
+        "titulo": "Výhody pro dárce",
+        "cards": {
+          "gratis": {
+            "titulo": "Zdarma",
+            "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
+            "ram": "RAM Limitováno",
+            "cpu": "CPU Limitováno",
+            "armazenamento": "SSD Uložiště",
+            "network": "Síť neomezena",
+            "botao": "Začít teď"
+          },
+          "padrao": {
+            "titulo": "Zlato",
+            "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
+            "ram": "200MB RAM",
+            "cpu": "CPU Limitováno",
+            "armazenamento": "SSD Uložiště",
+            "network": "Síť neomezena",
+            "botao": "Prosím přihlaste se"
+          },
+          "platina": {
+            "titulo": "Platina",
+            "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
+            "ram": "500MB RAM",
+            "cpu": "1 vCPU",
+            "armazenamento": "SSD Uložiště",
+            "network": "Síť neomezena",
+            "botao": "Prosím přihlaste se"
+          }
+        }
+      },
+      "recursos": {
+        "titulo": "Funkce podporované našimi servery",
+        "ffmpeg": "Podpora integrovaného kodeku FFMPEG",
+        "database": "Místní databáze se snadným zálohováním",
+        "transferencia": "Neomezená rychlost přenosu dat",
+        "suporte": "Podpora v portugalštině, kdykoli budete potřebovat"
+      },
+      "sobre": {
+        "titulo": "O nás",
+        "p_1": "DisCloud je bezplatná, snadno použitelná a flexibilní cloudová platforma založená na kontejnerech, které vývojářům nabízíme jednoduchý a rychlý způsob, jak získat jejich Bots Discord online 24/7.",
+        "p_2": "Spoléháme na spolupráci dárců, abychom zůstali ve vzduchu a zlepšovali kvalitu našich služeb. Nemáme žádný vztah s Discord Inc."
+      },
+      "equipe": {
+        "titulo": "Tým",
+        "pr": "CEO & Back-end Vývojář",
+        "bruno": "Back-end Vývojář",
+        "luis": "Front-end Vývojář"
+      },
+      "paypal": {
+        "success": "Vaše platba byla úspěšná, přihlaste se na náš web a užívejte si jeho výhod. DisCloud, děkujeme za vaše preference!",
+        "error": "Při zpracování vaší platby došlo k chybě, kontaktujte nás. DisCloud, děkujeme za vaše preference!"
+      }
+    },
+    "dashboard": {
+      "limitBots": "Máme velmi vysoké nároky na roboty, nemůžeme v tuto chvíli hostit roboty, zkuste to prosím znovu později.",
+      "apps": {
+        "sem_bot": "Žádný hostovaný robot"
+      },
+      "breadcrumb": {
+        "dashboard": "Ovládací panel",
+        "meusBots": "Moji roboti"
+      },
+      "buttonAddBot": "Přidat robota",
+      "upload": {
+        "initialMessage": "Výtvářím instanci robota ...",
+        "successMessage": "Bot byl úspěšně spuštěn, děkujeme za použití DisCloud! :D",
+        "errorMessages": {
+          "errorInvalidBot": "Zadané ID bota není platné.",
+          "errorAllocateSpace": "Při přidělování místa došlo k chybě.",
+          "errorZipIncorrect": "Ujistěte se, že jste zadali správný soubor ZIP!",
+          "errorCompact": "Zkomprimovali jste nesprávný soubor!",
+          "errorNodeModules": "Odstraňte složku node_modules ze souboru .zip a akci opakujte.",
+          "errorMainFile": "Hlavní soubor, který jste nastavili, neexistuje!",
+          "errorConfigureAmbient": "Při nastavování prostředí došlo k chybě.",
+          "errorBuild": "Při vytváření aplikace došlo k chybě.",
+          "errorTotalRam": "Nemůžete již vytvářet instance, minimální požadovaná paměť na instanci je 100 MB a máte {{totalRam}} MB",
+          "erroForaDoServidor": "Abyste mohli využívat naše služby, musíte být členem našeho serveru.",
+          "errorContaDuplicada": "V našem systému již máte zaregistrovaný účet. Chcete-li problém vyřešit, kontaktujte podporu.",
+          "errorLimiteBot": "V této době zpracováváme mnoho bezplatných plánovacích robotů, zkuste to znovu později nebo udělejte dar a hostujte své roboty nyní bez omezení."
+        },
+        "idBot": "Bot ID",
+        "mainFile": "Hlavní složka robota",
+        "buttonCreateInstance": "Vytvořit Instanci",
+        "dropdownMessage": "Sem přetáhněte soubor .zip"
+      },
+      "commit": {
+        "buttonExclude": "Odstranit",
+        "buttonCommit": "Použít změny",
+        "dropdownMessage": "Sem přetáhněte soubor .zip",
+        "mainFile": "Hlavní složka robota",
+        "idBot": "Bot ID",
+        "initialMessage": {
+          "commit": "Aktualizace vašeho robota, počkejte prosím...",
+          "exclude": "Odstraňuji bota, počkejte chvíli..."
+        },
+        "successMessage": {
+          "successExclude": "Váš robot byl smazán a všechna nastavení byla odstraněna.",
+          "successCommit": "Váš robot byl aktualizován a je nyní online!"
+        },
+        "errorMessages": {
+          "errorRemoveApp": "Při odebírání aplikace došlo k chybě.",
+          "errorReadDir": "Při čtení adresáře aplikace došlo k chybě.",
+          "errorUpBot": "Při odchodu robota do režimu online došlo k chybě.",
+          "errorBuildBot": "Při vytváření botských souborů došlo k chybě.",
+          "errorKillBot": "Při dokončování procesu botu došlo k chybě.",
+          "errorConfigureAmbient": "Při nastavování prostředí došlo k chybě.",
+          "errorUpRar": "Zkontrolujte rozsah vašeho souboru. Komprimované soubory jsou přijímány pouze v .zip!",
+          "errorNoFile": "K potvrzení musíte připojit soubor",
+          "errorInstaciaParada": "Váš robot je zastaven, spusťte jej před potvrzením."
+        }
+      },
+      "navbar": {
+        "sair": "Odejít"
+      },
+      "errorMessages": {
+        "errorStopApp": "Při zastavení aplikace došlo k chybě. Kontaktujte prosím náš tým, aby chybu vyřešil.",
+        "errorStartApp": "Při spuštění vaší aplikace došlo k chybě, kontaktujte prosím náš tým a vyřiďte chybu.",
+        "errorConfigureAmbient": "Při nastavování prostředí došlo k chybě."
+      },
+      "successMessages": {
+        "successStopApp": "Vaše přihláška byla úspěšně dokončena!",
+        "successStartApp": "Vaše aplikace byla úspěšně spuštěna!"
+      }
+    }
+  },
+  "terms": {
+    "text": "Kliknutím na Potvrdit změny souhlasíte s našimi",
+    "link": "Podmínky služby",
+    "link_2": "Zásady použití",
+    "and": "a"
+  }
+}

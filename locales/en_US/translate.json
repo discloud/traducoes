@@ -1,0 +1,183 @@
+{
+  "navbar": {
+    "inicio": "Home",
+    "equipe": "Team",
+    "precos": "Donators",
+    "sobre": "About",
+    "servidor": "Server",
+    "tutoriais": "Tutorials",
+    "entrar": "Log in",
+    "dashboard": "Dashboard",
+    "sair": "Leave",
+    "idioma": "Language",
+    "linguas": {
+      "portugues": "Portuguese",
+      "ingles": "English",
+      "espanhol": "Spanish",
+      "frances": "French",
+      "tcheco": "Czech"
+    }
+  },
+  "header": {
+    "texto_primario": "Your Bot 24h online now!",
+    "texto_secundario": "DisCloud was born with the desire to offer easy, free and quality hosting for Discord Bots.",
+    "icones": {
+      "ping": "API latency",
+      "clientes": "Customers",
+      "bots": "Active Bots"
+    }
+  },
+  "footer": {
+    "descricao": "© 2019 DisCloud. All rights reserved | Discloudbot.com is not affiliated with Discord Inc.",
+    "bibliotecas": "Supported Libraries",
+    "definicoes": "Legal Settings",
+    "termos": "Service Terms",
+    "politica": "Usage Policy",
+    "privacidade": "Privacy policy",
+    "suporte": "Support",
+    "solucao": "Problems solution",
+    "obter": "Get Support",
+    "doc": "Documentation"
+  },
+  "paginas": {
+    "blacklist": {
+      "header": "You tried to login to our system with another account, you are on our blacklist and the system is locked for you.",
+      "content": "If you think it was some misunderstanding, talk to our administrators.",
+      "link": "Come back"
+    },
+    "main": {
+      "linguagens": "Work with the language you already love.",
+      "precos": {
+        "titulo": "Donor Benefits",
+        "cards": {
+          "gratis": {
+            "titulo": "Free",
+            "descricao": "Instance never restarts due to inactivity",
+            "ram": "RAM Limited",
+            "cpu": "CPU Limited",
+            "armazenamento": "SSD Storage",
+            "network": "Network Unlimited",
+            "botao": "Start now"
+          },
+          "padrao": {
+            "titulo": "Gold",
+            "descricao": "Instance never restarts due to inactivity",
+            "ram": "200MB RAM",
+            "cpu": "CPU Limited",
+            "armazenamento": "SSD Storage",
+            "network": "Network Unlimited",
+            "botao": "Please login"
+          },
+          "platina": {
+            "titulo": "Platinum",
+            "descricao": "Instance never restarts due to inactivity",
+            "ram": "500MB RAM",
+            "cpu": "1 vCPU",
+            "armazenamento": "SSD Storage",
+            "network": "Network Unlimited",
+            "botao": "Please login"
+          }
+        }
+      },
+      "recursos": {
+        "titulo": "Features supported by our servers",
+        "ffmpeg": "Support for the integrated FFMPEG Codec",
+        "database": "Local Database with Easy Backup",
+        "transferencia": "Unlimited data transfer rate",
+        "suporte": "Support in Portuguese whenever you need"
+      },
+      "sobre": {
+        "titulo": "About",
+        "p_1": "DisCloud is a free, easy-to-use, flexible container-based cloud platform, we offer developers a simple and fast way to get their Bots Discord online 24/7.",
+        "p_2": "We count on the collaboration of donors to stay in the air and improve the quality of our services. We have no relationship with Discord Inc."
+      },
+      "equipe": {
+        "titulo": "Team",
+        "pr": "CEO & Back-end Developer",
+        "bruno": "Back-end Developer",
+        "luis": "Front-end Developer"
+      },
+      "paypal": {
+        "success": "Your payment was successful, log in to our site and enjoy its benefits. DisCloud thanks your preference!",
+        "error": "There was an error processing your payment, please contact us. DisCloud thanks your preference!"
+      }
+    },
+    "dashboard": {
+      "limitBots": "We have a very high demand for bots, we can not host bots at this time, please try again later.",
+      "apps": {
+        "sem_bot": "No hosted bot"
+      },
+      "breadcrumb": {
+        "dashboard": "Control panel",
+        "meusBots": "My bots"
+      },
+      "buttonAddBot": "Add Bot",
+      "upload": {
+        "initialMessage": "Creating instance of bot ...",
+        "successMessage": "The bot has started successfully, thanks for using DisCloud! :D",
+        "errorMessages": {
+          "errorInvalidBot": "The bot ID you entered is not valid.",
+          "errorAllocateSpace": "There was an error allocating space.",
+          "errorZipIncorrect": "Make sure the zip file you submitted is correct!",
+          "errorCompact": "You have zipped the wrong file!",
+          "errorNodeModules": "Remove the node_modules folder from your .zip file and try again.",
+          "errorMainFile": "The main file you have set does not exist!",
+          "errorConfigureAmbient": "There was an error setting up the environment.",
+          "errorBuild": "There was an error building the application.",
+          "errorTotalRam": "You can no longer create instances, the minimum memory required per instance is 100MB and you have {{totalRam}}MB",
+          "erroForaDoServidor":"You must be a member of our server to use our services.",
+          "errorContaDuplicada":"You already have an account registered in our system, contact support to solve your problem.",
+          "errorLimiteBot": "We are processing many free plan bots at that time, try again later or make a donation and host your bot now without limits."
+        },
+        "idBot": "Bot ID",
+        "mainFile": "Main bot file",
+        "buttonCreateInstance": "Create Instance",
+        "dropdownMessage": "Drag your .zip file here"
+      },
+      "commit": {
+        "buttonExclude": "Delete",
+        "buttonCommit": "Commit Changes",
+        "dropdownMessage": "Drag your .zip file here",
+        "mainFile": "Main bot file",
+        "idBot": "Bot ID",
+        "initialMessage": {
+          "commit": "Updating your bot, please wait ...",
+          "exclude": "Removing your bot, wait a moment ..."
+        },
+        "successMessage": {
+          "successExclude": "Your bot has been deleted and all settings have been removed.",
+          "successCommit": "Your bot has been updated and is back online now!"
+        },
+        "errorMessages": {
+          "errorRemoveApp": "There was an error removing your app.",
+          "errorReadDir": "There was an error reading your application directory.",
+          "errorUpBot": "There was an error leaving the bot online.",
+          "errorBuildBot": "There was an error building the bot files.",
+          "errorKillBot": "There was an error completing the bot process.",
+          "errorConfigureAmbient": "There was an error setting up the environment.",
+          "errorUpRar": "Check the extent of your file. Compressed files are only accepted in .zip!",
+          "errorNoFile": "You need to attach a file to commit",
+          "errorInstaciaParada":"Your bot is stopped, start it before committing."
+        }
+      },
+      "navbar": {
+        "sair": "Leave"
+      },
+      "errorMessages": {
+        "errorStopApp": "There was an error stopping your app, please contact our team to handle the error.",
+        "errorStartApp": "There was an error while starting your application, please talk to our team to handle the error.",
+        "errorConfigureAmbient": "There was an error setting up the environment."
+      },
+      "successMessages": {
+        "successStopApp": "Your application has been successfully completed!",
+        "successStartApp": "Your application has started successfully!"
+      }
+    }
+  },
+  "terms": {
+    "text": "By clicking on Commit Changes you agree to our",
+    "link": " Service Terms ",
+    "link_2": " Usage Policy",
+    "and": "and "
+  }
+}
