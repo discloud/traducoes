@@ -1,4 +1,4 @@
 # Traduções
 ## Colaboradores 
-Francês - KENZO#0386
-Tcheco - Varmolord#0284
+> Francês - KENZO#0386
+> Tcheco - Varmolord#0284
