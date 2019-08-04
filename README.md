@@ -1,4 +1,5 @@
 # Traduções
+
 ## Colaboradores 
 > Francês - KENZO#0386
 
