@@ -62,7 +62,7 @@
           "padrao": {
             "titulo": "Oro",
             "descricao": "La instancia nunca se reinicia por inactividad",
-            "ram": "300MB RAM",
+            "ram": "512MB RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "Almacenamiento SSD",
             "network": "Red Ilimitada",
@@ -71,7 +71,7 @@
           "platina": {
             "titulo": "Platino",
             "descricao": "La instancia nunca se reinicia por inactividad",
-            "ram": "660MB RAM",
+            "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "Almacenamiento SSD",
             "network": "Red Ilimitada",

@@ -62,8 +62,8 @@
           "padrao": {
             "titulo": "Zlato",
             "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
-            "ram": "200MB RAM",
-            "cpu": "CPU Limitováno",
+            "ram": "512MB RAM",
+            "cpu": "0.5 vCPU",
             "armazenamento": "SSD Uložiště",
             "network": "Síť neomezena",
             "botao": "Prosím přihlaste se"
@@ -71,7 +71,7 @@
           "platina": {
             "titulo": "Platina",
             "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
-            "ram": "500MB RAM",
+            "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "SSD Uložiště",
             "network": "Síť neomezena",

@@ -62,8 +62,8 @@
           "padrao": {
             "titulo": "Or",
             "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
-            "ram": "200MB de RAM",
-            "cpu": "CPU Limité",
+            "ram": "512MB de RAM",
+            "cpu": "0.5 vCPU",
             "armazenamento": "Stockage SSD",
             "network": "Réseau illimité",
             "botao": "Veuillez vous connecter"
@@ -71,7 +71,7 @@
           "platina": {
             "titulo": "Platine",
             "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
-            "ram": "500MB de RAM",
+            "ram": "1 GB de RAM",
             "cpu": "1 vCPU",
             "armazenamento": "Stockage SSD",
             "network": "Réseau illimité",

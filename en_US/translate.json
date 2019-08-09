@@ -62,8 +62,8 @@
           "padrao": {
             "titulo": "Gold",
             "descricao": "Instance never restarts due to inactivity",
-            "ram": "200MB RAM",
-            "cpu": "CPU Limited",
+            "ram": "512MB RAM",
+            "cpu": "0.5 vCPU",
             "armazenamento": "SSD Storage",
             "network": "Network Unlimited",
             "botao": "Please login"
@@ -71,7 +71,7 @@
           "platina": {
             "titulo": "Platinum",
             "descricao": "Instance never restarts due to inactivity",
-            "ram": "500MB RAM",
+            "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "SSD Storage",
             "network": "Network Unlimited",
