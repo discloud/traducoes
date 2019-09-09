@@ -5,7 +5,7 @@
     "precos": "Donateurs",
     "sobre": "À Propos",
     "servidor": "Serveur",
-    "tutoriais": "Tutoriels",
+    "tutoriais": "La documentation",
     "entrar": "S'identifier",
     "dashboard": "Tableau de bord",
     "sair": "Quitter",
@@ -15,7 +15,8 @@
       "ingles": "Anglais",
       "espanhol": "Espagnol",
       "frances": "Le français",
-      "tcheco": "Tchèque"
+      "tcheco": "Tchèque",
+      "alemao":"Allemand"
     }
   },
   "header": {
@@ -46,6 +47,7 @@
       "link": "Revenir en arrière"
     },
     "main": {
+      "mercadopago":"",
       "linguagens": "Travaillez avec la langue que vous utilisez.",
       "precos": {
         "titulo": "Avantages des donateurs",
@@ -113,7 +115,7 @@
       },
       "buttonAddBot": "Ajouter un bot",
       "upload": {
-        "initialMessage": "Création d'instance pour le bot ...",
+        "initialMessage": "Création d'instance pour le bot ... (Cela peut prendre un certain temps, alors soyez patient)",
         "successMessage": "Le bot a démarré avec succès, merci d'avoir utilisé DisCloud! : D",
         "errorMessages": {
           "errorInvalidBot": "L'identifiant de bot que vous avez entré n'est pas valide.",

@@ -5,7 +5,7 @@
     "precos": "Dárci",
     "sobre": "O nás",
     "servidor": "Server",
-    "tutoriais": "Tutoriály",
+    "tutoriais": "Dokumentace",
     "entrar": "Příhlášení",
     "dashboard": "Řídící deska",
     "sair": "Odejít",
@@ -15,7 +15,9 @@
       "ingles": "Angličtina",
       "espanhol": "Španělština",
       "frances": "Francouzsky",
-      "tcheco": "Česky"
+      "tcheco": "Česky",
+      "alemao":"Německy"
+
     }
   },
   "header": {
@@ -46,6 +48,7 @@
       "link": "Vraťte se"
     },
     "main": {
+      "mercadopago":"",
       "linguagens": "Pracujte s jazykem který máte rádi.",
       "precos": {
         "titulo": "Výhody pro dárce",
@@ -113,7 +116,7 @@
       },
       "buttonAddBot": "Přidat robota",
       "upload": {
-        "initialMessage": "Výtvářím instanci robota ...",
+        "initialMessage": "Výtvářím instanci robota ... (Může to chvíli trvat, takže buďte trpěliví)",
         "successMessage": "Bot byl úspěšně spuštěn, děkujeme za použití DisCloud! :D",
         "errorMessages": {
           "errorInvalidBot": "Zadané ID bota není platné.",

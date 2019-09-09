@@ -5,7 +5,7 @@
     "precos": "Doadores",
     "sobre": "Sobre",
     "servidor": "Servidor",
-    "tutoriais": "Tutoriais",
+    "tutoriais": "Documentação",
     "entrar": "Entrar",
     "dashboard": "Painel de controle",
     "sair": "Sair",
@@ -15,7 +15,8 @@
       "ingles": "Inglês",
       "espanhol": "Espanhol",
       "frances": "Francês",
-      "tcheco": "Tcheco"
+      "tcheco": "Tcheco",
+	    "alemao":"Alemão"
     }
   },
   "header": {
@@ -46,6 +47,7 @@
       "link": "Voltar"
     },
     "main": {
+      "mercadopago":"Aceitamos pagamentos via Mercado Pago com transferências bancárias e boleto bancário, entre em contato conosco pelo Discord",
       "linguagens": "Trabalhe com a linguagem que você já ama.",
       "precos": {
         "titulo": "Benefícios dos Doadores",
@@ -113,7 +115,7 @@
       },
       "buttonAddBot": "Adicionar Bot",
       "upload": {
-        "initialMessage": "Criando instância do bot ...",
+        "initialMessage": "Criando instância do bot ...  (Isso pode demorar, então tenha paciência)",
         "successMessage": "O bot foi iniciado com sucesso, obrigado por usar a DisCloud! :D",
         "errorMessages": {
           "errorInvalidBot": "O ID do bot informado não é válido.",

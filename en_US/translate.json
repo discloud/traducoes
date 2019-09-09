@@ -5,7 +5,7 @@
     "precos": "Donators",
     "sobre": "About",
     "servidor": "Server",
-    "tutoriais": "Tutorials",
+    "tutoriais": "Documentation",
     "entrar": "Log in",
     "dashboard": "Dashboard",
     "sair": "Leave",
@@ -15,7 +15,8 @@
       "ingles": "English",
       "espanhol": "Spanish",
       "frances": "French",
-      "tcheco": "Czech"
+      "tcheco": "Czech",
+      "alemao":"German"
     }
   },
   "header": {
@@ -46,6 +47,7 @@
       "link": "Come back"
     },
     "main": {
+      "mercadopago":"",
       "linguagens": "Work with the language you already love.",
       "precos": {
         "titulo": "Donor Benefits",
@@ -113,7 +115,7 @@
       },
       "buttonAddBot": "Add Bot",
       "upload": {
-        "initialMessage": "Creating instance of bot ...",
+        "initialMessage": "Creating instance of bot ... (This may take a while, so be patient)",
         "successMessage": "The bot has started successfully, thanks for using DisCloud! :D",
         "errorMessages": {
           "errorInvalidBot": "The bot ID you entered is not valid.",

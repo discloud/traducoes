@@ -1,0 +1,184 @@
+{
+  "navbar": {
+    "inicio": "Start",
+    "equipe": "Team",
+    "precos": "Pläne",
+    "sobre": "Über",
+    "servidor": "Server",
+    "tutoriais": "Tutorials",
+    "entrar": "Einloggen",
+    "dashboard": "Dashboard",
+    "sair": "Ausloggen",
+    "idioma": "Sprache",
+    "linguas": {
+      "portugues": "Portugiesisch",
+      "ingles": "Englisch",
+      "espanhol": "Spanisch",
+      "frances": "Französisch",
+      "tcheco": "Tschechisch",
+	  "alemao":"Deutsch"
+    }
+  },
+  "header": {
+    "texto_primario": "Dein Bot läuft 24/7!",
+    "texto_secundario": "Discloud wurde gegründet, um einfaches, kostenloses und qualitatives Bot hosting bereit zu stellen!",
+    "icones": {
+      "ping": "API Latenz",
+      "clientes": "Kunden",
+      "bots": "Aktive Bots"
+    }
+  },
+  "footer": {
+    "descricao": "© 2019 DisCloud. Alle Rechte vorbehalten | Discloudbot.com steht in keiner Verbindung zu Discord Inc.",
+    "bibliotecas": "Unterstützte Bibliotheken",
+    "definicoes": "Rechtliche Einstellungen",
+    "termos": "Servicebedingungen",
+    "politica": "Nutzungsbedingungen",
+    "privacidade": "Datenschutz-Bestimmungen",
+    "suporte": "Support",
+    "solucao": "Problem Lösung",
+    "obter": "Kontaktiere den Support!",
+    "doc": "Dokumentation"
+  },
+  "paginas": {
+    "blacklist": {
+      "header": "Das System ist für dich gesperrt, weil du auf der Blacklist bist!",
+      "content": "Falls es sich hier um ein Missverständnis handelt, melde dich bei einem Administrator.",
+      "link": "Gehe zurück"
+    },
+    "main": {
+      "linguagens": "Verwende die Programmiersprachen die du bereits kennst.",
+      "precos": {
+        "titulo": "Plan übersicht",
+        "cards": {
+          "gratis": {
+            "titulo": "Gratis",
+            "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
+            "ram": "RAM Beschränkt",
+            "cpu": "CPU Beschränkt",
+            "armazenamento": "SSD Speicher",
+            "network": "Unlimitierter Traffic",
+            "botao": "Beginne jetzt"
+          },
+          "padrao": {
+            "titulo": "Gold",
+            "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
+            "ram": "512MB RAM",
+            "cpu": "0.5 vCPU",
+            "armazenamento": "SSD Speicher",
+            "network": "Unlimitierter Traffic",
+            "botao": "Logge dich zuerst ein"
+          },
+          "platina": {
+            "titulo": "Platin",
+            "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
+            "ram": "1 GB RAM",
+            "cpu": "1 vCPU",
+            "armazenamento": "SSD Speicher",
+            "network": "Unlimitierter Traffic",
+            "botao": "Logge dich zuerst ein"
+          }
+        }
+      },
+      "recursos": {
+        "titulo": "Features welche wir bieten!",
+        "ffmpeg": "Support für den integrierten FFMPEG Codec",
+        "database": "Lokale Datenbanken mit einfachen Backups",
+        "transferencia": "Unlimitierter Traffic",
+        "suporte": "Support in Deutsch, Englisch und Portugiesisch"
+      },
+      "sobre": {
+        "titulo": "Über",
+        "p_1": "DisCloud ist eine gratis, easy-to-use, flexible und container-basierte cloud Plattform, wir ermöglichen es den Entwicklern einen simplen Weg ihre Bots 24/7 laufen zu lassen",
+        "p_2": "Wiir zählen auf die Kooperation der User, um unsere Dienste stätig verbessern zu können. Wir stehen in keiner Verbindung zu Discord Inc."
+      },
+      "equipe": {
+        "titulo": "Team",
+        "pr": "CEO & Back-end Entwickler",
+        "bruno": "Back-end Entwickler",
+        "luis": "Front-end Entwickler"
+      },
+      "paypal": {
+        "success": "Deine Zahlung war erfolgreich, logge dich ein, um deinen Bot einrichten zu können. DisCloud dankt dir für deine Unterstütztung!",
+        "error": "Ein Fehler ist bei deiner Zahlung aufgetreten, bitte melde dich im Support. DisCloud dankt dir für deine Unterstütztung!"
+      }
+    },
+    "dashboard": {
+      "limitBots": "Wir haben keine Kapazitäten mehr für gratis Pläne, bitte versuche es wann anders nochmal!",
+      "apps": {
+        "sem_bot": "Kein Bot vorhanden"
+      },
+      "breadcrumb": {
+        "dashboard": "Control Panel",
+        "meusBots": "Meine Bots"
+      },
+      "buttonAddBot": "Bot hinzufügen",
+      "upload": {
+        "initialMessage": "erstelle eine Bot Instanz ...",
+        "successMessage": "Der Bot wurde erfolgreich gestartet, danke dass du DisCloud verwendest! :D",
+        "errorMessages": {
+          "errorInvalidBot": "Die Bot ID, die du eingegeben hast ist falsch.",
+          "errorAllocateSpace": "Ein Fahler ist beim zuweisen des Speichers aufgetreten.",
+          "errorZipIncorrect": "Gehe sicher, dass die ZIP-Datei die du hochgeladen hast korrekt ist!",
+          "errorCompact": "Du hast die Falschen Dateien gezippt!",
+          "errorNodeModules": "Entferne den node_modules Ordner aus deinem .zip Archiv und versuche es erneut.",
+          "errorMainFile": "Die Startdatei, welche du festgelegt hast existiert nicht.",
+          "errorConfigureAmbient": "Ein Fehler ist beim einrichten der Umgebung aufgetreten.",
+          "errorBuild": "Ein Fehler ist beim aufbauen deines Bots aufgetreten.",
+          "errorTotalRam": "Du kannst keine Bots mehr erstellen der minimale RAM Betrag sind 100MB und du hast nur mehr {{totalRam}}MB übrig!",
+          "erroForaDoServidor":"Du musst ein Mitglied des Servers sein, um den Service nutzen zu können.",
+          "errorContaDuplicada":"Du hast schon einen Account mit dem Nutzer angelegt, kontaktiere den Support.",
+          "errorLimiteBot": "Wir haben keine Kapazitäten mehr für gratis Pläne, hol dir einen der bezahlten Pläne, um den Bot trotzdem erstellen zu können."
+        },
+        "idBot": "Bot ID",
+        "mainFile": "Bot Startdatei",
+        "buttonCreateInstance": "Instanz erstellen",
+        "dropdownMessage": "Ziehe deine .zip Datei hier rein"
+      },
+      "commit": {
+        "buttonExclude": "Löschen",
+        "buttonCommit": "Änderungen übernehmen",
+        "dropdownMessage": "Ziehe deine .zip Datei hier rein",
+        "mainFile": "Bot Startdatei",
+        "idBot": "Bot ID",
+        "initialMessage": {
+          "commit": "Aktualisiere deinen Bot, bitte warte ...",
+          "exclude": "Entferne deinen Bot, bitte warte ..."
+        },
+        "successMessage": {
+          "successExclude": "Dein Bot und seine Einstellungen wurden gelöscht!",
+          "successCommit": "Dein Bot wurde aktualisiert und ist wieder online!"
+        },
+        "errorMessages": {
+          "errorRemoveApp": "Ein Fehler beim löschen aufgetreten",
+          "errorReadDir": "Ein Fehler beim lesen des Archivs aufgetreten.",
+          "errorUpBot": "Ein Fehler ist beim starten des Bots aufgetreten.",
+          "errorBuildBot": "Ein Fehler ist beim aufbauen des Bots aufgetreten.",
+          "errorKillBot": "Ein Fehler ist beim Abschließen der Einrichtung aufgetreten",
+          "errorConfigureAmbient": "Ein Fehler ist beim einrichten der Umgebung aufgetreten.",
+          "errorUpRar": "Schaue nach, ob dein Archiv auch eine .zip Endung hat!",
+          "errorNoFile": "Du musst eine Datei hochladen, um den Bot zu erstellen!",
+          "errorInstaciaParada":"Dein Bot ist gestoppt, starte ihn um die Änderungen zu übernehmen."
+        }
+      },
+      "navbar": {
+        "sair": "Ausloggen"
+      },
+      "errorMessages": {
+        "errorStopApp": "Ein Fehler ist beim Stoppen des Bots passiert, bitte melde dich beim Support!",
+        "errorStartApp": "Ein Fehler ist beim Starten des Bots passiert, bitte melde dich beim Support!",
+        "errorConfigureAmbient": "Ein Fehler ist beim einrichten der Umgebung aufgetreten."
+      },
+      "successMessages": {
+        "successStopApp": "Dein Bot wurde erfolgreich gestoppt!",
+        "successStartApp": "Dein Bot wurde erfolgreich gestartet!"
+      }
+    }
+  },
+  "terms": {
+    "text": "Beim klicken auf Änderungen übernehmen akzeptierst du unsere",
+    "link": " Servicebedingungen ",
+    "link_2": " Nutzungsbedingungen",
+    "and": "und "
+  }
+}

@@ -5,7 +5,7 @@
     "precos": "Donantes",
     "sobre": "Sobre",
     "servidor": "Servidor",
-    "tutoriais": "Tutoriales",
+    "tutoriais": "Documentación",
     "entrar": "Entrar",
     "dashboard": "Panel de control",
     "sair": "Salir",
@@ -15,7 +15,8 @@
       "ingles": "Inglés",
       "espanhol": "Español",
       "frances": "Francés",
-      "tcheco": "Checo"
+      "tcheco": "Checo",
+      "alemao":"Aleman"
     }
   },
   "header": {
@@ -46,6 +47,7 @@
       "link": "Espalda"
     },
     "main": {
+      "mercadopago":"",
       "linguagens": "Trabaje con el lenguaje que usted ya ama.",
       "precos": {
         "titulo": "Beneficios de los donantes",
@@ -113,7 +115,7 @@
       },
       "buttonAddBot": "Añadir bot",
       "upload": {
-        "initialMessage": "Creando instancia de bot ...",
+        "initialMessage": "Creando instancia de bot ... (Esto puede tomar un tiempo, así que sea paciente)",
         "successMessage": "El bot ha comenzado con éxito, ¡gracias por usar DisCloud! :D",
         "errorMessages": {
           "errorInvalidBot": "La identificación del bot que ingresaste no es válida.",
