@@ -58,7 +58,7 @@
             "ram": "RAM Limitada",
             "cpu": "CPU Limitada",
             "armazenamento": "Armazenamento SSD",
-            "network": "Network Ilimitado",
+            "network": "Transferência Ilimitado",
             "botao": "Começar agora"
           },
           "padrao": {
@@ -67,7 +67,7 @@
             "ram": "512MB RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "Armazenamento SSD",
-            "network": "Network Ilimitado",
+            "network": "Transferência Ilimitado",
             "botao": "Realize o login"
           },
           "platina": {
@@ -76,7 +76,7 @@
             "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "Armazenamento SSD",
-            "network": "Network Ilimitado",
+            "network": "Transferência Ilimitado",
             "botao": "Realize o login"
           }
         }
