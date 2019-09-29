@@ -24,7 +24,7 @@
     "texto_secundario": "A DisCloud nasceu com a vontade de oferecer hospedagem fácil, gratuita e de qualidade para Bots Discord.",
     "icones": {
       "ping": "Latência da API",
-      "clientes": "Clientes",
+      "clientes": "Usuários",
       "bots": "Bots Ativos"
     }
   },
