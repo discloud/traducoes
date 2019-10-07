@@ -86,7 +86,11 @@
         "ffmpeg": "Suporte para o FFMPEG Codec integrado",
         "database": "Base de datos local con copia de seguridad sencilla",
         "transferencia": "Tasa de transferencia de datos ilimitada",
-        "suporte": "Soporte en portugués, siempre que lo necesite"
+        "suporte": "Soporte en portugués, siempre que lo necesite",
+        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "descriP1":"Nuestros servidores están equipados con los nuevos procesadores Intel Xeon Gold 6140.",
+        "descriP2":"Más rápido y potente, está diseñado para satisfacer las crecientes demandas de aplicaciones con altas necesidades de procesamiento.",
+        "descriP3":"Y aquí en DisCloud, ya sea con el plan gratuito o de pago, su bot estará disfrutando de este procesador combinado con el mejor hardware del mercado."
       },
       "sobre": {
         "titulo": "Sobre",
@@ -96,8 +100,8 @@
       "equipe": {
         "titulo": "Equipo",
         "pr": "CEO & Revelador Back-end",
-        "bruno": "Revelador Back-end",
-        "luis": "Revelador Front-end"
+        "bruno": "CTO & Revelador Back-end",
+        "luis": "CTO & Revelador Front-end"
       },
       "paypal": {
         "success": "Su pago se realizó con éxito, inicie sesión en nuestro sitio y disfrute de sus beneficios. ¡DisCloud agradece la preferencia!",
@@ -178,7 +182,8 @@
     }
   },
   "terms": {
-    "text": "Al hacer clic en la Confirmación Cambios, usted acepta nuestros",
+    "text": "Al hacer clic en ",
+    "text2":" usted acepta nuestros",
     "link": " Términos de servicio ",
     "link_2": " Política de uso",
     "and": "y la "

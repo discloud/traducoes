@@ -47,6 +47,7 @@
       "link": "Gehe zurück"
     },
     "main": {
+      "mercadopago":"",
       "linguagens": "Verwende die Programmiersprachen die du bereits kennst.",
       "precos": {
         "titulo": "Plan übersicht",
@@ -85,7 +86,11 @@
         "ffmpeg": "Support für den integrierten FFMPEG Codec",
         "database": "Lokale Datenbanken mit einfachen Backups",
         "transferencia": "Unlimitierter Traffic",
-        "suporte": "Support in Deutsch, Englisch und Portugiesisch"
+        "suporte": "Support in Deutsch, Englisch und Portugiesisch",
+        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "descriP1":"Unsere Server sind mit den brandneuen Intel Xeon Gold 6140 Prozessoren ausgestattet.",
+        "descriP2":"Es ist schneller und leistungsfähiger und wurde entwickelt, um den wachsenden Anforderungen von Anwendungen mit hohen Verarbeitungsanforderungen gerecht zu werden.",
+        "descriP3":"Und hier bei DisCloud, entweder mit dem kostenlosen oder kostenpflichtigen Plan, wird Ihr Bot diesen Prozessor in Kombination mit der besten Hardware auf dem Markt genießen."
       },
       "sobre": {
         "titulo": "Über",
@@ -95,8 +100,8 @@
       "equipe": {
         "titulo": "Team",
         "pr": "CEO & Back-end Entwickler",
-        "bruno": "Back-end Entwickler",
-        "luis": "Front-end Entwickler"
+        "bruno": "CTO & Back-end Entwickler",
+        "luis": "CTO & Front-end Entwickler"
       },
       "paypal": {
         "success": "Deine Zahlung war erfolgreich, logge dich ein, um deinen Bot einrichten zu können. DisCloud dankt dir für deine Unterstütztung!",
@@ -176,7 +181,8 @@
     }
   },
   "terms": {
-    "text": "Beim klicken auf Änderungen übernehmen akzeptierst du unsere",
+    "text": "Beim klicken auf ",
+    "text2":" you agree to our",
     "link": " Servicebedingungen ",
     "link_2": " Nutzungsbedingungen",
     "and": "und "

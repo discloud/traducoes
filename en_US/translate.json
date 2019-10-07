@@ -86,18 +86,22 @@
         "ffmpeg": "Support for the integrated FFMPEG Codec",
         "database": "Local Database with Easy Backup",
         "transferencia": "Unlimited data transfer rate",
-        "suporte": "Support in Portuguese whenever you need"
+        "suporte": "Support in Portuguese whenever you need",
+        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "descriP1":"Our servers are equipped with the all-new Intel Xeon Gold 6140 processors.",
+        "descriP2":"Faster and more powerful, it is designed to meet the growing demands of applications with high processing needs.",
+        "descriP3":"And here at DisCloud, either with the free or paid plan, your Bot will be enjoying this processor combined with the best hardware in the market."
       },
       "sobre": {
         "titulo": "About",
-        "p_1": "DisCloud is a free, easy-to-use, flexible container-based cloud platform, we offer developers a simple and fast way to get their Bots Discord online 24/7.",
+        "p_1": "DisCloud is a free, easy-to-use, flexible container-based cloud platform, we offer developers a simple and fast way to get their Discord Bots online 24/7.",
         "p_2": "We count on the collaboration of donors to stay in the air and improve the quality of our services. We have no relationship with Discord Inc."
       },
       "equipe": {
         "titulo": "Team",
         "pr": "CEO & Back-end Developer",
-        "bruno": "Back-end Developer",
-        "luis": "Front-end Developer"
+        "bruno": "CTO & Back-end Developer",
+        "luis": "CTO & Front-end Developer"
       },
       "paypal": {
         "success": "Your payment was successful, log in to our site and enjoy its benefits. DisCloud thanks your preference!",
@@ -177,7 +181,8 @@
     }
   },
   "terms": {
-    "text": "By clicking on Commit Changes you agree to our",
+    "text": "By clicking on ",
+    "text2":" you agree to our",
     "link": " Service Terms ",
     "link_2": " Usage Policy",
     "and": "and "

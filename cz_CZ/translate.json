@@ -87,7 +87,11 @@
         "ffmpeg": "Podpora integrovaného kodeku FFMPEG",
         "database": "Místní databáze se snadným zálohováním",
         "transferencia": "Neomezená rychlost přenosu dat",
-        "suporte": "Podpora v portugalštině, kdykoli budete potřebovat"
+        "suporte": "Podpora v portugalštině, kdykoli budete potřebovat",
+        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "descriP1":"Naše servery jsou poháněny zbrusu novými procesory Intel Xeon Gold 6140.",
+        "descriP2":"Rychlejší a výkonnější je navržen tak, aby splňoval rostoucí požadavky aplikací s vysokými nároky na zpracování.",
+        "descriP3":"A tady v DisCloud, ať už je to zdarma nebo placené, si váš Bot bude užívat tento procesor v kombinaci s nejlepším hardwarem na trhu."
       },
       "sobre": {
         "titulo": "O nás",
@@ -97,8 +101,8 @@
       "equipe": {
         "titulo": "Tým",
         "pr": "CEO & Back-end Vývojář",
-        "bruno": "Back-end Vývojář",
-        "luis": "Front-end Vývojář"
+        "bruno": "CTO & Back-end Vývojář",
+        "luis": "CTO & Front-end Vývojář"
       },
       "paypal": {
         "success": "Vaše platba byla úspěšná, přihlaste se na náš web a užívejte si jeho výhod. DisCloud, děkujeme za vaše preference!",
@@ -178,7 +182,8 @@
     }
   },
   "terms": {
-    "text": "Kliknutím na Potvrdit změny souhlasíte s našimi",
+    "text": "Kliknutím na ",
+    "text2":" souhlasíte s našimi",
     "link": "Podmínky služby",
     "link_2": "Zásady použití",
     "and": "a"
