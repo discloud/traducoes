@@ -55,15 +55,36 @@
           "gratis": {
             "titulo": "Free",
             "descricao": "Instance never restarts due to inactivity",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.00",
+            "tempo":"month",
             "ram": "RAM Limited",
             "cpu": "CPU Limited",
             "armazenamento": "SSD Storage",
             "network": "Network Unlimited",
             "botao": "Start now"
           },
-          "padrao": {
+          "carbon": {
+            "titulo": "Carbon",
+            "descricao": "Instance never restarts due to inactivity",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.99",
+            "tempo":"month",
+            "ram": "128MB RAM",
+            "cpu": "CPU Limited",
+            "armazenamento": "SSD Storage",
+            "network": "Network Unlimited",
+            "botao": "Please login"
+          },
+          "ouro": {
             "titulo": "Gold",
             "descricao": "Instance never restarts due to inactivity",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "2.00",
+            "tempo":"month",
             "ram": "512MB RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "SSD Storage",
@@ -73,6 +94,10 @@
           "platina": {
             "titulo": "Platinum",
             "descricao": "Instance never restarts due to inactivity",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "3.00",
+            "tempo":"month",
             "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "SSD Storage",

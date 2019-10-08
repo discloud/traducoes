@@ -55,29 +55,54 @@
           "gratis": {
             "titulo": "Gratuit",
             "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.00",
+            "tempo":"mois",
             "ram": "RAM Limitée",
             "cpu": "CPU Limité",
             "armazenamento": "Stockage SSD",
             "network": "Réseau illimité",
-            "botao": "Commencez maintenant"
+            "botao": "Démarrer"
           },
-          "padrao": {
+          "carbon": {
+            "titulo": "Carbone",
+            "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.99",
+            "tempo":"mois",
+            "ram": "128MB de RAM",
+            "cpu": "CPU Limité",
+            "armazenamento": "Stockage SSD",
+            "network": "Réseau illimité",
+            "botao": "Se connecter"
+          },
+          "ouro": {
             "titulo": "Or",
             "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "2.00",
+            "tempo":"mois",
             "ram": "512MB de RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "Stockage SSD",
             "network": "Réseau illimité",
-            "botao": "Veuillez vous connecter"
+            "botao": "Se connecter"
           },
           "platina": {
             "titulo": "Platine",
             "descricao": "L'instance ne redémarre jamais pour cause d'inactivité",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "3.00",
+            "tempo":"mois",
             "ram": "1 GB de RAM",
             "cpu": "1 vCPU",
             "armazenamento": "Stockage SSD",
             "network": "Réseau illimité",
-            "botao": "Veuillez vous connecter"
+            "botao": "Se connecter"
           }
         }
       },

@@ -55,29 +55,54 @@
           "gratis": {
             "titulo": "Gratis",
             "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.99",
+            "tempo":"Monat",
             "ram": "RAM Beschränkt",
             "cpu": "CPU Beschränkt",
             "armazenamento": "SSD Speicher",
             "network": "Unlimitierter Traffic",
             "botao": "Beginne jetzt"
           },
-          "padrao": {
+          "carbon": {
+            "titulo": "Kohlenstoff",
+            "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.99",
+            "tempo":"Monat",
+            "ram": "128MB RAM",
+            "cpu": "CPU Beschränkt",
+            "armazenamento": "SSD Speicher",
+            "network": "Unlimitierter Traffic",
+            "botao": "Einloggen"
+          },
+          "ouro": {
             "titulo": "Gold",
             "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "2.00",
+            "tempo":"Monat",
             "ram": "512MB RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "SSD Speicher",
             "network": "Unlimitierter Traffic",
-            "botao": "Logge dich zuerst ein"
+            "botao": "Einloggen"
           },
           "platina": {
             "titulo": "Platin",
             "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "3.00",
+            "tempo":"Monat",
             "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "SSD Speicher",
             "network": "Unlimitierter Traffic",
-            "botao": "Logge dich zuerst ein"
+            "botao": "Einloggen"
           }
         }
       },

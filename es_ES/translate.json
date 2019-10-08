@@ -55,29 +55,54 @@
           "gratis": {
             "titulo": "Gratis",
             "descricao": "La instancia nunca se reinicia por inactividad",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.00",
+            "tempo":"mes",
             "ram": "RAM Limitada",
             "cpu": "CPU Limitada",
             "armazenamento": "Almacenamiento SSD",
             "network": "Red Ilimitada",
             "botao": "Comenzar ahora"
           },
-          "padrao": {
+          "carbon": {
+            "titulo": "Carbón",
+            "descricao": "La instancia nunca se reinicia por inactividad",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.99",
+            "tempo":"mes",
+            "ram": "128MB RAM",
+            "cpu": "CPU Limitada",
+            "armazenamento": "Almacenamiento SSD",
+            "network": "Red Ilimitada",
+            "botao": "Iniciar sesión"
+          },
+          "ouro": {
             "titulo": "Oro",
             "descricao": "La instancia nunca se reinicia por inactividad",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "2.00",
+            "tempo":"mes",
             "ram": "512MB RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "Almacenamiento SSD",
             "network": "Red Ilimitada",
-            "botao": "Iniciar sesión por favor"
+            "botao": "Iniciar sesión"
           },
           "platina": {
             "titulo": "Platino",
             "descricao": "La instancia nunca se reinicia por inactividad",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "3.00",
+            "tempo":"mes",
             "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "Almacenamiento SSD",
             "network": "Red Ilimitada",
-            "botao": "Iniciar sesión por favor"
+            "botao": "Iniciar sesión"
           }
         }
       },

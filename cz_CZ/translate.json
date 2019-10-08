@@ -56,15 +56,36 @@
           "gratis": {
             "titulo": "Zdarma",
             "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.00",
+            "tempo":"měsíc",
             "ram": "RAM Limitováno",
             "cpu": "CPU Limitováno",
             "armazenamento": "SSD Uložiště",
             "network": "Síť neomezena",
             "botao": "Začít teď"
           },
-          "padrao": {
+          "carbon": {
+            "titulo": "Carbone",
+            "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "0.99",
+            "tempo":"měsíc",
+            "ram": "128MB de RAM",
+            "cpu": "CPU Limitováno",
+            "armazenamento": "SSD Uložiště",
+            "network": "Síť neomezena",
+            "botao": "Prosím přihlaste se"
+          },
+          "ouro": {
             "titulo": "Zlato",
             "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "2.00",
+            "tempo":"měsíc",
             "ram": "512MB RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "SSD Uložiště",
@@ -74,6 +95,10 @@
           "platina": {
             "titulo": "Platina",
             "descricao": "Instance se nikdy nespustí kvůli nečinnosti",
+            "currency":"USD",
+            "simbolo":"$",
+            "preco": "3.00",
+            "tempo":"měsíc",
             "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "SSD Uložiště",

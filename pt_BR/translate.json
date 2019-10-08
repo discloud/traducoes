@@ -55,28 +55,53 @@
           "gratis": {
             "titulo": "Grátis",
             "descricao": "A instância nunca reinicia por inatividade",
+            "currency":"BRL",
+            "simbolo":"R$",
+            "preco": "0.00",
+            "tempo":"mês",
             "ram": "RAM Limitada",
             "cpu": "CPU Limitada",
             "armazenamento": "Armazenamento SSD",
-            "network": "Transferência Ilimitado",
+            "network": "Transferência Ilimitada",
             "botao": "Começar agora"
           },
-          "padrao": {
+          "carbon": {
+            "titulo": "Carbon",
+            "descricao": "A instância nunca reinicia por inatividade",
+            "currency":"BRL",
+            "simbolo":"R$",
+            "preco": "1.99",
+            "tempo":"mês",
+            "ram": "128MB RAM",
+            "cpu": "CPU Limitada",
+            "armazenamento": "Armazenamento SSD",
+            "network": "Transferência Ilimitada",
+            "botao": "Realize o login"
+          },
+          "ouro": {
             "titulo": "Ouro",
             "descricao": "A instância nunca reinicia por inatividade",
+            "currency":"BRL",
+            "simbolo":"R$",
+            "preco": "5.99",
+            "tempo":"mês",
             "ram": "512MB RAM",
             "cpu": "0.5 vCPU",
             "armazenamento": "Armazenamento SSD",
-            "network": "Transferência Ilimitado",
+            "network": "Transferência Ilimitada",
             "botao": "Realize o login"
           },
           "platina": {
             "titulo": "Platina",
             "descricao": "A instância nunca reinicia por inatividade",
+            "currency":"BRL",
+            "simbolo":"R$",
+            "preco": "10.99",
+            "tempo":"mês",
             "ram": "1 GB RAM",
             "cpu": "1 vCPU",
             "armazenamento": "Armazenamento SSD",
-            "network": "Transferência Ilimitado",
+            "network": "Transferência Ilimitada",
             "botao": "Realize o login"
           }
         }
