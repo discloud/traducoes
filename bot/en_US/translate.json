@@ -1,21 +1,5 @@
 {
     "commands":{
-            "private":{
-                    "adddoador":{},
-                    "blacklist":{},
-                    "botinfo":{},
-                    "deleteondb":{},
-                    "eval":{},
-                    "ip":{},
-                    "listduplicates":{},
-                    "purne":{},
-                    "registerMobile":{},
-                    "removedoador":{},
-                    "sitemaintenance":{},
-                    "sorteio":{},
-                    "teste":{},
-                    "verificar":{}
-            },
             "public":{
                     "backup":{
                         "sembot":"Você ainda nao upou nenhum bot use **up** para upar",
@@ -310,24 +294,6 @@
                         }
                     }
             }
-    },
-    "config":{
-            "docker":{},
-            "finishThread":{},
-            "multer":{}
-    },
-    "events":{
-            "custom":{
-                "botIndex":{},
-                "botLogs":{},
-                "botsInfo":{},
-                "giveRole":{},
-                "paypal":{},
-                "planosLogs":{},
-                "registroSite":{},
-                "updateChannel":{}
-            },
-            "discord":{}
     },
     "functions":{
         "handleCommand":{
