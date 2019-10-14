@@ -107,12 +107,16 @@
         }
       },
       "recursos": {
-        "titulo": "Features welche wir bieten!",
-        "ffmpeg": "Support für den integrierten FFMPEG Codec",
-        "database": "Lokale Datenbanken mit einfachen Backups",
-        "transferencia": "Unlimitierter Traffic",
-        "suporte": "Support in Deutsch, Englisch und Portugiesisch",
-        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "titulo": "Die perfekte Kombination aus Plattform, Leistung und Service",
+        "ffmpeg": "Integration",
+        "ffmpegdesc": "Unsere Instanzen haben von Haus aus mehrere häufig verwendete Pakete in Bots Discord.",
+        "database": "Einfaches Backup",
+        "databasedesc": "Mit nur einem einfachen Befehl können Sie Ihre Codes, Inhalte und die Datenbank sichern.",
+        "transferencia": "Flexibilität",
+        "transferenciadesc": "Leistungsstarke, skalierbare und einfach zu verwaltende Instanzen, ideal für alle, die Sicherheit, Geschwindigkeit und Kontrolle suchen.",
+        "suporte": "Unterstützung",
+        "suportedesc": "Verlassen Sie sich auf unsere Unterstützung in Portugiesisch und Englisch, die über Discord verfügbar ist, um Ihre Sicherheit zu gewährleisten.",
+        "tituloP":"Ideale Hardware für maximale Leistung",
         "descriP1":"Unsere Server sind mit den brandneuen Intel Xeon Gold 6140 Prozessoren ausgestattet.",
         "descriP2":"Es ist schneller und leistungsfähiger und wurde entwickelt, um den wachsenden Anforderungen von Anwendungen mit hohen Verarbeitungsanforderungen gerecht zu werden.",
         "descriP3":"Und hier bei DisCloud, entweder mit dem kostenlosen oder kostenpflichtigen Plan, wird Ihr Bot diesen Prozessor in Kombination mit der besten Hardware auf dem Markt genießen."
@@ -146,6 +150,10 @@
       "upload": {
         "initialMessage": "erstelle eine Bot Instanz ...",
         "successMessage": "Der Bot wurde erfolgreich gestartet, danke dass du DisCloud verwendest! :D",
+        "aviso1":"ACHTUNG!",
+        "aviso2":"Bevor Sie Ihre",
+        "aviso3":"-Datei hochladen, konsultieren Sie bitte unsere Dokumentation für Ihre Bot-Sprache, um sicherzustellen, dass Sie die Datei korrekt erstellt haben. ",
+        "avisoBtn":"Dokumentation",
         "errorMessages": {
           "errorInvalidBot": "Die Bot ID, die du eingegeben hast ist falsch.",
           "errorAllocateSpace": "Ein Fahler ist beim zuweisen des Speichers aufgetreten.",

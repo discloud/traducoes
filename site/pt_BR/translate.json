@@ -107,12 +107,16 @@
         }
       },
       "recursos": {
-        "titulo": "Recursos suportados por nossos servidores",
-        "ffmpeg": "Suporte para o FFMPEG Codec integrado",
-        "database": "Banco de Dados Local com Backup Fácil",
-        "transferencia": "Taxa de transferência de dados ilimitada",
-        "suporte": "Suporte em português, sempre que você precisar",
-        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "titulo": "A combinação perfeita entre plataforma, desempenho e atendimento",
+        "ffmpeg": "Integração",
+        "ffmpegdesc": "Nossas instâncias possuem nativamente diversos pacotes comumente utilizados em Bots Discord.",
+        "database": "Backup Fácil",
+        "databasedesc":"Com apenas um simples comando você pode ter um cópia de segurança dos seus códigos, conteúdos e Database.",
+        "transferencia": "Flexibilidade",
+        "transferenciadesc": "Instâncias poderosas, escaláveis e com um gerenciamento fácil, ideal para quem busca segurança, rapidez e controle.",
+        "suporte": "Suporte Ativo",
+        "suportedesc": "Conte com nosso suporte em português ou inglês disponível via Discord para garantir a sua tranquilidade.",
+        "tituloP":"Hardware ideal para máxima performance",
         "descriP1":"Nossos Servidores estão equipados com os novíssimos processadores Intel® Xeon® Gold 6140.",
         "descriP2":"Mais rápido e poderoso, ele foi projetado para atender às crescentes demandas de aplicações com alta necessidade de processamento.",
         "descriP3":"E aqui na DisCloud, seja com o plano gratuito ou pago, o seu Bot estará desfrutando deste processador combinado com o melhor hardware do mercado."
@@ -146,6 +150,10 @@
       "upload": {
         "initialMessage": "Criando instância do bot ...  (Isso pode demorar, então tenha paciência)",
         "successMessage": "O bot foi iniciado com sucesso, obrigado por usar a DisCloud! :D",
+        "aviso1":"ATENÇÃO!",
+        "aviso2":"Antes de enviar o seu arquivo",
+        "aviso3":", consulte a nossa documentação correspondente a linguagem do seu Bot para verificar se você criou o arquivo da forma correta. ",
+        "avisoBtn":"Documentação",
         "errorMessages": {
           "errorInvalidBot": "O ID do bot informado não é válido.",
           "errorAllocateSpace": "Ocorreu um erro ao alocar o espaço.",

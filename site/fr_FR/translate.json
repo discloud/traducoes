@@ -107,12 +107,16 @@
         }
       },
       "recursos": {
-        "titulo": "Fonctionnalitées prises en charge par nos serveurs",
-        "ffmpeg": "Prise en charge du codec FFMPEG intégré",
-        "database": "Base de données locale avec sauvegardes facile",
-        "transferencia": "Taux de transfert de données illimité",
-        "suporte": "Assistance en portugais quand vous en avez besoin",
-        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "titulo": "La combinaison parfaite de la plate-forme, de la performance et du service",
+        "ffmpeg": "L'intégration",
+        "ffmpegdesc": "Nos instances ont nativement plusieurs paquets couramment utilisés dans Bots Discord.",
+        "database": "Sauvegarde facile",
+        "databasedesc": "Avec une simple commande, vous pouvez sauvegarder vos codes, contenus et base de données.",
+        "transferencia": "La flexibilité",
+        "transferenciadesc": "Des instances puissantes, évolutives et faciles à gérer, idéales pour ceux qui recherchent la sécurité, la rapidité et le contrôle.",
+        "suporte": "Soutien actif",
+        "suportedesc": "Comptez sur notre assistance en portugais et en anglais, disponible via Discord, pour assurer votre tranquillité d'esprit.",
+        "tituloP":"Matériel idéal pour des performances maximales",
         "descriP1":"Nos serveurs sont équipés des tout nouveaux processeurs Intel Xeon Gold 6140.",
         "descriP2":"Plus rapide et plus puissant, il est conçu pour répondre à la demande croissante des applications ayant des besoins de traitement élevés.",
         "descriP3":"Et ici, à DisCloud, que ce soit avec le plan gratuit ou payant, votre Bot sera profiter de ce processeur combiné avec le meilleur matériel sur le marché."
@@ -146,6 +150,10 @@
       "upload": {
         "initialMessage": "Création d'instance pour le bot ... (Cela peut prendre un certain temps, alors soyez patient)",
         "successMessage": "Le bot a démarré avec succès, merci d'avoir utilisé DisCloud! : D",
+        "aviso1":"ATTENTION!",
+        "aviso2":"Avant de télécharger votre fichier",
+        "aviso3":", veuillez consulter la documentation de votre langue Bot pour vérifier que vous avez créé le fichier correctement. ",
+        "avisoBtn":"Documentation",
         "errorMessages": {
           "errorInvalidBot": "L'identifiant de bot que vous avez entré n'est pas valide.",
           "errorAllocateSpace": "Une erreur s'est produite lors de l'attribution de l'espace.",

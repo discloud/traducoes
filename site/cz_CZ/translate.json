@@ -108,12 +108,16 @@
         }
       },
       "recursos": {
-        "titulo": "Funkce podporované našimi servery",
-        "ffmpeg": "Podpora integrovaného kodeku FFMPEG",
-        "database": "Místní databáze se snadným zálohováním",
-        "transferencia": "Neomezená rychlost přenosu dat",
-        "suporte": "Podpora v portugalštině, kdykoli budete potřebovat",
-        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "titulo": "Perfektní kombinace platformy, výkonu a služeb",
+        "ffmpeg": "Integrace",
+        "ffmpegdesc": "Naše instance nativně mají v Bots Discord několik běžně používaných balíčků.",
+        "database": "Snadné zálohování",
+        "databasedesc": "Pouhým jednoduchým příkazem můžete mít zálohu vašich kódů, obsahu a databáze.",
+        "transferencia": "Flexibilita",
+        "transferenciadesc": "Výkonné, škálovatelné a snadno spravovatelné instance, ideální pro ty, kteří hledají zabezpečení, rychlost a kontrolu.",
+        "suporte": "Aktivní podpora",
+        "suportedesc": "Spolehněte se na naši podporu v portugalštině a angličtině, která je k dispozici prostřednictvím služby Discord.",
+        "tituloP":"Ideální hardware pro maximální výkon",
         "descriP1":"Naše servery jsou poháněny zbrusu novými procesory Intel Xeon Gold 6140.",
         "descriP2":"Rychlejší a výkonnější je navržen tak, aby splňoval rostoucí požadavky aplikací s vysokými nároky na zpracování.",
         "descriP3":"A tady v DisCloud, ať už je to zdarma nebo placené, si váš Bot bude užívat tento procesor v kombinaci s nejlepším hardwarem na trhu."
@@ -147,6 +151,10 @@
       "upload": {
         "initialMessage": "Výtvářím instanci robota ... (Může to chvíli trvat, takže buďte trpěliví)",
         "successMessage": "Bot byl úspěšně spuštěn, děkujeme za použití DisCloud! :D",
+        "aviso1":"POZOR!",
+        "aviso2":"Před nahráním souboru",
+        "aviso3":" si prosím v dokumentaci k jazyku Bot ověřte, zda jste soubor vytvořili správně. ",
+        "avisoBtn":"Ddokumentaci",
         "errorMessages": {
           "errorInvalidBot": "Zadané ID bota není platné.",
           "errorAllocateSpace": "Při přidělování místa došlo k chybě.",

@@ -107,12 +107,16 @@
         }
       },
       "recursos": {
-        "titulo": "Features supported by our servers",
-        "ffmpeg": "Support for the integrated FFMPEG Codec",
-        "database": "Local Database with Easy Backup",
-        "transferencia": "Unlimited data transfer rate",
-        "suporte": "Support in Portuguese whenever you need",
-        "tituloP":"INTEL XEON GOLD 6140 2.3GHZ",
+        "titulo": "The perfect combination of platform, performance and service",
+        "ffmpeg": "Integration",
+        "ffmpegdesc": "Our instances natively have several commonly used packages in Discord Bots.",
+        "database": "Easy Backup",
+        "databasedesc": "With just a simple command you can have a backup of your codes, contents and Database.",
+        "transferencia": "Flexibility",
+        "transferenciadesc": "Powerful, scalable, and easily managed instances, ideal for those seeking security, speed, and control.",
+        "suporte": "Active Support",
+        "suportedesc": "Count on our support in Portuguese and English, available via Discord, to ensure your peace of mind.",
+        "tituloP":"Ideal hardware for maximum performance",
         "descriP1":"Our servers are equipped with the all-new Intel Xeon Gold 6140 processors.",
         "descriP2":"Faster and more powerful, it is designed to meet the growing demands of applications with high processing needs.",
         "descriP3":"And here at DisCloud, either with the free or paid plan, your Bot will be enjoying this processor combined with the best hardware in the market."
@@ -146,6 +150,10 @@
       "upload": {
         "initialMessage": "Creating instance of bot ... (This may take a while, so be patient)",
         "successMessage": "The bot has started successfully, thanks for using DisCloud! :D",
+        "aviso1":"ATTENTION!",
+        "aviso2":"Before uploading your",
+        "aviso3":" file, please consult our documentation for your Bot language to verify that you have created the file correctly. ",
+        "avisoBtn":"Documentation",
         "errorMessages": {
           "errorInvalidBot": "The bot ID you entered is not valid.",
           "errorAllocateSpace": "There was an error allocating space.",
