@@ -24,9 +24,9 @@
     "texto_primario": "Tvůj bot je právě online!",
     "texto_secundario": "DisCloud se narodil s touhou nabídnout snadné, bezplatné a kvalitní hosting pro Discord Boty.",
     "icones": {
-      "ping": "Latence API",
+      "ping": "Discord API",
       "clientes": "Zákazníci",
-      "bots": "Aktivní boti"
+      "bots": "Hostované Roboty"
     }
   },
   "footer": {
@@ -52,6 +52,7 @@
       "linguagens": "Pracujte s jazykem který máte rádi.",
       "precos": {
         "titulo": "Výhody pro dárce",
+        "titulodesc": "Váš dar pomáhá podporovat vývoj a udržuje náš odhodlaný a stále máte přístup k exkluzivním zdrojům a službám. Svůj plán můžete také kdykoli upgradovat nebo snížit.",
         "cards": {
           "gratis": {
             "titulo": "Zdarma",
@@ -104,6 +105,20 @@
             "armazenamento": "SSD Uložiště",
             "network": "Síť neomezena",
             "botao": "Prosím přihlaste se"
+          },
+          "diamante": {
+            "nome": "Diamant",
+            "preco2gb": "6.00",
+            "preco4gb": "12.00",
+            "currency":"USD",
+            "simbolo":"$"
+          },
+          "safira": {
+            "nome": "Sapphire",
+            "preco8gb": "24.00",
+            "preco16gb": "48.00",
+            "currency":"USD",
+            "simbolo":"$"
           }
         }
       },
@@ -129,9 +144,9 @@
       },
       "equipe": {
         "titulo": "Tým",
-        "pr": "CEO & Back-end Vývojář",
-        "bruno": "CTO & Back-end Vývojář",
-        "luis": "CTO & Front-end Vývojář"
+        "pr": "CEO & Backend",
+        "bruno": "CTO & Backend",
+        "luis": "CTO & Frontend"
       },
       "paypal": {
         "success": "Vaše platba byla úspěšná, přihlaste se na náš web a užívejte si jeho výhod. DisCloud, děkujeme za vaše preference!",

@@ -23,9 +23,9 @@
     "texto_primario": "Su Bot 24 horas en línea ahora!",
     "texto_secundario": "DisCloud nació con el deseo de ofrecer alojamiento fácil, gratuito y de calidad para Bots Discord.",
     "icones": {
-      "ping": "Latencia de API",
-      "clientes": "Clientes",
-      "bots": "Bots Activos"
+      "ping": "Discord API",
+      "clientes": "Los usuarios",
+      "bots": "Bots Alojados"
     }
   },
   "footer": {
@@ -51,6 +51,7 @@
       "linguagens": "Trabaje con el lenguaje que usted ya ama.",
       "precos": {
         "titulo": "Beneficios de los donantes",
+        "titulodesc": "Su donación ayuda a apoyar el desarrollo y mantener nuestro dedicado, y aún tiene acceso a recursos y servicios exclusivos. También puede actualizar o degradar su plan en cualquier momento.",
         "cards": {
           "gratis": {
             "titulo": "Gratis",
@@ -103,6 +104,20 @@
             "armazenamento": "Almacenamiento SSD",
             "network": "Red Ilimitada",
             "botao": "Iniciar sesión"
+          },
+          "diamante": {
+            "nome": "Diamante",
+            "preco2gb": "6.00",
+            "preco4gb": "12.00",
+            "currency":"USD",
+            "simbolo":"$"
+          },
+          "safira": {
+            "nome": "Zafiro",
+            "preco8gb": "24.00",
+            "preco16gb": "48.00",
+            "currency":"USD",
+            "simbolo":"$"
           }
         }
       },
@@ -128,9 +143,9 @@
       },
       "equipe": {
         "titulo": "Equipo",
-        "pr": "CEO & Revelador Back-end",
-        "bruno": "CTO & Revelador Back-end",
-        "luis": "CTO & Revelador Front-end"
+        "pr": "CEO & Backend",
+        "bruno": "CTO & Backend",
+        "luis": "CTO & Frontend"
       },
       "paypal": {
         "success": "Su pago se realizó con éxito, inicie sesión en nuestro sitio y disfrute de sus beneficios. ¡DisCloud agradece la preferencia!",

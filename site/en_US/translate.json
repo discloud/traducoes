@@ -23,9 +23,9 @@
     "texto_primario": "Your Bot 24h online now!",
     "texto_secundario": "DisCloud was born with the desire to offer easy, free and quality hosting for Discord Bots.",
     "icones": {
-      "ping": "API latency",
-      "clientes": "Customers",
-      "bots": "Active Bots"
+      "ping": "Discord API",
+      "clientes": "Users",
+      "bots": "Hosted Bots"
     }
   },
   "footer": {
@@ -51,6 +51,7 @@
       "linguagens": "Work with the language you already love.",
       "precos": {
         "titulo": "Donor Benefits",
+        "titulodesc": "Your donation helps support the development and keep our dedicated, and you still have access to exclusive resources and services. You can also upgrade or downgrade your plan at any time.",
         "cards": {
           "gratis": {
             "titulo": "Free",
@@ -103,6 +104,20 @@
             "armazenamento": "SSD Storage",
             "network": "Network Unlimited",
             "botao": "Please login"
+          },
+          "diamante": {
+            "nome": "Diamond",
+            "preco2gb": "6.00",
+            "preco4gb": "12.00",
+            "currency":"USD",
+            "simbolo":"$"
+          },
+          "safira": {
+            "nome": "Sapphire",
+            "preco8gb": "24.00",
+            "preco16gb": "48.00",
+            "currency":"USD",
+            "simbolo":"$"
           }
         }
       },
@@ -128,9 +143,9 @@
       },
       "equipe": {
         "titulo": "Team",
-        "pr": "CEO & Back-end Developer",
-        "bruno": "CTO & Back-end Developer",
-        "luis": "CTO & Front-end Developer"
+        "pr": "CEO & Backend",
+        "bruno": "CTO & Backend",
+        "luis": "CTO & Frontend"
       },
       "paypal": {
         "success": "Your payment was successful, log in to our site and enjoy its benefits. DisCloud thanks your preference!",
