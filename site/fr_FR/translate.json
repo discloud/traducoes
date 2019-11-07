@@ -124,7 +124,7 @@
       "recursos": {
         "titulo": "La combinaison parfaite de la plate-forme, de la performance et du service",
         "ffmpeg": "L'intégration",
-        "ffmpegdesc": "Nos instances ont nativement plusieurs paquets couramment utilisés dans Bots Discord.",
+        "ffmpegdesc": "Avec notre déploiement automatique, votre instance sera mise à jour chaque fois qu'une modification sera apportée à votre référentiel GitHub/GitLab.",
         "database": "Sauvegarde facile",
         "databasedesc": "Avec une simple commande, vous pouvez sauvegarder vos codes, contenus et base de données.",
         "transferencia": "La flexibilité",

@@ -125,7 +125,7 @@
       "recursos": {
         "titulo": "Perfektní kombinace platformy, výkonu a služeb",
         "ffmpeg": "Integrace",
-        "ffmpegdesc": "Naše instance nativně mají v Bots Discord několik běžně používaných balíčků.",
+        "ffmpegdesc": "S naším automatickým nasazením bude vaše instance aktualizována při každé změně úložiště GitHub/GitLab.",
         "database": "Snadné zálohování",
         "databasedesc": "Pouhým jednoduchým příkazem můžete mít zálohu vašich kódů, obsahu a databáze.",
         "transferencia": "Flexibilita",
