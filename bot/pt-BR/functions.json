@@ -1,0 +1,6 @@
+{
+    "handleCommand": {
+        "noPerm": "{{user}} você não pode usar esse comando.",
+        "cmdCooldown": "{{user}} aguarde um pouco antes de usar outro comando."
+    }
+}
