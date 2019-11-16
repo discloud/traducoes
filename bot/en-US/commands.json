@@ -151,10 +151,17 @@
             "semid": "Enter the ID of the bot you want to remove.",
             "iddiferente": "The provided ID is not the same as any of your bots.",
             "aguar": "Wait",
-            "sucesso": "Your bot has been successfully restarted.",
+            "sucesso": "Your bot has been successfully removed.",
             "config": {
                 "description": "Delete your instance by deleting all data and settings."
             }
+        },
+        "resetweek":{
+            "sfree":"only members with the free plan can reset the bots timer.",
+            "nohost":"you have no hosted bots.",
+            "sucesso":"your bot timer was successfully reset to",
+            "error":"there was an error resetting your bot's timer."
+
         },
         "status": {
             "sembot": "No bots found. Use **.up** to upload.",

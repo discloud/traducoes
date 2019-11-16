@@ -149,10 +149,17 @@
             "semid": "Digite o ID do bot que quer remover.",
             "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
             "aguar": "Aguarde",
-            "sucesso": "O seu bot foi reiniciado com sucesso.",
+            "sucesso": "O seu bot foi removido com sucesso.",
             "config": {
                 "description": "Deletar sua instância, apagando todos os dados e configurações."
             }
+        },
+        "resetweek":{
+            "sfree":"somente membros com o plano free pode resetar o timer dos bots.",
+            "nohost":"você não tem possui nenhum bot hospedado.",
+            "sucesso":"o timer do seu bot foi resetado com sucesso para",
+            "error":"ocorreu um erro ao resetar o timer do seu bot."
+
         },
         "status": {
             "sembot": "Você ainda não upou nenhum bot, use **.up** para upar.",
