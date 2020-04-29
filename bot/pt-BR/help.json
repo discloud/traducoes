@@ -1,0 +1,89 @@
+{
+    "backup": {
+        "desc": "Fazer uma cópia de segurança dos arquivos do seu bot."
+    },
+
+    "bots": {
+        "desc": "Lista todos os bots de um cliente."
+    },
+
+    "cleardm": {
+        "desc": "Limpar todas as mensagens enviadas pelo bot nas suas mensagens diretas."
+    },
+
+    "commit": {
+        "desc": "Atualizar os arquivos do seu bot."
+    },
+
+    "delete": {
+        "desc": "Eliminar um arquivo ou pasta do diretório do seu bot."
+    },
+
+    "dir": {
+        "desc": "Ver a estrutura do diretório do seu bot."
+    },
+
+    "git": {
+        "desc": "Sincronizar um repositório git ao seu bot para atualizações automáticas."
+    },
+
+    "help": {
+        "desc": "Lista todos os comandos existentes no bot."
+    },
+
+    "iniciar": {
+        "desc": "Iniciar o seu bot."
+    },
+
+    "memoria": {
+        "desc": "Mudar o máximo de memória RAM consumida por um bot."
+    },
+
+    "mod": {
+        "desc": "Executar várias funções relacionadas ao sistema de moderadores."
+    },
+
+    "novoup": {
+        "desc": "Upar um bot usando o ficheiro de configuração .discloudconfig"
+    },
+
+    "parar": {
+        "desc": "Parar o seu bot."
+    },
+
+    "ping": {
+        "desc": "Ver a latência do bot."
+    },
+
+    "planos": {
+        "desc": "Ver todos os planos disponiveis e seus benificios."
+    },
+
+    "reiniciar": {
+        "desc": "Reiniciar o seu bot."
+    },
+
+    "removerbot": {
+        "desc": "Deletar sua instancia, apagando todos os dados e configurações."
+    },
+
+    "resetweek": {
+        "desc": "Resetar o tempo em que o seu bot vai desligar."
+    },
+
+    "status": {
+        "desc": "Ver o status de um bot."
+    },
+
+    "terminal": {
+        "desc": "Mostra o terminal do seu bot."
+    },
+
+    "up": {
+        "desc": "Dar upload no seu bot na DisCloud."
+    },
+
+    "userinfo": {
+        "desc": "Ver a informação de um cliente."
+    }
+}

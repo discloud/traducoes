@@ -1,0 +1,89 @@
+{
+    "backup": {
+        "desc": "Backup your bot files."
+    },
+
+    "bots": {
+        "desc": "Lists all bots of a client."
+    },
+
+    "cleardm": {
+        "desc": "Clear all messages sent by the bot in your direct messages."
+    },
+
+    "commit": {
+        "desc": "Update your bot files."
+    },
+
+    "delete": {
+        "desc": "Delete a file or folder from your bot's directory."
+    },
+
+    "dir": {
+        "desc": "View the directory structure of your bot."
+    },
+
+    "git": {
+        "desc": "Sync a git repository to your bot for automatic updates."
+    },
+
+    "help": {
+        "desc": "Lists all commands in the bot."
+    },
+
+    "iniciar": {
+        "desc": "Start your bot."
+    },
+
+    "memoria": {
+        "desc": "Change the maximum RAM consumed by a bot."
+    },
+
+    "mod": {
+        "desc": "Perform various functions related to the moderator system."
+    },
+
+    "novoup": {
+        "desc": "Upload a bot using the configuration file .discloudconfig"
+    },
+
+    "parar": {
+        "desc": "Stop your bot."
+    },
+
+    "ping": {
+        "desc": "View bot latency."
+    },
+
+    "planos": {
+        "desc": "View all available plans and their benefits."
+    },
+
+    "reiniciar": {
+        "desc": "Restart your bot."
+    },
+
+    "removerbot": {
+        "desc": "Delete your instance by deleting all data and settings."
+    },
+
+    "resetweek": {
+        "desc": "Reset the time your bot will turn off."
+    },
+
+    "status": {
+        "desc": "View the status of a bot."
+    },
+
+    "terminal": {
+        "desc": "Shows the terminal of your bot."
+    },
+
+    "up": {
+        "desc": "Upload your bot to DisCloud."
+    },
+
+    "userinfo": {
+        "desc": "View customer information."
+    }
+}

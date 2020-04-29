@@ -9,27 +9,25 @@
                 "setDescription": "Clique aqui",
                 "setFooter": "O link expira em 1 dia."
             },
-            "dmFechado": "Seu DM está bloqueado, libere para poder usar o comando.",
-            "config": {
-                "description": "Salvar dados do bot."
-            }
+            "dmFechado": "Seu DM está bloqueado, libere para poder usar o comando."
         },
+
         "bots": {
             "semreg": "Sem registro no banco.",
             "semBots": "Esse membro ainda não hospedou nenhum bot.",
+            "dmBlock": "Ocorreu um erro, verifique se as suas mensagens diretas não estão bloqueadas no servidor.",
             "embed": {
                 "nomeid": "Nome/ID",
                 "lang": "Línguagem",
                 "time": "Adicionado em",
                 "ficheiro": "Ficheiro principal",
                 "ram": "Memória RAM alocada",
+                "mods": "Moderadores",
                 "desliga": "Desliga em",
-                "setFooter": "hosted with ❤ by DisCloud"
-            },
-            "config": {
-                "description": "Lista com todos os bots de um cliente."
+                "setFooter": "Página"
             }
         },
+
         "cleardm": {
             "erro": "Ocorreu um erro ao abrir as suas mensagens diretas.",
             "semmsg": "Não existem registros de mensagens enviadas pelo bot no seu DM.",
@@ -43,11 +41,9 @@
                 "part1": "Foram eliminadas as ultimas",
                 "part2": "mensagens enviadas pelo bot no seu DM."
             },
-            "errofinal": "Ocorreu um erro ao tentar eliminar as mensagens.",
-            "config": {
-                "description": "Eliminar todas as mensagens do bot das suas mensagens diretas."
-            }
+            "errofinal": "Ocorreu um erro ao tentar eliminar as mensagens."
         },
+
         "commit": {
             "semregistro": "Você precisa realizar um registro em nosso site <http://discloudbot.com> antes de hospedar o seu bot.",
             "sembots": "Você ainda não upou nenhum bot, use **up** para upar",
@@ -72,36 +68,49 @@
                 "ficheiros": "Os ficheiros do seu bot foram atualizados com sucesso.",
                 "iniciali": "Configurando a inicialização.",
                 "time": "Você demorou tempo demais para enviar o anexo ou link do ficheiro do seu bot."
-            },
-            "config": {
-                "description": "Atualizar os arquivos do seu bot."
             }
         },
+
+        "delete": {
+            "semregistro": "você precisa realizar um registro em nosso site <http://discloudbot.com>.",
+            "sembots": "você ainda não upou nenhum bot, use `.up` para upar.",
+            "semid": "digite o ID do bot que quer eliminar um arquivo ou pasta.",
+            "idinvalido": "o ID fornecido não é igual a nenhum dos seus bots.",
+            "semcaminho": "digite o caminho do arquivo ou pasta que quer eliminar do diretório do bot.",
+            "principal": "você não pode eliminar o ficheiro principal do seu bot.",
+            "invalidFolder": "você não pode eliminar a pasta {{folder}} do dirétorio do seu bot.",
+            "invalidFile": "você não pode eliminar o arquivo {{file}} do dirétorio do seu bot.",
+            "dockerFile": "você não pode eliminar esse arquivo.",
+            "invalidDirectory": "caminho inválido.\nSe quiser eliminar uma pasta coloque `/` no final do caminho e se for um arquivo coloque a extensão.",
+            "verifyFolder": "você quer mesmo eliminar a pasta `{{folder}}` e os seus {{num}} arquivos/pastas dentro?",
+            "verifyFile": "você quer mesmo eliminar o arquivo {{file}} definitivamente do diretório do seu bot?",
+            "success": "arquivo(s) eliminado(s) com sucesso.",
+            "successCancel": "a ação foi cancelada com sucesso.",
+            "timeOut": "você demorou tempo demais a responder e a ação foi cancelada.",
+            "unknowError": "ocorreu um erro ao eliminar o arquivo/pasta, contate o suporte."
+        },
+
         "dir": {
             "sembot": "Nenhum bot encontrado. Utilize **.up** para fazer o upload.",
             "semid": "Digite o ID do bot que quer ver o diretório.",
             "iddiferente": "O ID que digitou não é igual a nenhum dos seus bots.",
             "zeroinstancia": "Você ainda não criou uma instância para seu bot, use o comando **.up** e siga as instruções.",
             "embed": {
-                "setAuthor": "Listagem de todas as pastas/ficheiros do seu bot:"
+                "setAuthor": "Listagem de todas as pastas/arquivos do seu bot:"
             },
-            "dmblock": "Ocorreu um erro ao enviar a listagem de pastas/ficheiros do seu bot no DM, verifique se sua mensagens diretas não estão bloqueadas no servidor.",
+            "dmblock": "Ocorreu um erro, verifique se as suas mensagens diretas não estão bloqueadas no servidor.",
             "embed2": {
                 "hastebin": "Listagem das pastas/ficheiros do seu bot:",
                 "setDescription": "Clique aqui",
                 "setFooter": "hosted with ❤ by DisCloud"
-            },
-            "config": {
-                "description": "Ver diretório do bot."
             }
         },
+
         "help": {
-            "titulo": "Lista de comandos",
-            "use": "Use .help <commandname> para mais detalhes",
-            "config": {
-                "description": "Mostra todos os comandos relacionados ao bot."
-            }
+            "output": "= Lista de comandos =\n\n[Use .help <commandname> para mais detalhes]\n",
+            "use": "Uso"
         },
+
         "iniciar": {
             "bancolimpo": "SEM registro no banco",
             "sembot": "Você não tem nenhum bot hospedado na DisCloud.",
@@ -113,11 +122,9 @@
             "error": "Tem algo de errado com a sua instância, remova seu bot e envia novamente usando os comandos:",
             "aguar": "Aguarde",
             "iniciarerro": "Ocorreu um erro ao iniciar o seu bot.",
-            "sucesso": "O seu bot foi iniciado com sucesso.",
-            "config": {
-                "description": "Iniciar o seu bot."
-            }
+            "sucesso": "O seu bot foi iniciado com sucesso."
         },
+
         "parar": {
             "sembot": "Você não tem nenhum bot hospedado na DisCloud.",
             "semid": "Digite o ID do bot que quer parar.",
@@ -126,11 +133,27 @@
             "dirvazio": "Seu Diretório está vazio.",
             "aguar": "Aguarde",
             "erro": "Ocorreu um erro ao parar o seu bot.",
-            "sucesso": "O seu bot foi parado com sucesso.",
-            "config": {
-                "description": "Parar o seu bot."
+            "sucesso": "O seu bot foi parado com sucesso."
+        },
+
+        "planos": {
+            "sim": "Sim",
+            "nao": "Não",
+            "nome": "Nome",
+            "memoria": "Memória",
+            "maxbots": "Máximo de bots",
+            "preco": "Preço",
+            "mes": "mês",
+            "maxmods": "Máximo moderadores",
+            "git": "Integração GIT",
+            "limit": "Ultrapassar o limite de bots",
+            "renew": "Renovar o bot",
+            "embed": {
+                "setAuthor": "Planos DisCloud",
+                "setFooter": "Páginas"
             }
         },
+
         "reiniciar": {
             "sembot": "Você não tem nenhum bot hospedado na DisCloud.",
             "semid": "Digite o ID do bot que quer reiniciar.",
@@ -139,31 +162,27 @@
             "dirvazio": "Seu Diretório está vazio.",
             "aguar": "Aguarde",
             "erro": "Ocorreu um erro ao reiniciar o seu bot.",
-            "sucesso": "O seu bot foi reiniciado com sucesso.",
-            "config": {
-                "description": "Reiniciar bot."
-            }
+            "sucesso": "O seu bot foi reiniciado com sucesso."
         },
+
         "removerbot": {
             "sembot": "Você não tem nenhum bot hospedado na DisCloud.",
             "semid": "Digite o ID do bot que quer remover.",
             "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
             "aguar": "Aguarde",
-            "sucesso": "O seu bot foi removido com sucesso.",
-            "config": {
-                "description": "Deletar sua instância, apagando todos os dados e configurações."
-            }
+            "sucesso": "O seu bot foi removido com sucesso."
         },
+
         "resetweek":{
             "sfree":"somente membros com o plano free pode resetar o timer dos bots.",
             "nohost":"você não tem possui nenhum bot hospedado.",
             "sucesso":"o timer do seu bot foi resetado com sucesso para",
             "error":"ocorreu um erro ao resetar o timer do seu bot."
-
         },
+
         "status": {
             "sembot": "Você ainda não upou nenhum bot, use **.up** para upar.",
-            "semid": "Digite o ID do bot que quer ver as estatisticas.",
+            "semid": "Digite o ID do bot que quer ver as estatisticas ou `all` para ver de todos.",
             "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
             "parado": "Sua instância está parada.",
             "killRam":"o seu Bot caiu por falta de memória RAM.",
@@ -187,38 +206,32 @@
             "embed": {
                 "setFooter": "Use"
             },
-            "config": {
-                "description": "Ver o status de um bot."
+
+            "embedAll": {
+                "setFooter": "Página"
             }
         },
+
         "terminal": {
-            "sembot": "Você ainda não upou nenhum bot, use **.up** para upar.",
-            "semid": "Digite o ID do bot que quer ver os logs.",
-            "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
-            "parado": "Sua instância está parada.",
-            "embed": {
-                "setAuthor": "Logs do seu bot",
-                "setFooter": "hosted with ❤ by DisCloud"
+            "sembot": "você ainda não upou nenhum bot, use **.up** para upar.",
+            "semid": "digite o ID do bot que quer ver os logs.",
+            "iddiferente": "o ID fornecido não é igual a nenhum dos seus bots.",
+            "parado": "sua instância está parada.",
+            "embedDiscord": {
+                "setTitle": "Terminal do bot {{tag}}",
+                "setDescription": "Reaja com {{file}} para ver os últimos 2000 carateres do terminal aqui.\nReaja com {{enviar}} para enviar os logs completos no seu DM.",
+                "defaultFooter": "Reaja com um emoji",
+                "setFooter": "Últimos 2000 caracteres do terminal do bot {{tag}}",
+                "sendDM": "foram enviados os logs completos do bot no seu DM.",
+                "dmBlock": "seu DM está bloqueado, libere para poder receber os logs."
             },
-            "config": {
-                "description": "Mostra seu terminal."
+            "embedDM": {
+                "setTitle": "Terminal do bot {{tag}}",
+                "setDescription": "Clique aqui para ver o terminal completo",
+                "setFooter": "hosted with ❤ by DisCloud"
             }
         },
-        "terminaldm": {
-            "sembot": "Você ainda não upou nenhum bot, use **up** para upar.",
-            "semid": "Digite o ID do bot que quer ver os logs.",
-            "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
-            "parado": "Sua instância está parada.",
-            "embed": {
-                "setAuthor": "Logs do seu bot",
-                "setDescription": "Clique aqui",
-                "setFooter": "hosted with ❤ by DisCloud"
-            },
-            "dmblock": "Seu DM está bloqueado.",
-            "config": {
-                "description": "Envia no DM uma cópia dos seus logs."
-            }
-        },
+
         "up": {
             "registro": "Você precisa realizar um registro em nosso site <http://discloudbot.com> antes de hospedar o seu bot.",
             "ip": "Você já possui uma conta registrada em nosso sistema.",
@@ -264,11 +277,9 @@
                     "tempoid": "Você demorou tempo demais para digitar o ID do bot.",
                     "id": "Esse ID não pertence a um usuário bot."
                 }
-            },
-            "config": {
-                "description": "Dar upload no seu bot no DisCloud."
             }
         },
+
         "userinfo": {
             "invalido": "Membro inválido.",
             "sembanco": "Sem registro no banco de dados.",
@@ -290,11 +301,9 @@
                 "ram": "Memória:",
                 "s":"Sim",
                 "n":"Não"
-            },
-            "config": {
-                "description": "Ver a informação de um cliente."
             }
         }
+        
     }
 
 }
