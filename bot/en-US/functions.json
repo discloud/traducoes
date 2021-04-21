@@ -1,6 +1,20 @@
 {
     "handleCommand": {
-        "noPerm": "{{user}} you cannot use this command.",
-        "cmdCooldown": "{{user}} wait a while before using another command."
+        "translateError": "an error occurred while trying to identify the translation language.",
+        "noPerm": "you cannot use this command.",
+        "cmdCooldown": "wait a while before using another command."
+    },
+
+    "setTimers": {
+        "backupBots": {
+            "author": "Backup of your bots",
+            "description": "Your bots has been removed because your **{{PLAN}}** plan has ended. You can download your bots backup by clicking the links below. Remember that your bots can go back online with our **Free** plan or you can buy a new plan [by clicking here](https://discloudbot.com/#precos)",
+            "addfield_name": "Download {{BOTNAME}} backup",
+            "addfield_value": "[Click here]({{DOWNLOAD_LINK}})",
+            "footer": "Thank you for your interest in our services, we remain available for any additional information, feel free to contact us if you have any questions or comments. • Sincerely, The DisCloud Team"
+        },
+
+        "3daysleft": "Your **{{PLAN}}** plan will expire on **{{DAYS}}**. You can renew your plan [by clicking here](https://discloudbot.com/#precos). Remember to backup your bots!\nAt the end of the term, all data from your Bots and instances will be permanently deleted.",
+        "planEnded": "Your plan **{{PLAN}}** has ended, your bots have been removed and a backup will be sent to your email and Discord DM soon."
     }
 }

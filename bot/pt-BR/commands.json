@@ -31,16 +31,8 @@
         "cleardm": {
             "erro": "Ocorreu um erro ao abrir as suas mensagens diretas.",
             "semmsg": "Não existem registros de mensagens enviadas pelo bot no seu DM.",
-            "msgContagem": {
-                "part1": "Eliminando",
-                "part2": "mensagens em",
-                "part3": "minuto(s) e",
-                "part4": "segundo(s)"
-            },
-            "msgFinal": {
-                "part1": "Foram eliminadas as ultimas",
-                "part2": "mensagens enviadas pelo bot no seu DM."
-            },
+            "deletingMsg": "Eliminando {{nMsgs}} mensagens em {{minutos}} minuto(s) e {{segundos}} segundos.",
+            "msgFinal": "Foram eliminadas as ultimas {{size}} mensagens enviadas pelo bot no seu DM.",
             "errofinal": "Ocorreu um erro ao tentar eliminar as mensagens."
         },
 
@@ -72,22 +64,22 @@
         },
 
         "delete": {
-            "semregistro": "você precisa realizar um registro em nosso site <http://discloudbot.com>.",
-            "sembots": "você ainda não upou nenhum bot, use `.up` para upar.",
-            "semid": "digite o ID do bot que quer eliminar um arquivo ou pasta.",
-            "idinvalido": "o ID fornecido não é igual a nenhum dos seus bots.",
-            "semcaminho": "digite o caminho do arquivo ou pasta que quer eliminar do diretório do bot.",
-            "principal": "você não pode eliminar o ficheiro principal do seu bot.",
-            "invalidFolder": "você não pode eliminar a pasta {{folder}} do dirétorio do seu bot.",
-            "invalidFile": "você não pode eliminar o arquivo {{file}} do dirétorio do seu bot.",
-            "dockerFile": "você não pode eliminar esse arquivo.",
-            "invalidDirectory": "caminho inválido.\nSe quiser eliminar uma pasta coloque `/` no final do caminho e se for um arquivo coloque a extensão.",
-            "verifyFolder": "você quer mesmo eliminar a pasta `{{folder}}` e os seus {{num}} arquivos/pastas dentro?",
-            "verifyFile": "você quer mesmo eliminar o arquivo {{file}} definitivamente do diretório do seu bot?",
-            "success": "arquivo(s) eliminado(s) com sucesso.",
-            "successCancel": "a ação foi cancelada com sucesso.",
-            "timeOut": "você demorou tempo demais a responder e a ação foi cancelada.",
-            "unknowError": "ocorreu um erro ao eliminar o arquivo/pasta, contate o suporte."
+            "semregistro": "Você precisa realizar um registro em nosso site <http://discloudbot.com>.",
+            "sembots": "Você ainda não upou nenhum bot, use `.up` para upar.",
+            "semid": "Digite o ID do bot que quer eliminar um arquivo ou pasta.",
+            "idinvalido": "O ID fornecido não é igual a nenhum dos seus bots.",
+            "semcaminho": "Digite o caminho do arquivo ou pasta que quer eliminar do diretório do bot.",
+            "principal": "Você não pode eliminar o ficheiro principal do seu bot.",
+            "invalidFolder": "Você não pode eliminar a pasta {{folder}} do dirétorio do seu bot.",
+            "invalidFile": "Você não pode eliminar o arquivo {{file}} do dirétorio do seu bot.",
+            "dockerFile": "Você não pode eliminar esse arquivo.",
+            "invalidDirectory": "Caminho inválido.\nSe quiser eliminar uma pasta coloque `/` no final do caminho e se for um arquivo coloque a extensão.",
+            "verifyFolder": "Você quer mesmo eliminar a pasta `{{folder}}` e os seus {{num}} arquivos/pastas dentro?",
+            "verifyFile": "Você quer mesmo eliminar o arquivo {{file}} definitivamente do diretório do seu bot?",
+            "success": "Arquivo(s) eliminado(s) com sucesso.",
+            "successCancel": "A ação foi cancelada com sucesso.",
+            "timeOut": "Você demorou tempo demais a responder e a ação foi cancelada.",
+            "unknowError": "Ocorreu um erro ao eliminar o arquivo/pasta, contate o suporte."
         },
 
         "dir": {
@@ -95,6 +87,14 @@
             "semid": "Digite o ID do bot que quer ver o diretório.",
             "iddiferente": "O ID que digitou não é igual a nenhum dos seus bots.",
             "zeroinstancia": "Você ainda não criou uma instância para seu bot, use o comando **.up** e siga as instruções.",
+            "upnot": "Você ainda nao upou nenhum bot use `up` para upa",
+            "iddiretorio": "Digite o ID do bot que quer ver o diretório",
+            "idnobot": "O ID que digitou não é igual a nenhum dos seus bots.",
+            "lerdiretorio": "A ler o diretório do seu bot...",
+            "errodir": "ocorreu um erro ao listar o diretório do seu bot.",
+            "erroup": "Ocorreu um erro ao dar upload do diretório do seu bot.",
+            "dirinfo": "{{pastas}} pastas, {{arquivos}} arquivos",
+            "listallarch": "Listagem das pastas/arquivos do seu bot {{botname}}:",
             "embed": {
                 "setAuthor": "Listagem de todas as pastas/arquivos do seu bot:"
             },
@@ -112,13 +112,14 @@
         },
 
         "iniciar": {
-            "bancolimpo": "SEM registro no banco",
+            "bancolimpo": "Sem registro no banco",
             "sembot": "Você não tem nenhum bot hospedado na DisCloud.",
             "semid": "Digite o ID do bot que quer iniciar.",
             "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
             "ligado": "O seu bot já está ligado.",
             "duploip": "Você já possui uma conta registrada em nosso sistema, fale com o suporte para resolver seu problema.",
             "limitefree": "Estamos processando muitos bots do plano free nesse momento, tente novamente mais tarde ou compre algum dos nossos planos e hospede seu bot agora sem limites.",
+            "startingbot": "Iniciando o bot...",
             "error": "Tem algo de errado com a sua instância, remova seu bot e envia novamente usando os comandos:",
             "aguar": "Aguarde",
             "iniciarerro": "Ocorreu um erro ao iniciar o seu bot.",
@@ -154,6 +155,113 @@
             }
         },
 
+        "git": {
+            "registro": "Você precisa realizar um registro em nosso site <http://discloudbot.com> antes de hospedar o seu bot.",
+            "recurso": "Recurso disponível apenas para doadores!",
+            "id": "Digite o ID do Bot que deseja vincular ao repositório...",
+            "invalido": "O ID que inseriu não é válido!",
+            "nbh": "Você não tem um bot hospedado no DisCloud com esse ID!",
+            "url":"Digite a URL do seu repositório.",
+            "ex": "Exemplo:",
+            "git": "https://github.com/pedroricardo/test.git",
+            "urlinvalida": "URL Inválida.",
+            "suporte": "Atualmente so suportamos repositórios do",
+            "git2": "Github",
+            "ou": "ou",
+            "git3": "Gitlab",
+            "idbot": "ID do bot:",
+            "repositorio": "Repositório:",
+            "tipo": "O Seu repositório é 🔒`privado`, deixe ele 🌐`público` ou nos forneça um `Tokens de acesso` disponível em:",
+            "token": "Token inválido.",
+            "webhook": "Dados para configuração do Webhook",
+            "urlweb": "URL do Webhook:",
+            "senha": "Senha do Webhook:",
+            "tempotoken": "Você demorou tempo de mais para fornecer o token de acesso.",
+            "tokenrepositorio": "O Seu Token de acesso ao repositório está inválido, forneça um novo!",
+            "tempo": "Você demorou tempo de mais a digitar o ID do bot."
+        },
+
+        "memoria": {
+            "sembot": "Você ainda nao hospedou nenhum bot",
+            "semid": "digite o ID do bot que quer definir a memória.",
+            "iddiferente": "o ID que digitou não é igual a nenhum dos seus bots.",
+            "verificardoador": "somente membros doadores podem alterar a memória usada pelos seus bots.",
+            "semregistro": "Esse bot não está registrado.",
+            "quantmemoria": "digite o número de memória que quer colocar no bot.",
+            "threadaberto": "você já possui um thread aberto para realizar upload ou commit do seu Bot, aguarde até o fechamento do canal para utilizar este comando novamente.`",
+            "ninvalido": "número inválido.",
+            "valormem": "a memória do bot tem de ser um valor acima de `100MB`.",
+            "limit": "você não pode colocar `{{memoria}}`MB(s) de memória no bot, só lhe resta(m) `{{restMemia}}` MB(s) de memória.",
+            "configambiente": "Configurando o ambiente... (1/4)",
+            "desligandobot": "Desligando seu bot... (2/4)",
+            "erroambiente": "Ocorreu um erro ao configurar o ambiente.",
+            "staffverify": "Peça a um membro da equipe para verificar mais informações sobre o erro no console.",
+            "alocar": "Alocando espaço.",
+            "erroconfig": "Erro ao configurar ambiente para",
+            "loadarquivos": "Carregando os arquivos... (3/4)",
+            "start": "Iniciando o bot... (4/4)",
+            "trocarmem": "Ocorreu um erro ao tentar trocar a memória do seu bot.",
+            "memtrocar": "A memória do seu bot foi trocada com sucesso."
+        },
+
+        "mods": { 
+            "dbregistro": "sem registro no banco.",
+            "doe": "digite uma opção para executar.",
+            "did": "digite o ID do bot.",
+            "cmd": "somente doadores podem usar esse comando.",
+            "modadd": "somente doadores podem adicionar moderadores aos seus bots.",
+            "nbh": "você não tem nenhum bot hospedado.",
+            "ownerbot": "você não é dono desse bot.",
+            "limitmax": "esse bot já atingiu o máximo de moderadores possiveis.",
+            "idmodadd": "digite o ID do moderador que quer adicionar ao bot.",
+            "memnosv": "esse membro não faz parte do servidor.",
+            "nomod": "você não pode adicionar um bot como moderador.",
+            "usernomod": "você não se pode adicionar a si mesmo como moderador.",
+            "modbot": "esse usuário já é moderador desse bot.",
+            "addmodbot": "o membro {{user}} foi adicionado a moderador do bot.",
+            "rbmod": "somente doadores podem remover moderadores aos seus bots.",
+            "idmodrb": "digite o ID do moderador que quer remover do bot.",
+            "mmb": "esse membro não é moderador desse bot.",
+            "modrb": "O moderador foi removido com sucesso.",
+            "addpermbot": "somente doadores podem adicionar permissões aos moderadores dos bots.",
+            "altpermmod": "digite o ID do moderador que quer alterar as permissões.",
+            "cmdaddperm": "digite o nome do comando que quer adicionar/remover das permissões do moderador.",
+            "viewlogmod": "somente doadores podem ver os logs de moderação dos seus bots.",
+            "logmod": "Logs de moderação do bot {{botTag}}",
+            "logmodline": "Ultimas 20 linhas dos logs de moderação do bot:",
+            "listmod": "somente doadores podem listar os moderadores dos seus bots.",
+            "listbotmod": "Lista de moderadores do bot",
+            "modnobot": "você não é moderador desse bot.",
+            "noperm": "você não tem permissão para executar esse comando no bot.",
+            "invalcmd": "comando inválido, tente:",
+            "rpmod": "foi **removida** a permissão do uso do comando {{comando}} do moderador <@{{modID}}>.",
+            "adpmod": "foi **adicionada** a permissão do uso do comando {{comando}} ao moderador <@${{modID}}>.",
+            "listbotmod2": "Lista de moderadores do bot {{botTag}}:",
+            "opcinval": "opção inválida, tente: **add, iniciar, list, logs, parar, perm, reiniciar, remove, terminal**.",
+            "mod": "Moderador:",
+            "perm": "Permissões:",
+            "usecmd": "Usou o comando"
+        },
+
+        "gift": {
+            "block": "você foi bloqueado de usar os serviços da DisCloud.\n**Motivo:** Tentativa de burla do comando **.gift**.",
+            "waittwo": "aguarde um 3 minutos antes de ativar um plano novamente. (2º aviso)",
+            "waitone": "aguarde um 2 minutos antes de ativar um plano novamente. (1º aviso)",
+            "digitecode": "digite o código para ativar o seu plano.",
+            "forminvalcode": "formato de código inválido, os códigos tem o formato: **XXXX-XXXX-XXXX-XXXX**.",
+            "invalcode": "código inválido.",
+            "resgatecode": "Oops! Parece que alguem já resgatou esse código.",
+            "pp": "você não pode ativar esse plano por ele ser diferente do plano que você já tem na sua conta.",
+            "user": "Usuário:",
+            "price": "Valor:",
+            "plan": "Plano:",
+            "month": "Nº de meses:",
+            "id": "Discord ID:",
+            "code": "Código:",
+            "brl": "BRL",
+            "planactive": "parabéns você ativou um plano"
+        },
+
         "reiniciar": {
             "sembot": "Você não tem nenhum bot hospedado na DisCloud.",
             "semid": "Digite o ID do bot que quer reiniciar.",
@@ -185,6 +293,7 @@
             "semid": "Digite o ID do bot que quer ver as estatisticas ou `all` para ver de todos.",
             "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
             "parado": "Sua instância está parada.",
+            "carregandostatus":"Carregando as estatísticas do Bot",
             "killRam":"o seu Bot caiu por falta de memória RAM.",
             "time": {
                 "d": "dias",
@@ -237,8 +346,32 @@
             "ip": "Você já possui uma conta registrada em nosso sistema.",
             "limte": "Você já está usando a memória limite do seu Plano",
             "limite2": "Se ainda não tem um dos nossos planos, faça uma doação para liberar mais recursos.",
+            "mblivre": "Você precisa de ter pelo menos 100MB livres para hospedar um bot e só lhe restam",
+            "free": "Você só pode hospedar 1 Bot no plano gratuito!",
             "limitefree": "Estamos processando muitos bots do plano free nesse momento, tente novamente mais tarde ou compre algum dos nossos planos e hospede seu bot agora sem limites.",
             "canalduplo": "Você já possui um thread aberto para realizar commit ou upload do seu bot, aguarde até o fechamento do canal para utilizar este comando novamente.",
+            "instrucoes": "siga as instruções no canal",
+            "bothospedado": "Você já tem um bot hospedado no DisCloud com esse ID!",
+            "idinvalido": "ID do bot: **Inválido**",
+            "botregister": "Já existe um bot registrado com esse ID!",
+            "nobotid": "O ID que inseriu não é de um bot!",
+            "msgedit": {
+                "id": "ID do bot:",
+                "arquivo": "Digite o nome do arquivo principal do seu bot.",
+                "ex": "Exemplos:",
+                "arquivoprincipal": "Arquivo principal:",
+                "definirmb": "Digite o número de memória RAM em MB que quer colocar no bot...",
+                "meminval": "Memória RAM: **Inválida**",
+                "zipinvalido": "Arquivo .ZIP: **Inválido**"
+            },
+            "memoria": {
+                "valor": "O valor da memória RAM do seu bot tem de ser igual ou superior a 100MB.",
+                "free": "Você está usando o plano Free, por isso o limite de memória para o seu bot é de 100MB.",
+                "alocar": "Você não pode colocar essa memória no seu bot, apenas lhe restam",
+                "ram": "Memória RAM:",
+                "aguarde": "**Aguarde ...**",
+                "espaco": "Alocando espaço..."
+            },
             "thread": {
                 "pergunta1": "Digite o ID do seu bot.",
                 "indinvalido": "ID do bot: **${botID}** - ID inválido",
@@ -249,9 +382,7 @@
                 "arquivopricipal": "Arquivo principal:",
                 "pergunta3": "Envie o anexo ou link dos arquivos do seu bot em .zip",
                 "arquivozip": "Arquivo .ZIP:",
-                "aguarde": "Aguarde",
-                "alocando": "Alocando espaço.",
-                "rarerro": "O formato **.rar** não é suportado, use a extensão **.zip**",
+                "rarerro": "O formato `{{format}}` não é suportado, use a extensão **.zip**",
                 "error": "Ocorreu um erro ao alocar o espaço.",
                 "errorpart2": "Peça a um membro da equipe para verificar mais informações sobre o erro no console.",
                 "ziperro": "Ocorreu um erro ao alocar o espaço.",
@@ -274,23 +405,29 @@
                 "errosfinais": {
                     "tempozip": "Você demorou tempo demais para enviar o anexo ou link do ficheiro do seu bot.",
                     "tempomain": "Você demorou tempo demais para digitar o nome do arquivo principal do bot.",
+                    "temporam": "Você demorou tempo de mais para digitar a memória RAM do seu bot.",
                     "tempoid": "Você demorou tempo demais para digitar o ID do bot.",
-                    "id": "Esse ID não pertence a um usuário bot."
+                    "id": "Esse ID não pertence a um usuário bot.",
+                    "timeid": "Você demorou tempo de mais a digitar o ID do bot."
                 }
             }
         },
 
         "userinfo": {
             "invalido": "Membro inválido.",
-            "sembanco": "Sem registro no banco de dados.",
+            "usernoserver": "Esse usuário não faz parte do servidor.",
+            "sembanco": "Esse usuário não está registrado no banco de dados.",
             "time": {
                 "part1": "Restam",
                 "part2": "dia(s)",
                 "part3": "hora(s) e",
-                "part4": "minuto(s)"
+                "part4": "minuto(s)",
+                "part5": "segundo(s)."
             },
             "embed": {
                 "nome": "Nome/ID:",
+                "blacklist": "Blacklisted",
+                "bot": "Bots",
                 "plano": "Plano:",
                 "f":"Gratuito",
                 "g": "Ouro",
@@ -302,6 +439,12 @@
                 "s":"Sim",
                 "n":"Não"
             }
+        },
+        
+        "ping": {
+            "ping": "Ping?",
+            "bot": "Bot:",
+            "api": "API:"
         }
         
     }

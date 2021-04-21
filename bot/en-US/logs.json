@@ -1,0 +1,21 @@
+{
+    "botlogs":{
+         "uponline": "{{user}} a instância do seu bot **`${botTag}`** está on-line!",
+         "commitrestart": "{{user}} a instância do seu bot **`{{botTag}}`** foi atualizada e reiniciada com sucesso!",
+         "enduser": "<@{{obj}}> `({{obj}})` saiu do servidor e seus Bots e Sites foram removidos!",
+         "ramkilled": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** foi desligada por falta de memória RAM!",
+         "bottimeout": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** no plano free foi desligada por inatividade!"
+
+    },
+
+    "sitelogs":{
+        "uponline": "{{user}} a instância do seu site **`{{site}}`** está on-line!",
+        "commitrestart": "{{user}} a instância do seu site **`{{site}}`** foi atualizada e reiniciada com sucesso!",
+        "ramkilled": "<@{{userID}}> a instância do seu site **`{{site}}`** foi desligada por falta de memória RAM!",
+        "upsite":"<@{{userID}}> a instância do seu site **`{{site}}`** está on-line!",
+        "commitsite":"<@{{userID}}> a instância do seu site **`{{site}}`** sofreu alterações e já está on-line!",
+        "removesite":"<@{{userID}}> a instância do seu site **`{{site}}`** foi removida com sucesso!",
+        "startsite":"<@{{userID}}> a instância do seu site **`{{site}}`** está on-line!",
+        "stopsite": "<@{{userID}}> a instância do seu site **`{{site}}`** está off-line!"
+    }
+}

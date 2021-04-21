@@ -1,0 +1,27 @@
+{
+    "default": {
+        "header": {
+            "ola": "Olá"
+        },
+
+        "footer": {
+            "texto": "Obrigado pelo interesse em nossos serviços, continuamos disponíveis para qualquer informação adicional, sinta-se á vontade para nos contatar se tiver alguma pergunta ou comentário.",
+            "atenciosamente": "Atenciosamente,",
+            "discloud_team": "Equipe DisCloud"
+        }
+    },
+
+    "3daysleft": {
+        "subject": "Renovação do seu plano",
+        "texto_1": "O seu plano <b>{{PLAN}}</b> expirará em <b>{{DAYS}}</b>. Você pode renovar o seu plano clicando no botão abaixo. Lembre-se de fazer um backups dos seus bots!",
+        "texto_2": "No final do prazo todos os dados dos seus Bots e instâncias serão excluídos permanentemente.",
+        "renew_plan": "Renovar plano"
+    },
+
+    "backupbots": {
+        "subject": "Backup dos seus bots",
+        "texto_1": "Os seus bots foram removidos pois o seu plano <b>{{PLAN}}</b> terminou. Você pode realizar o download do backups dos seus bots clicando no botões abaixo. Lembre-se que seus bots podem voltar a ficar online com o nosso plano <b>Free</b> ou pode comprar um novo plano <b><a href='https://discloudbot.com/#precos'>clicando aqui</a></b>.",
+        "texto_2": "Você tem 1 mês para fazer o download dos backups dos seus bots, caso contrário, os mesmos serão eliminados permanentemente.",
+        "download_bot": "Download {{BOTNAME}} backup"
+    }
+}
