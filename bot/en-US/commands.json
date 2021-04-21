@@ -244,22 +244,22 @@
         },
 
         "gift": {
-            "block": "você foi bloqueado de usar os serviços da DisCloud.\n**Motivo:** Tentativa de burla do comando **.gift**.",
-            "waittwo": "aguarde um 3 minutos antes de ativar um plano novamente. (2º aviso)",
-            "waitone": "aguarde um 2 minutos antes de ativar um plano novamente. (1º aviso)",
-            "digitecode": "digite o código para ativar o seu plano.",
-            "forminvalcode": "formato de código inválido, os códigos tem o formato: **XXXX-XXXX-XXXX-XXXX**.",
-            "invalcode": "código inválido.",
-            "resgatecode": "Oops! Parece que alguem já resgatou esse código.",
-            "pp": "você não pode ativar esse plano por ele ser diferente do plano que você já tem na sua conta.",
-            "user": "Usuário:",
-            "price": "Valor:",
-            "plan": "Plano:",
-            "month": "Nº de meses:",
+            "block": "you have been blocked from using the services of DisCloud.\n**Reason:** Attempting to circumvent the command **.gift**.",
+            "waittwo": "wait 3 minutes before activating a plan again. (2nd warning)",
+            "waitone": "wait a 2 minutes before activating a plan again. (1st warning)",
+            "digitecode": "enter the code to activate your plan.",
+            "forminvalcode": "invalid code format, codes have the format: **XXXX-XXXX-XXXX-XXXX**.",
+            "invalcode": "invalid code.",
+            "resgatecode": "Oops! It looks like someone has already redeemed this code.",
+            "pp": "you cannot activate this plan because it is different from the plan you already have in your account.",
+            "user": "User:",
+            "price": "Value:",
+            "plan": "Plan:",
+            "month": "No. of months:",
             "id": "Discord ID:",
-            "code": "Código:",
+            "code": "Code:",
             "brl": "BRL",
-            "planactive": "parabéns você ativou um plano"
+            "planactive": "congratulations you activated a plan"
         },
 
         "reiniciar": {
