@@ -31,7 +31,7 @@
         "cleardm": {
             "erro": "An error occurred while opening your direct messages.",
             "semmsg": "There are no message logs sent by the bot on your DM.",
-            "deletingMsg": "Eliminando {{nMsgs}} mensagens em {{minutos}} minuto(s) e {{segundos}} segundos.",
+            "deletingMsg": "Eliminating {{nMsgs}} messages in {{minutos}} minute(s) and {{segundos}} seconds.",
             "msgFinal": "The last {{size}} messages sent by the bot in your DM have been deleted.",
             "errofinal": "An error occurred while trying to delete the messages."
         },
