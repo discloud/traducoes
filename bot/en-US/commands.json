@@ -370,7 +370,7 @@
                 "amienteerror2": "Ask a team member to check for more information about the error in the console.",
                 "build": "Building application... _ (This may take time, so be patient) _",
                 "build2": "Building application",
-                "errorbuild": "Ocorreu um erro ao buildar a aplicação.",
+                "errorbuild": "An error occurred while building the application.",
                 "packerro1": "We have identified an error in your file",
                 "packerro2": ", correct it and try again.",
                 "iniciaconfig": "Configuring the startup",
