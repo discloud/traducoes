@@ -1,5 +1,9 @@
 # Traduções
 
+## Colaboradores Bot
+> Astin - Astin#0943
+> Sprayx - Spray#4492
+
 ## Colaboradores Site
 > Francês - KENZO#0386
 
