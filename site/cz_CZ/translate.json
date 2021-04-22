@@ -30,7 +30,7 @@
     }
   },
   "footer": {
-    "descricao": "© 2019 DisCloud. Všechna práva vyhrazena | Discloudbot.com není přidružen k Discord Inc.",
+    "descricao": "© 2019-2021 DisCloud. Všechna práva vyhrazena | Discloudbot.com není přidružen k Discord Inc.",
     "bibliotecas": "Podporované knihovny",
     "definicoes": "Legalní nastavení",
     "termos": "Servisní podmínky",
@@ -74,7 +74,7 @@
             "simbolo":"$",
             "preco": "0.99",
             "tempo":"měsíc",
-            "ram": "128MB de RAM",
+            "ram": "200MB de RAM",
             "cpu": "CPU Limitováno",
             "armazenamento": "SSD Uložiště",
             "network": "Síť neomezena",

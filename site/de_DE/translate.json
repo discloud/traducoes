@@ -29,7 +29,7 @@
     }
   },
   "footer": {
-    "descricao": "© 2019 DisCloud. Alle Rechte vorbehalten | Discloudbot.com steht in keiner Verbindung zu Discord Inc.",
+    "descricao": "© 2019-2021 DisCloud. Alle Rechte vorbehalten | Discloudbot.com steht in keiner Verbindung zu Discord Inc.",
     "bibliotecas": "Unterstützte Bibliotheken",
     "definicoes": "Rechtliche Einstellungen",
     "termos": "Servicebedingungen",
@@ -58,7 +58,7 @@
             "descricao": "Dein Bot wird niemals wegen Inaktivität stoppen!",
             "currency":"USD",
             "simbolo":"$",
-            "preco": "0.99",
+            "preco": "0.00",
             "tempo":"Monat",
             "ram": "RAM Beschränkt",
             "cpu": "CPU Beschränkt",
@@ -73,7 +73,7 @@
             "simbolo":"$",
             "preco": "0.99",
             "tempo":"Monat",
-            "ram": "128MB RAM",
+            "ram": "200MB RAM",
             "cpu": "CPU Beschränkt",
             "armazenamento": "SSD Speicher",
             "network": "Unlimitierter Traffic",
