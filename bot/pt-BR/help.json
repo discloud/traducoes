@@ -1,88 +1,67 @@
 {
     "backup": {
-        "desc": "Fazer uma cópia de segurança dos arquivos do seu bot."
+        "desc": "Fazer uma cópia de segurança dos arquivos de sua aplicação."
     },
-
     "bots": {
-        "desc": "Lista todos os bots de um cliente."
+        "desc": "Lista todas as aplicações de um cliente."
     },
-
     "cleardm": {
         "desc": "Limpar todas as mensagens enviadas pelo bot nas suas mensagens diretas."
     },
-
     "commit": {
-        "desc": "Atualizar os arquivos do seu bot."
+        "desc": "Atualizar os arquivos de sua aplicação."
     },
-
     "delete": {
-        "desc": "Eliminar um arquivo ou pasta do diretório do seu bot."
+        "desc": "Eliminar um arquivo ou pasta do diretório de sua aplicação."
     },
-
     "dir": {
-        "desc": "Ver a estrutura do diretório do seu bot."
+        "desc": "Ver a estrutura do diretório de sua aplicação."
     },
-
     "git": {
-        "desc": "Sincronizar um repositório git ao seu bot para atualizações automáticas."
+        "desc": "Sincronizar um repositório git a sua aplicação para atualizações automáticas."
     },
-
     "help": {
         "desc": "Lista todos os comandos existentes no bot."
     },
-
     "iniciar": {
-        "desc": "Iniciar o seu bot."
+        "desc": "Iniciar o sua aplicação."
     },
-
     "memoria": {
-        "desc": "Mudar o máximo de memória RAM consumida por um bot."
+        "desc": "Mudar o máximo de memória RAM consumida por uma aplicação."
     },
-
     "mod": {
         "desc": "Executar várias funções relacionadas ao sistema de moderadores."
     },
-
     "novoup": {
-        "desc": "Upar um bot usando o ficheiro de configuração .discloudconfig"
+        "desc": "Upar uma aplicação usando o ficheiro de configuração .discloudconfig"
     },
-
     "parar": {
-        "desc": "Parar o seu bot."
+        "desc": "Parar a sua aplicação."
     },
-
     "ping": {
         "desc": "Ver a latência do bot."
     },
-
     "planos": {
         "desc": "Ver todos os planos disponiveis e seus benificios."
     },
-
     "reiniciar": {
-        "desc": "Reiniciar o seu bot."
+        "desc": "Reiniciar a sua aplicação."
     },
-
     "removerbot": {
         "desc": "Deletar sua instancia, apagando todos os dados e configurações."
     },
-
     "resetweek": {
-        "desc": "Resetar o tempo em que o seu bot vai desligar."
+        "desc": "Resetar o tempo em que a sua aplicação vai desligar."
     },
-
     "status": {
-        "desc": "Ver o status de um bot."
+        "desc": "Ver o status de uma aplicação."
     },
-
     "terminal": {
-        "desc": "Mostra o terminal do seu bot."
+        "desc": "Mostra o terminal de sua aplicação."
     },
-
     "up": {
-        "desc": "Dar upload no seu bot na DisCloud."
+        "desc": "Dar upload na sua aplicação na DisCloud."
     },
-
     "userinfo": {
         "desc": "Ver a informação de um cliente."
     }
