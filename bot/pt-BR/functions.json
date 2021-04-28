@@ -1,20 +1,18 @@
 {
     "handleCommand": {
-        "translateError": "ocorreu um erro ao tentar identificar o idioma de tradução.",
-        "noPerm": "você não pode usar esse comando.",
-        "cmdCooldown": "aguarde um pouco antes de usar outro comando."
+        "translateError": "Ocorreu um erro ao tentar identificar o idioma de tradução.",
+        "noPerm": "Você não pode usar esse comando.",
+        "cmdCooldown": "Aguarde um pouco antes de usar outro comando."
     },
-
     "setTimers": {
         "backupBots": {
-            "author": "Backup dos seus bots",
-            "description": "Os seus bots foram removidos pois o seu plano **{{PLAN}}** terminou. Você pode realizar o download do backups dos seus bots clicando nos links abaixo. Lembre-se que seus bots podem voltar a ficar online com o nosso plano **Free** ou pode comprar um novo plano **[clicando aqui](https://discloudbot.com/#precos)**.",
+            "author": "Backup das suas aplicações",
+            "description": "As suas aplicações foram removidas pois o seu plano **{{PLAN}}** terminou. Você pode realizar o download do backups das suas aplicações clicando nos links abaixo. Lembre-se que suas aplicações podem voltar a ficar online com o nosso plano **Free** ou pode comprar um novo plano **[clicando aqui](https://discloudbot.com/#precos)**.",
             "addfield_name": "Download {{BOTNAME}} backup",
             "addfield_value": "[Clique aqui]({{DOWNLOAD_LINK}})",
             "footer": "Obrigado pelo interesse em nossos serviços, continuamos disponíveis para qualquer informação adicional, sinta-se á vontade para nos contatar se tiver alguma pergunta ou comentário. • Atenciosamente, Equipe DisCloud"
         },
-
-        "3daysleft": "Your **{{PLAN}}** plan will expire on **{{DAYS}}**. You can renew your plan [by clicking here](https://discloudbot.com/#precos). Remember to backup your bots!\nAt the end of the term, all data from your Bots and instances will be permanently deleted.",
+        "3daysleft": "O seu plano **{{PLAN}}** expirará em **{{DAYS}}**. Você pode renovar seu plano [clicando aqui](https://discloudbot.com/#precos). Lembre-se de fazer um backup de suas aplicações!\nNo fim do prazo, todos os dados e instancias de suas aplicações serão excluídos permanentemente.",
         "planEnded": "O seu plano **{{PLAN}}** terminou, os seus bots foram removidos e será enviado um backup no seu e-mail e DM do Discord brevemente."
     }
 }
