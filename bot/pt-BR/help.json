@@ -1,10 +1,10 @@
 {
     "backup": {
-        "desc": "Fazer uma cópia de segurança dos arquivos do seu bot."
+        "desc": "Fazer uma cópia de segurança dos arquivos de sua aplicação."
     },
 
     "bots": {
-        "desc": "Lista todos os bots de um cliente."
+        "desc": "Lista todas as aplicações de um cliente."
     },
 
     "cleardm": {
@@ -12,31 +12,31 @@
     },
 
     "commit": {
-        "desc": "Atualizar os arquivos do seu bot."
+        "desc": "Atualizar os arquivos da sua aplicação"
     },
 
     "delete": {
-        "desc": "Eliminar um arquivo ou pasta do diretório do seu bot."
+        "desc": "Eliminar um arquivo ou pasta do diretório de sua aplicação."
     },
 
     "dir": {
-        "desc": "Ver a estrutura do diretório do seu bot."
+        "desc": "Ver a estrutura do diretório de sua aplicação"
     },
 
     "git": {
-        "desc": "Sincronizar um repositório git ao seu bot para atualizações automáticas."
+        "desc": "Sincronizar um repositório git a sua aplicação para atualizações automáticas."
     },
 
     "help": {
-        "desc": "Lista todos os comandos existentes no bot."
+        "desc": "Lista todos os comandos existentes na aplicação."
     },
 
     "iniciar": {
-        "desc": "Iniciar o seu bot."
+        "desc": "Iniciar o sua aplicação."
     },
 
     "memoria": {
-        "desc": "Mudar o máximo de memória RAM consumida por um bot."
+        "desc": "Mudar o máximo de memória RAM consumida por uma aplicação."
     },
 
     "mod": {
