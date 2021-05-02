@@ -42,6 +42,7 @@
             "semid": "Digite o ID do bot que quer dar commit.",
             "idinvalido": "O ID fornecido não é igual a nenhum dos seus bots.",
             "botparado": "O seu bot está parado, se o quiser iniciar use:",
+            "killRam":"A sua aplicação está desligada por falta de memória RAM na sua instância.",
             "canalduplo": "Você já possui um thread aberto para realizar commit ou upload do seu bot, aguarde até o fechamento do canal para utilizar este comando novamente.",
             "thread": {
                 "envie": "Envie o arquivo que quer dar commit.",
@@ -294,7 +295,7 @@
             "iddiferente": "O ID fornecido não é igual a nenhum dos seus bots.",
             "parado": "Sua instância está parada.",
             "carregandostatus":"Carregando as estatísticas do Bot",
-            "killRam":"o seu Bot caiu por falta de memória RAM.",
+            "killRam":"A sua aplicação desligou por falta de memória RAM na sua instância.",
             "time": {
                 "d": "dias",
                 "w": "semanas",

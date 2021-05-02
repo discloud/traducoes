@@ -42,6 +42,7 @@
             "semid": "Enter the ID of the bot you want to commit.",
             "idinvalido": "The provided ID is not the same as any of your bots.",
             "botparado": "Your bot is stopped, if you want to start it use:",
+            "killRam":"A sua aplicação está desligada por falta de memória RAM na sua instância.",
             "canalduplo": "You already have an open thread to commit or upload your bot, wait until the channel closes to use this command again.",
             "thread": {
                 "envie": "Send the file you want to commit.",
