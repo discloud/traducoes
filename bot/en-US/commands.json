@@ -322,7 +322,7 @@
             "sembot": "No bots found. Use **.up** to upload.",
             "semid": "Enter the ID of the bot that wants to see the logs.",
             "iddiferente": "The provided ID is not the same as any of your bots.",
-            "parado": "Your instance is stopped.",
+            "parado": "Sua instância está desligada e nao possue logs armazenados.",
             "embedDiscord": {
                 "setTitle": "Bot terminal {{tag}}",
                 "setDescription": "React with {{file}} to see the last 2000 characters of the terminal here.\nReact with {{enviar}} to send the complete logs to your DM.",

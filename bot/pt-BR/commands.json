@@ -326,7 +326,7 @@
             "sembot": "você ainda não upou nenhum bot, use **.up** para upar.",
             "semid": "digite o ID do bot que quer ver os logs.",
             "iddiferente": "o ID fornecido não é igual a nenhum dos seus bots.",
-            "parado": "sua instância está parada.",
+            "parado": "Sua instância está desligada e nao possue logs armazenados.",
             "embedDiscord": {
                 "setTitle": "Terminal do bot {{tag}}",
                 "setDescription": "Reaja com {{file}} para ver os últimos 2000 carateres do terminal aqui.\nReaja com {{enviar}} para enviar os logs completos no seu DM.",
