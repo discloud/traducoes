@@ -7,7 +7,7 @@
 
     "setTimers": {
         "backupBots": {
-            "author": "Backup de suas aplicações",
+            "author": "Backup da suas aplicações",
             "description": "Suas aplicações foram removidas pois o seu plano **{{PLAN}}** terminou. Você pode realizar o download do backups das suas aplicações clicando nos links abaixo. Lembre-se que suas aplicações podem voltar a ficar online com o nosso plano **Free** ou você pode comprar um novo plano **[clicando aqui](https://discloudbot.com/#precos)**.",
             "addfield_name": "Download {{BOTNAME}} backup",
             "addfield_value": "[Clique aqui]({{DOWNLOAD_LINK}})",
