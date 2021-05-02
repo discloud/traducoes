@@ -48,11 +48,11 @@
     },
 
     "parar": {
-        "desc": "Parar o seu bot."
+        "desc": "Parar sua aplicação."
     },
 
     "ping": {
-        "desc": "Ver a latência do bot."
+        "desc": "Ver a latência de sua aplicação."
     },
 
     "planos": {
@@ -60,7 +60,7 @@
     },
 
     "reiniciar": {
-        "desc": "Reiniciar o seu bot."
+        "desc": "Reiniciar o sua aplicação."
     },
 
     "removerbot": {
@@ -68,19 +68,19 @@
     },
 
     "resetweek": {
-        "desc": "Resetar o tempo em que o seu bot vai desligar."
+        "desc": "Resetar o tempo em que sua aplicação vai desligar."
     },
 
     "status": {
-        "desc": "Ver o status de um bot."
+        "desc": "Ver o status de uma aplicação."
     },
 
     "terminal": {
-        "desc": "Mostra o terminal do seu bot."
+        "desc": "Mostra o terminal de sua aplicação."
     },
 
     "up": {
-        "desc": "Dar upload no seu bot na DisCloud."
+        "desc": "Dar upload da sua aplicação na DisCloud."
     },
 
     "userinfo": {
