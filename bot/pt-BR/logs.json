@@ -1,10 +1,10 @@
 {
     "botlogs":{
-         "uponline": "{{user}} a instância do seu bot **`${botTag}`** está on-line!",
-         "commitrestart": "{{user}} a instância do seu bot **`{{botTag}}`** foi atualizada e reiniciada com sucesso!",
-         "enduser": "<@{{obj}}> `({{obj}})` saiu do servidor e seus Bots e Sites foram removidos!",
-         "ramkilled": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** foi desligada por falta de memória RAM!",
-         "bottimeout": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** no plano free foi desligada por inatividade!"
+         "uponline": "{{user}} a instância de sua aplicação **`${botTag}`** está on-line!",
+         "commitrestart": "{{user}} a instância de sua aplicação **`{{botTag}}`** foi atualizada e reiniciada com sucesso!",
+         "enduser": "<@{{obj}}> `({{obj}})` saiu do servidor e suas aplicações e Sites foram removidos!",
+         "ramkilled": "<@{{userID}}> a instância de sua aplicação **`{{botTag}} ({{botID}})`** foi desligada por falta de memória RAM!",
+         "bottimeout": "<@{{userID}}> a instância de sua aplicação **`{{botTag}} ({{botID}})`** no plano free foi desligada por inatividade!"
 
     },
 
