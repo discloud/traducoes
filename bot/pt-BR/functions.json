@@ -7,14 +7,14 @@
 
     "setTimers": {
         "backupBots": {
-            "author": "Backup dos seus bots",
-            "description": "Os seus bots foram removidos pois o seu plano **{{PLAN}}** terminou. Você pode realizar o download do backups dos seus bots clicando nos links abaixo. Lembre-se que seus bots podem voltar a ficar online com o nosso plano **Free** ou pode comprar um novo plano **[clicando aqui](https://discloudbot.com/#precos)**.",
+            "author": "Backup de suas aplicações",
+            "description": "Suas aplicações foram removidas pois o seu plano **{{PLAN}}** terminou. Você pode realizar o download do backups das suas aplicações clicando nos links abaixo. Lembre-se que suas aplicações podem voltar a ficar online com o nosso plano **Free** ou você pode comprar um novo plano **[clicando aqui](https://discloudbot.com/#precos)**.",
             "addfield_name": "Download {{BOTNAME}} backup",
             "addfield_value": "[Clique aqui]({{DOWNLOAD_LINK}})",
             "footer": "Obrigado pelo interesse em nossos serviços, continuamos disponíveis para qualquer informação adicional, sinta-se á vontade para nos contatar se tiver alguma pergunta ou comentário. • Atenciosamente, Equipe DisCloud"
         },
 
-        "3daysleft": "Your **{{PLAN}}** plan will expire on **{{DAYS}}**. You can renew your plan [by clicking here](https://discloudbot.com/#precos). Remember to backup your bots!\nAt the end of the term, all data from your Bots and instances will be permanently deleted.",
-        "planEnded": "O seu plano **{{PLAN}}** terminou, os seus bots foram removidos e será enviado um backup no seu e-mail e DM do Discord brevemente."
+        "3daysleft": "Your **{{PLAN}}** plan will expire on **{{DAYS}}**. You can renew your plan [by clicking here](https://discloudbot.com/#precos). Remember to backup your applications!\nAt the end of the term, all data for your applications and instances will be permanently deleted.",
+        "planEnded": "O seu plano **{{PLAN}}** terminou, suas aplicações foram removidas e será enviado um backup no seu e-mail e DM do Discord brevemente."
     }
 }
