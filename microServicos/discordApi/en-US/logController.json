@@ -1,8 +1,8 @@
 {
-    "up": "<:concluido:584572397236125718> <@!{{userID}}> a instância do seu app **`{{app}}`** está on-line!",
-    "update": "<:restart:592742162211536896> <@!{{userID}}> a instância do seu app **`{{app}}`** foi atualizada e reiniciada com sucesso!",
-    "remove": "<:lixo:584572397714407440> <@!{{userID}}> a instância do seu app **`{{app}}`** foi removida com sucesso!",
-    "start": "<:on:585916749556482048> <@!{{userID}}> a instância do seu app **`{{app}}`** está on-line!",
-    "shutdown": "<:off:585916735559958548> <@!{{userID}}> a instância do seu app **`{{app}}`** está off-line!",
-    "restart": "<:restart:592742162211536896> <@!{{userID}}> a instância do seu app **`{{app}}`** foi reniciado!"
+    "up": "<:concluido:584572397236125718> <@!{{userID}}> the instance of your app **`{{app}}`** is on-line!",
+    "update": "<:restart:592742162211536896> <@!{{userID}}> the instance of your app **`{{app}}`** has been updated and restarted successfully!",
+    "remove": "<:lixo:584572397714407440> <@!{{userID}}> the instance of your app **`{{app}}`** has been successfully removed!",
+    "start": "<:on:585916749556482048> <@!{{userID}}> the instance of your app **`{{app}}`** is on-line!",
+    "shutdown": "<:off:585916735559958548> <@!{{userID}}> the instance of your app **`{{app}}`** is offline!",
+    "restart": "<:restart:592742162211536896> <@!{{userID}}> the instance of your app **`{{app}}`** has been successfully restarted!"
 }
