@@ -43,6 +43,10 @@
         "desc": "Executar várias funções relacionadas ao sistema de moderadores."
     },
 
+    "node": {
+        "desc": "Altera a versão do node para v14."
+    },
+
     "novoup": {
         "desc": "Upar um bot usando o ficheiro de configuração .discloudconfig"
     },
