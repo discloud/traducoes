@@ -1,4 +1,4 @@
-# Traduções
+# Traduções v1
 
 ## Colaboradores Bot
 > Astin - Astin#0943
