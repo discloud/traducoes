@@ -1,0 +1,20 @@
+{
+    "handleCommand": {
+        "translateError": "ocorreu um erro ao tentar identificar o idioma de tradução.",
+        "noPerm": "você não pode usar esse comando.",
+        "cmdCooldown": "aguarde um pouco antes de usar outro comando."
+    },
+
+    "donatorsTimers": {
+        "backupBots": {
+            "author": "Backup da suas aplicações",
+            "description": "Suas aplicações foram removidas pois o seu plano **{{PLAN}}** terminou. Você pode realizar o download do backups das suas aplicações clicando nos links abaixo. Lembre-se que suas aplicações podem voltar a ficar online com o nosso plano **Free** ou você pode comprar um novo plano **[clicando aqui](https://discloudbot.com/#precos)**.",
+            "addfield_name": "Download {{BOTNAME}} backup",
+            "addfield_value": "[Clique aqui]({{DOWNLOAD_LINK}})",
+            "footer": "Obrigado pelo interesse em nossos serviços, continuamos disponíveis para qualquer informação adicional, sinta-se á vontade para nos contatar se tiver alguma pergunta ou comentário. • Atenciosamente, Equipe DisCloud"
+        },
+
+        "daysleft": "O seu plano **{{PLAN}}** vai terminar em **{{REST}}**. Você pode renovar o seu plano [clicando aqui](https://discloudbot.com/#precos). Lembre-se de fazer um backup de todas as suas aplicações!\nNo final do prazo, todos os dados de seus Bots e instâncias serão excluídos permanentemente!",
+        "planEnded": "O seu plano **{{PLAN}}** terminou, suas aplicações foram removidas e será enviado um backup no seu e-mail e DM do Discord brevemente."
+    }
+}

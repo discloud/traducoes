@@ -1,0 +1,113 @@
+{
+    "apps": {
+        "desc": "Lists all the apps of a client."
+    },
+
+    "apt": {
+        "desc": "Install Packages on the linux instance of your Application."
+    },
+
+    "backup": {
+        "desc": "Back up your Application's files."
+    },
+
+    "cleardm": {
+        "desc": "Clear all messages sent by the bot in your direct messages."
+    },
+
+    "commit": {
+        "desc": "update your application files"
+    },
+
+    "dir": {
+        "desc": "View your application's directory structure"
+    },
+
+    "gift": {
+        "desc": "Activate a gift plan in DisCloud."
+    },
+
+    "git": {
+        "desc": "Synchronize a git repository to your application for automatic updates."
+    },
+
+    "help": {
+        "desc": "Lists all existing commands in the bot."
+    },
+
+    "start": {
+        "desc": "Start your application."
+    },
+
+    "memory": {
+        "desc": "Change the maximum RAM memory consumed by an application."
+    },
+
+    "mod": {
+        "desc": "Perform various functions related to the moderator system."
+    },
+
+    "stop": {
+        "desc": "Stop your application."
+    },
+
+    "ping": {
+        "desc": "View the latency of your application."
+    },
+
+    "plans": {
+        "desc": "View all available plans and their benefits."
+    },
+
+    "restart": {
+        "desc": "Restart your application."
+    },
+
+    "removeapp": {
+        "desc": "Delete your instance, deleting all data and settings."
+    },
+
+    "resetweek": {
+        "desc": "Reset the time when your app will shut down."
+    },
+
+    "status": {
+        "desc": "View the status of an application."
+    },
+
+    "subdomain": {
+        "desc": "Register or remove a subdomain in DisCloud."
+    },
+
+    "terminal": {
+        "desc": "Displays the terminal of your application."
+    },
+
+    "transfer": {
+        "desc": "Activate a plan by gift in DisCloud."
+    },
+
+    "up": {
+        "desc": "Upload in your app on DisCloud."
+    },
+
+    "upconfig": {
+        "desc": "Upload an application to the DisCloud with the discloud.config file."
+    },
+
+    "upsite": {
+        "desc": "Upload your site to the DisCloud."
+    },
+
+    "userinfo": {
+        "desc": "View a customer's information."
+    },
+    
+    "version": {
+        "desc": "Edit the version of the language used in your application."
+    },
+    
+    "autorestart": {
+        "desc": "Ativar e desativar autorestart da aplicação"
+    }
+}
