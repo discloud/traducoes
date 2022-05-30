@@ -1,6 +1,6 @@
 {
     "botlogs":{
-         "uponline": "<@{{user}}>a instância do seu bot **`{{botTag}}`** está on-line!",
+         "uponline": "<@{{user}}> a instância do seu bot **`{{botTag}}`** está on-line!",
          "commitrestart": "<@{{user}}> a instância do seu bot **`{{botTag}}`** foi atualizada e reiniciada com sucesso!",
          "enduser": "<@{{obj}}> `({{obj}})` saiu do servidor e suas aplicações foram removidas!",
          "ramkilled": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** foi desligada por falta de memória RAM!",
@@ -9,8 +9,8 @@
     },
 
     "sitelogs":{
-        "uponline": "<@{{user}}>a instância do seu site **`{{site}}.discloud.app`** está on-line!",
-        "commitrestart": "<@{{user}}>a instância do seu site **`{{site}}.discloud.app`** foi atualizada e reiniciada com sucesso!",
+        "uponline": "<@{{user}}> a instância do seu site **`{{site}}.discloud.app`** está on-line!",
+        "commitrestart": "<@{{user}}> a instância do seu site **`{{site}}.discloud.app`** foi atualizada e reiniciada com sucesso!",
         "ramkilled": "<@{{userID}}> a instância do seu site **`{{site}}.discloud.app`** foi desligada por falta de memória RAM!",
         "upsite":"<@{{userID}}> a instância do seu site **`{{site}}.discloud.app`** está on-line!",
         "commitsite":"<@{{userID}}> a instância do seu site **`{{site}}.discloud.app`** sofreu alterações e já está on-line!",
