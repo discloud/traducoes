@@ -1,113 +1,113 @@
 {
-    "apps": {
-        "desc": "Lista todas as aplicações de um cliente."
-    },
+  "apps": {
+    "desc": "Lista todas as aplicações de um cliente."
+  },
 
-    "apt": {
-        "desc": "Instalar Pacotes na instância linux da sua Aplicação."
-    },
+  "apt": {
+    "desc": "Instalar pacotes na instância Linux de uma aplicação."
+  },
 
-    "backup": {
-        "desc": "Fazer uma cópia de segurança dos arquivos da sua aplicação."
-    },
+  "backup": {
+    "desc": "Fazer uma cópia de segurança dos arquivos de uma aplicação."
+  },
 
-    "cleardm": {
-        "desc": "Limpar todas as mensagens enviadas pelo bot nas suas mensagens diretas."
-    },
+  "cleardm": {
+    "desc": "Limpar o histórico de mensagens diretas enviadas pelo BOT."
+  },
 
-    "commit": {
-        "desc": "Atualizar os arquivos da sua aplicação"
-    },
+  "commit": {
+    "desc": "Atualizar os arquivos de uma aplicação."
+  },
 
-    "dir": {
-        "desc": "Ver a estrutura do diretório da sua aplicação"
-    },
+  "dir": {
+    "desc": "Ver a estrutura do diretório da uma aplicação."
+  },
 
-    "gift": {
-        "desc": "Ativar um plano de presente na DisCloud."
-    },
+  "gift": {
+    "desc": "Ativar um plano de presente na DisCloud."
+  },
 
-    "git": {
-        "desc": "Sincronizar um repositório git á sua aplicação para atualizações automáticas."
-    },
+  "git": {
+    "desc": "Sincronizar um repositório git a uma aplicação para atualizações automáticas."
+  },
 
-    "help": {
-        "desc": "Lista todos os comandos existentes no bot."
-    },
+  "help": {
+    "desc": "Lista todos os comandos existentes no BOT."
+  },
 
-    "iniciar": {
-        "desc": "Iniciar a sua aplicação."
-    },
+  "iniciar": {
+    "desc": "Iniciar uma aplicação."
+  },
 
-    "memoria": {
-        "desc": "Mudar o máximo de memória RAM consumida por uma aplicação."
-    },
+  "memoria": {
+    "desc": "Mudar o máximo de memória RAM consumida por uma aplicação."
+  },
 
-    "mod": {
-        "desc": "Executar várias funções relacionadas ao sistema de moderadores."
-    },
+  "mod": {
+    "desc": "Executar várias funções relacionadas ao sistema de moderadores."
+  },
 
-    "parar": {
-        "desc": "Parar o seu aplicação."
-    },
+  "parar": {
+    "desc": "Parar uma aplicação."
+  },
 
-    "ping": {
-        "desc": "Ver a latência do aplicação."
-    },
+  "ping": {
+    "desc": "Ver a latência do BOT."
+  },
 
-    "planos": {
-        "desc": "Ver todos os planos disponiveis e seus benificios."
-    },
+  "planos": {
+    "desc": "Ver todos os planos disponíveis e seus benefícios."
+  },
 
-    "reiniciar": {
-        "desc": "Reiniciar a sua aplicação."
-    },
+  "reiniciar": {
+    "desc": "Reiniciar uma aplicação."
+  },
 
-    "removerapp": {
-        "desc": "Deletar sua instancia, apagando todos os dados e configurações."
-    },
+  "removerapp": {
+    "desc": "Apagar uma instância, dados e configurações da mesma."
+  },
 
-    "resetweek": {
-        "desc": "Resetar o tempo em que o seu aplicação vai desligar."
-    },
+  "resetweek": {
+    "desc": "Reiniciar o tempo em que a aplicação vai desligar."
+  },
 
-    "status": {
-        "desc": "Ver o status de um aplicação."
-    },
+  "status": {
+    "desc": "Ver o estado de uma aplicação."
+  },
 
-    "subdominio": {
-        "desc": "Registre ou remova um subdomínio na DisCloud."
-    },
+  "subdominio": {
+    "desc": "Registrar ou remover um subdomínio na DisCloud."
+  },
 
-    "terminal": {
-        "desc": "Mostra o terminal do seu aplicação."
-    },
+  "terminal": {
+    "desc": "Mostra o terminal da uma aplicação."
+  },
 
-    "transferir": {
-        "desc": "Ativar um plano por gift na DisCloud."
-    },
+  "transferir": {
+    "desc": "Transferir um plano para outro usuário."
+  },
 
-    "up": {
-        "desc": "Fazer upload no seu aplicação na DisCloud."
-    },
+  "up": {
+    "desc": "Fazer upload da uma aplicação."
+  },
 
-    "upconfig": {
-        "desc": "Fazer upload de uma aplicação na DisCloud com o arquivo discloud.config"
-    },
+  "upconfig": {
+    "desc": "Fazer upload de uma aplicação na DisCloud com o arquivo discloud.config"
+  },
 
-    "upsite": {
-        "desc": "Fazer upload no seu site na DisCloud."
-    },
+  "upsite": {
+    "desc": "Fazer o upload de um site na DisCloud."
+  },
 
-    "userinfo": {
-        "desc": "Ver a informação de um cliente."
-    },
-    
-    "version": {
-        "desc": "Editar a versão da linguagem usanda em sua aplicação."
-    },
+  "userinfo": {
+    "desc": "Ver as informações de um cliente."
+  },
 
-    "autorestart": {
-        "desc": "Ativar e desativar autorestart da aplicação"
-    }
+  "version": {
+    "desc": "Mudar a versão da linguagem usada na aplicação."
+  },
+
+  "autorestart": {
+    "desc": "Ativar ou desativar o autorestart de uma aplicação."
+  }
 }
