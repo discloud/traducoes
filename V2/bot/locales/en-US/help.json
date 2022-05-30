@@ -108,6 +108,6 @@
     },
     
     "autorestart": {
-        "desc": "Ativar e desativar autorestart da aplicação"
+        "desc": "Enable and disable application autorestart"
     }
 }
