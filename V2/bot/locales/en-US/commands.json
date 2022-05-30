@@ -1,193 +1,193 @@
 {
     "public": {
         "backup": {
-            "sembot": "Você não tem nenhuma aplicação hospedada. Para hospedar uma aplicação utilize o comando: `.upload`.",
-            "semid": "Digite o ID da aplicação que deseja fazer o backup - Exemplo: `.backup <ID_da_aplicação>`.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "semid": "Type the application ID you want to backup - Example: `.backup <application_ID>`.",
+            "iddiferente": "This ID is not the same as any of your applications.",
             "embed": {
-                "setAuthor": "Backup da sua aplicação.",
-                "setDescription": "Clique aqui",
-                "setFooter": "O link expira em 24 horas."
+                "setAuthor": "Backup your application.",
+                "setDescription": "Click here",
+                "setFooter": "The link expires in 24 hours."
             },
-            "dmFechado": "**Parece que seu DM está bloqueado, libere para poder utilizar o comando.**",
-            "semreg": "Sem registro no nosso banco de dados.",
-            "timeout": "Aguarde `{{minutes}}m e {{seconds}}s` para gerar um novo backup da sua aplicação.",
-            "gerando": "Estamos gerando o backup da sua aplicação, por favor aguarde... \n\t{{gen}}",
-            "gerar": "Estamos gerando o backup da sua aplicação...",
-            "erro": "Ocorreu uma falha ao obter os arquivos de backup da sua aplicação.",
-            "erro2": "Ocorreu uma falha ao tentar gerar o backup da sua aplicação.",
-            "erro3": "O backup da sua aplicação ultrapassa os `1GB`.",
-            "enviar": "O backup da sua aplicação `{{enviando}}` foi enviado no seu DM."
+            "dmFechado": "**It looks like your DM is locked, unlock to use the command.**",
+            "semreg": "There are no registry in my database.",
+            "timeout": "Wait `{{minutes}}m and {{seconds}}s` to generate a new backup of your application.",
+            "gerando": "We are generating your application backup, please wait... \n\t{{gen}}",
+            "gerar": "We are generating the backup of your application...",
+            "erro": "There was an error getting your application backup files.",
+            "erro2": "An error occurred while trying to backup your application.",
+            "erro3": "Your application backup cannot exceed `1GB` size",
+            "enviar": "Your application backup `{{enviando}}` was sent in your DM."
 
         },
 
         "apps": {
-            "semreg": "Sem registro no nosso banco de dados.",
-            "semAplicações": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
-            "dmBlock": "Parece que seu DM está bloqueado, libere para poder utilizar o comando.",
-            "container":"Offline por ultrapassar o limite de memória RAM.",
+            "semreg": "There are no registry in my database.",
+            "semAplicações": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "dmBlock": "**It looks like your DM is locked, unlock to use the command.**",
+            "container":"Offline for exceeding the RAM memory limit.",
             "embed": {
-                "nomeid": "Nome/ID",
-                "lang": "Linguagem",
-                "time": "Adicionada em",
-                "arquivo": "Arquivo principal",
-                "ram": "Memória RAM alocada",
-                "mods": "Moderadores",
-                "desliga": "Desliga",
-                "setFooter": "Página"
+                "nomeid": "Name/ID",
+                "lang": "Language",
+                "time": "Added in",
+                "arquivo": "Main file",
+                "ram": "RAM memory allocated",
+                "mods": "Moderators",
+                "desliga": "Turns off",
+                "setFooter": "Page"
             }
         },
 
         "cleardm": {
-            "erro": "Parece que seu DM está bloqueado, libere para poder utilizar o comando.",
-            "semmsg": "Não há nenhuma mensagem enviada pelo bot no seu DM.",
-            "deletingMsg": "Eliminando {{nMsgs}} mensagens em {{minutos}} minuto(s) e {{segundos}} segundos.",
-            "msgFinal": "Foram eliminadas as ultimas {{size}} mensagens enviadas pelo bot no seu DM.",
-            "errofinal": "Não foi possível deletar as mensagens devido a um erro."
+            "erro": "**It looks like your DM is locked, unlock to use the command.**",
+            "semmsg": "There is no message sent by the bot in your DM.",
+            "deletingMsg": "Cleaning {{nMsgs}} messages in {{minutos}} minute(s) and {{segundos}} seconds.",
+            "msgFinal": "The last {{size}} messages sent by the bot in your DM have been deleted.",
+            "errofinal": "Could not delete messages due to an error."
         },
 
         "commit": {
-            "semregistro": "Antes de você poder hospedar alguma aplicação, você deve se registrar no nosso site <http://discloudbot.com>.",
-            "sembots": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
-            "semid": "Digite o ID do bot que quer dar commit. - Exemplo: `.commit <ID_da_aplicação>`.",
-            "idinvalido": "Este ID não é igual a nenhuma das suas aplicações.",
-            "botparado": "A sua aplicação está desligada. Para ligar utilize: `.iniciar`.",
-            "killRam":"A sua aplicação foi desligada por falta de memória RAM alocada. Para alterar a memória RAM utilize: `.ram`.",
-            "canalduplo": "Você possui uma thread aberta para realizar commit ou upload da sua aplicação, aguarde até que o canal seja fechado para utilizar este comando novamente.",
+            "semregistro": "Before you can host any application, you must register on our website. <http://discloudbot.com>.",
+            "sembots": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "semid": "Type the ID of the bot you want to commit. - Example: `.commit <application_ID>`.",
+            "idinvalido": "This ID is not the same as any of your applications.",
+            "botparado": "Your application is offline. To turn on use: `.start`.",
+            "killRam":"Your application has been shut down due to lack of RAM memory. To change the RAM memory use: `.ram`.",
+            "canalduplo": "You have an open thread to commit or upload your application, wait until the channel is closed to use this command again.",
             "thread": {
-                "envie": "Envie o arquivo que quer fazer commit.",
-                "arquivoerro": "Há algo de errado com a sua instância, remova sua aplicação e envie novamente usando os comandos: `.removerapp` e em seguida `.upload`.",
-                "formato": "A extensão `.rar` não é aceita, utilize a extensão `.zip`.",
-                "aguarde": "Aguarde...",
-                "baixando": "Baixando arquivo(s).",
-                "baixandomsgerror": "Ocorreu um erro ao baixar o arquivo que você enviou, verifique se o arquivo não está corrompido e tente novamente.",
-                "ambiente": "Configurando ambiente.",
-                "amienteerror1": "Ocorreu um erro ao configurar o ambiente.",
-                "amienteerror2": "Entre em contato com a alguém da equipe para resolver esse erro.",
-                "reniciandobot": "Reiniciando a aplicação...",
-                "build": "Buildando aplicação...",
-                "packerro": "Identificamos um erro no seu arquivo `{{file}}`, corrija-o e tente novamente.",
-                "arquivos": "Os arquivos da sua aplicação foram atualizados com sucesso.",
-                "iniciali": "Configurando a inicialização.",
-                "time": "Você demorou tempo demais para enviar o anexo ou link do arquivo da sua aplicação",
-                "ficheiros": "Os arquivos da sua aplicação foram atualizados com sucesso."
+                "envie": "Send the file you want to commit.",
+                "arquivoerro": "There is something wrong with your instance, remove your application and resubmit using the commands: `.remove` and then `.upload`.",
+                "formato": "The extension `.rar` is not compatible, use the extension `.zip`.",
+                "aguarde": "Wait...",
+                "baixando": "Downloading file(s).",
+                "baixandomsgerror": "There was an error downloading the file you are sent, please check that the file is not corrupted and try again.",
+                "ambiente": "Configuring the environment.",
+                "amienteerror1": "An error occurred while configuring the environment.",
+                "amienteerror2": "Contact someone on the team to resolve this error.",
+                "reniciandobot": "Restarting an application...",
+                "build": "Building application...",
+                "packerro": "We've identified an error in your file `{{file}}`, fix it and try again.",
+                "arquivos": "Your application files have been successfully updated.",
+                "iniciali": "Configuring startup.",
+                "time": "You took too long to send your application file attachment or link.",
+                "ficheiros": "Your application files have been updated successfully."
             },
-            "wait": "Aguarde...",
-            "espaco": "Alocando espaço...",
-            "config": "Configurando o Ambiente...",
-            "start": "Configurando a inicialização...",
-            "fail": "{{falha}} a sua aplicação não pode ser iniciado porque uma falha no seu código foi detectada...",
+            "wait": "Wait...",
+            "espaco": "Allocating space...",
+            "config": "Configuring the environment....",
+            "start": "Configuring startup...",
+            "fail": "{{falha}} your application not may start because a failure in your code was not corrected...",
             "embed": {
-                "logs": "Logs da sua aplicação: {{app}}",
-                "link": "Clique aqui para ver o terminal da sua aplicação.",
-                "terminal": "Clique aqui para ver o terminal completo da sua aplicação."
+                "logs": "Your application logs: {{app}}",
+                "link": "Click here to see your application's terminal.",
+                "terminal": "Click here to see the complete terminal of your application."
             }
         },
 
         "delete": {
-            "semregistro": "Antes de você poder utilizar esse comando, você deve se registrar no nosso site <http://discloudbot.com>.",
-            "sembots": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
-            "semid": "Digite o ID da aplicação que você quer deletar arquivos ou pastas.`.",
-            "idinvalido": "Este ID não é igual a nenhuma das suas aplicações.",
-            "semcaminho": "Digite o caminho do arquivo ou pasta que quer deletar do diretório da sua aplicação.",
-            "principal": "Você não pode deletar o arquivo principal da sua aplicação.",
-            "invalidFolder": "Você não pode deletar a pasta {{folder}} do dirétorio da sua aplicação.",
-            "invalidFile": "Você não pode deletar o arquivo {{file}} do dirétorio da sua aplicação.",
-            "dockerFile": "Você não pode deletar esse arquivo.",
-            "invalidDirectory": "Caminho inválido.\nSe quiser deletar uma pasta coloque `/` no final do caminho e se for um arquivo coloque a extensão.",
-            "verifyFolder": "Você quer mesmo deletar a pasta `{{folder}}` e os seus `{{num}}` arquivos/pastas dentro?",
-            "verifyFile": "Você quer mesmo deletar o arquivo `{{file}}` definitivamente do diretório da sua aplicação?",
-            "success": "Arquivo(s) deletado(s) com sucesso.",
-            "successCancel": "A ação foi cancelada com sucesso.",
-            "timeOut": "Você demorou tempo demais a responder e a ação foi cancelada.",
-            "unknowError": "Ocorreu um erro ao deletar o arquivo/pasta, entre em contato com alguém da equipe."
+            "semregistro": "Before you can use this command, you must register on our website. <http://discloudbot.com>.",
+            "sembots": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "semid": "Type the ID of the application you want to delete files or folders.",
+            "idinvalido": "This ID is not the same as any of your applications.",
+            "semcaminho": "Type the path of the file or folder you want to delete your application folder.",
+            "principal": "You cannot delete your application's main file.",
+            "invalidFolder": "You cannot delete the {{folder}} folder of your application's director.",
+            "invalidFile": "You cannot delete the {{file}} file from your application's directory.",
+            "dockerFile": "You cannot delete this file.",
+            "invalidDirectory": "Invalid path.\nIf you want to delete a folder put `/` at the end of the path and if it is a file put the extension.",
+            "verifyFolder": "Do you really want to delete the `{{folder}}` folder and its `{{num}}` files/folders inside?",
+            "verifyFile": "Do you really want to delete the `{{file}}` file permanently from your application directory?",
+            "success": "File(s) deleted successfully.",
+            "successCancel": "The action was successfully canceled.",
+            "timeOut": "You took too long to respond and the action was canceled.",
+            "unknowError": "There was an error deleting the file/folder, please contact someone on the team."
         },
 
         "dir": {
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
-            "semid": "Digite o ID da aplicação que você quer ver o diretório.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
-            "zeroinstancia": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
-            "upnot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
-            "iddiretorio": "Digite o ID da aplicação que você quer ver o diretório.",
-            "idnobot": "O ID que digitou não é igual a nenhum dos seus bots.",
-            "lerdiretorio": "Lendo o diretório da sua aplicação...",
-            "errodir": "Ocorreu um erro ao listar o diretório da sua aplicação, entre em contato com alguém da equipe.",
-            "erroup": "Ocorreu um erro ao dar upload do diretório da sua aplicação, entre em contato com alguém da equipe.",
-            "dirinfo": "{{pastas}} pastas, {{arquivos}} arquivos",
-            "listallarch": "Listagem das pastas/arquivos da sua aplicação {{botname}}:",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "semid": "Type the ID of the application you want to see the directory.",
+            "iddiferente": "This ID is not the same as any of your applications.",
+            "zeroinstancia": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "upnot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "iddiretorio": "Type the ID of the application you want to see the directory.",
+            "idnobot": "The ID you typed is not the same as any of your bots.",
+            "lerdiretorio": "Reading your application directory...",
+            "errodir": "There was an error listing your application directory, please contact someone on the team.",
+            "erroup": "There was an error uploading your application directory, please contact someone on the team.",
+            "dirinfo": "{{pastas}} folders, {{arquivos}} files",
+            "listallarch": "Listing of your application folders/files {{botname}}:",
             "embed": {
-                "setAuthor": "Listagem de todas as pastas/arquivos da sua aplicação"
+                "setAuthor": "Listing of all folders/files in your application"
             },
-            "dmblock": "Parece que seu DM está bloqueado, libere para poder utilizar o comando.",
+            "dmblock": "**It looks like your DM is locked, unlock to use the command.**",
             "embed2": {
-                "hastebin": "Listagem das pastas/arquivos da sua aplicação.",
-                "setDescription": "Clique aqui.",
+                "hastebin": "Listing of your application folders/files.",
+                "setDescription": "Click here.",
                 "setFooter": "hosted with ❤ by DisCloud"
             },
-            "dir": "Diretório da aplicação {{dir}}:",
-            "deletar": "Tem certeza que quer deletar o diretório da sua aplicação?",
-            "arquivos": "Todos os arquivos dentro desta pasta serão deletados permanentemente.",
-            "action": "Esta ação é irreversível!",
+            "dir": "Application directory {{dir}}:",
+            "deletar": "Are you sure you want to delete your application directory?",
+            "arquivos": "All files inside this folder will be permanently deleted.",
+            "action": "This action is irreversible!",
             "collect": {
-                "pastadeletar": "A pasta `{{dir}}` foi deletada",
-                "arquivodeletar": "O arquivo `{{file}}` foi deletado."
+                "pastadeletar": "The folder `{{dir}}` was deleted",
+                "arquivodeletar": "The file `{{file}}` was deleted."
             },
             "end": {
-                "delay": "Você demorou muito tempo e a ação foi cancelada."
+                "delay": "You took too long and the action was canceled."
             },
-            "delay": "Você tem que esperar mais `{{minutes}}m e {{seconds}}s` para poder fazer um novo backup.",
-            "cancel": "A ação foi cancelada.",
-            "erro": "**Ocorreu um erro ao tentar gerar o backup da sua aplicação.**",
-            "backup": "O backup do arquivo/pasta da ua aplicação foi enviado no seu DM.",
+            "delay": "you have to wait `{{minutes}}m and {{seconds}}s` to perform the backup.",
+            "cancel": "The action has been canceled.",
+            "erro": "**An error occurred while trying to backup your application.**",
+            "backup": "Your application file/folder backup was sent in your DM.",
             "embedDesc": {
-                "diretorio": "Diretório:",
-                "tamanho": "Tamanho:",
-                "mod": "Última modificação:",
-                "folder": "Pastas:",
-                "src": "Arquivos:",
-                "line": "Linhas:",
-                "extend": "Extensão:"  
+                "diretorio": "Directory:",
+                "tamanho": "Size:",
+                "mod": "Last modification:",
+                "folder": "Folders:",
+                "src": "Files:",
+                "line": "Lines:",
+                "extend": "Extension:"  
             }
         },
 
         "help": {
-            "output": "= Lista de comandos =\n\n[Use .help <commandname> para mais detalhes]\n",
-            "use": "Uso",
+            "output": "= Command list =\n\n[Use .help <commandname> for more details]\n",
+            "use": "Use",
             "embed": {
-                    "cloud": "Comandos da DisCloud:",
+                    "cloud": "DisCloud commands:",
                     "host": "made with ❤️ by Discloud",
-                    "cmd": "Comando {{cmd}}",
-                    "desc": "Descrição:",
-                    "op": "Opções:",
-                    "uso": "Uso: **{{prefix}}{{config}}\n**",
-                    "ali": "Alternativas:"
+                    "cmd": "Command {{cmd}}",
+                    "desc": "Description:",
+                    "op": "Options:",
+                    "uso": "Use: **{{prefix}}{{config}}\n**",
+                    "ali": "Alternatives:"
 
 
             }
         },
 
         "iniciar": {
-            "bancolimpo": "Sem registro no nosso banco de dados",
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
-            "semid": "Digite o ID da aplicação que você quer iniciar.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
-            "ligado": "A sua aplicação já está ligada.",
-            "duploip": "Você registrou duas contas diferentes na DisCloud, entre em contato com a equipe pela DM do @ModMail.",
-            "limitefree": "O limite de aplicações no Plano Free foi atingido, tente novamente mais tarde ou compre algum dos nossos planos e hospede sua aplicação agora sem limites.",
-            "startingbot": "Iniciando a sua aplicação...",
-            "error": "Há algo de errado com a sua instância, remova sua aplicação e envie novamente usando os comandos: `.removerapp` e em seguida `.upload`.",
-            "aguar": "Aguarde..",
-            "iniciarerro": "Ocorreu um erro ao iniciar a sua aplicação.",
-            "sucesso": "A sua aplicação foi iniciada com sucesso.",
-            "aguardarCMD": "Você já utilizou um comando anteriormente e ele ainda está em processamento, aguarde ele finalizar para utilizar outro."
+            "bancolimpo": "There are no registry in my database.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+            "semid": "Type the ID of the application you want started.",
+            "iddiferente": "This ID is not the same as any of your applications.",
+            "ligado": "Your application is now online.",
+            "duploip": "You have registered two different accounts on DisCloud, contact the team via @ModMail DM.",
+            "limitefree": "The application limit in the Free Plan has been reached, try again later or buy one of our plans and host your application now without limits.",
+            "startingbot": "Starting your application...",
+            "error": "There is something wrong with your instance, remove your application and resubmit using the commands: `.remove` and then `.upload`.",
+            "aguar": "Wait...",
+            "iniciarerro": "There was an error starting your application.",
+            "sucesso": "Your application has started successfully.",
+            "aguardarCMD": "You have already used a command before and it is still processing, wait for it to finish before using another."
         },
 
         "parar": {
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Digite o ID da aplicação que você quer desligar.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
-            "parado": "A sua aplicação já está desligada, para ligar utilize o comando: `.iniciar`.",
+            "iddiferente": "This ID is not the same as any of your applications.",
+            "parado": "A sua aplicação já está desligada, para ligar utilize o comando: `.start`.",
             "dirvazio": "O diretório da sua aplicação está vazio.",
             "aguar": "Aguarde...",
             "erro": "Ocorreu um erro ao desligar a sua aplicação.",
@@ -216,8 +216,8 @@
             "registro": "Antes de você poder hospedar alguma aplicação, você deve se registrar no nosso site <http://discloudbot.com>.",
             "recurso": "A integração com o GIT só está disponível para doadores `Carbon` ou superiores.",
             "id": "Digite o ID da aplicação que deseja vincular...",
-            "invalido": "Este ID não é igual a nenhuma das suas aplicações.",
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "invalido": "This ID is not the same as any of your applications.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "url":"Digite a URL do seu repositório.",
             "ex": "Exemplo:",
             "git": "https://github.com/pedroricardo/test.git",
@@ -236,13 +236,13 @@
             "tempo": "Você demorou muito tempo para digitar o ID da sua aplicação.",
             "verifyurl": "Aguarde enquanto analisamos a URL do repositório.",
             "reset": "O seu token foi resetado com sucesso.",
-            "dm": "Parece que seu DM está bloqueado, libere para poder utilizar o comando."
+            "dm": "**It looks like your DM is locked, unlock to use the command.**"
         },
 
         "memoria": {
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Digite o ID da aplicação que você quer alterar a memória RAM.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
+            "iddiferente": "This ID is not the same as any of your applications.",
             "verificardoador": "Alterar a memória usado pelas aplicações só está disponível para doadores `Carbon` ou superiores.",
             "semregistro": "Não há registro dessa aplicação no nosso nosso banco de dados.",
             "quantmemoria": "Digite o número de memória que quer colocar no bot - Exemplo: `.ram 200`.",
@@ -263,12 +263,12 @@
         },
 
         "mods": { 
-            "dbregistro": "Sem registro no nosso banco de dados.",
+            "dbregistro": "There are no registry in my database.",
             "doe": "Digite uma opção para executar.",
             "did": "Digite o ID da aplicação.",
             "cmd": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
             "modadd": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
-            "nbh": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "nbh": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "ownerbot": "Essa aplicação não pertence a você.",
             "limitmax": "Essa aplicação já atingiu o máximo de moderadores possíveis.",
             "idmodadd": "Digite o ID do usuário que quer adicionar como moderador da sua aplicação.",
@@ -340,10 +340,10 @@
         },
 
         "reiniciar": {
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Digite o ID da aplicação que quer reiniciar.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
-            "parado": "A sua aplicação está desligada para iniciar utilize o comando: `.iniciar`.",
+            "iddiferente": "This ID is not the same as any of your applications.",
+            "parado": "A sua aplicação está desligada para iniciar utilize o comando: `.start`.",
             "dirvazio": "O diretório da sua aplicação está vazio.",
             "aguar": "Aguarde...",
             "erro": "Ocorreu um erro ao reiniciar a sua aplicação.",
@@ -351,25 +351,25 @@
         },
 
         "removerbot": {
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Digite o ID da aplicação que quer remover.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
+            "iddiferente": "This ID is not the same as any of your applications.",
             "aguar": "Aguarde...",
             "sucesso": "A sua aplicação foi removida com sucesso."
         },
 
         "resetweek":{
             "sfree": "Resetar o timer das aplicações só está disponível para usuários do plano `Free`.",
-            "nohost": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "nohost": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "sucesso": "O timer da sua aplicação foi resetado com sucesso para:",
             "error": "Ocorreu um erro ao resetar o timer da sua aplicação."
         },
 
         "status": {
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Digite o ID da aplicação que quer ver as estatisticas.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
-            "parado": "A sua aplicação está desligada para iniciar utilize o comando: `.iniciar`.",
+            "iddiferente": "This ID is not the same as any of your applications.",
+            "parado": "A sua aplicação está desligada para iniciar utilize o comando: `.start`.",
             "carregandostatus": "Carregando as estatísticas da sua aplicação...",
             "killRam": "A sua aplicação foi desligada por falta de memória RAM alocada. Para alterar a memória RAM utilize: `.ram`",
             "time": {
@@ -400,15 +400,15 @@
         },
 
         "terminal": {
-            "sembot": "Você ainda não hospedou nenhuma aplicação. Para hospedar uma aplicação utilize o comando `.upload`.",
+            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Digite o ID da aplicação que quer ver os logs.",
-            "iddiferente": "Este ID não é igual a nenhuma das suas aplicações.",
+            "iddiferente": "This ID is not the same as any of your applications.",
             "parado": "Sua aplicação está desligada e não possue logs armazenados.",
             "embedDiscord": {
                 "setTitle": "Terminal da aplicação {{tag}}",
                 "setFooter": "Últimos 2000 caracteres do terminal da aplicação {{tag}}",
                 "sendDM": "Os logs da sua aplicação foram enviados na sua DM.",
-                "dmBlock": "Parece que seu DM está bloqueado, libere para poder utilizar o comando."
+                "dmBlock": "**It looks like your DM is locked, unlock to use the command.**"
             },
             "embedDM": {
                 "setTitle": "Terminal do bot {{tag}}",
@@ -479,7 +479,7 @@
                 "iniciaconfig": "Configurando a inicialização..",
                 "iniciaconfig2": "A sua aplicação está sendo inicializada.",
                 "iniciado": "A sua aplicação foi ligada..",
-                "idinvalido": "Este ID não é igual a nenhuma das suas aplicações.",
+                "idinvalido": "This ID is not the same as any of your applications.",
                 "errosfinais": {
                     "tempozip": "Você demorou muito empo para enviar o anexo ou link do arquivo da sua aplicação.",
                     "tempomain": "Você demorou muito tempo para digitar o nome do arquivo principal da aplicação.",
