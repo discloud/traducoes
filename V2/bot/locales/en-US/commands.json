@@ -215,7 +215,7 @@
         "git": {
             "registro": "Before you can use this command, you must register on our website. <http://discloudbot.com>.",
             "recurso": "Integration with GIT is only available to `Carbon` donors or superiors.",
-            "id": "Digite o ID da aplicação que deseja vincular...",
+            "id": "Enter the application ID you want to link...",
             "invalido": "This ID is not the same as any of your applications.",
             "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "url":"Enter your repository URL.",
