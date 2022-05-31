@@ -266,7 +266,7 @@
       "cmd": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
       "modadd": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
       "nbh": "Você ainda não tem nenhuma aplicação hospedada nos nossos sistemas, use `.upload` para realizar o mesmo.",
-      "ownerbot": "Essa aplicação não pertence a você.",
+      "ownerbot": "Essa aplicação não lhe pertence.",
       "limitmax": "Essa aplicação já atingiu o máximo de moderadores possíveis.",
       "idmodadd": "Digite o ID do usuário que deseja adicionar como moderador da sua aplicação.",
       "memnosv": "Esse usuário não está no servidor.",
@@ -276,20 +276,20 @@
       "addmodbot": "O usuário `{{user}}` foi adicionado a moderador da sua aplicação.",
       "rbmod": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
       "idmodrb": "Digite o ID do moderador que deseja remover da sua aplicação.",
-      "mmb": "Esse usuário não é moderador da sua aplicação.",
+      "mmb": "Esse usuário não é um moderador da sua aplicação.",
       "modrb": "O usuário foi removido com sucesso.",
       "addpermbot": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
       "altpermmod": "Digite o ID do moderador que deseja alterar as permissões.",
       "cmdaddperm": "Digite o nome do comando que deseja adicionar/remover das permissões do moderador.",
       "viewlogmod": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
-      "logmod": "Logs de moderação do bot {{appName}}",
+      "logmod": "Logs de moderação da aplicação {{appName}}",
       "listmod": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
-      "listbotmod": "Lista de moderadores da aplicação",
+      "listbotmod": "Lista de moderadores da aplicação.",
       "modnobot": "Você não é moderador dessa aplicação.",
       "noperm": "Você não tem permissão para executar esse comando nessa aplicação.",
       "invalcmd": "Comando inválido, tente:",
-      "rpmod": "foi **removida** a permissão do uso do comando {{comando}} do moderador <@{{modID}}>.",
-      "adpmod": "foi **adicionada** a permissão do uso do comando {{comando}} ao moderador <@${{modID}}>.",
+      "rpmod": "Foi **removida** a permissão do uso do comando {{comando}} do moderador <@{{modID}}>.",
+      "adpmod": "Foi **adicionada** a permissão do uso do comando {{comando}} ao moderador <@${{modID}}>.",
       "listbotmod2": "Lista de moderadores do bot {{appName}}:",
       "opcinval": "Opção inválida, tente: **add, iniciar, list, logs, parar, perm, reiniciar, remove, terminal**.",
       "mod": "Moderador:",
@@ -298,7 +298,7 @@
     },
 
     "gift": {
-      "block": "Você foi bloqueado por tentativa de burlar esse comando..",
+      "block": "Você foi bloqueado por tentativa de burlar esse comando.",
       "waittwo": "Aguarde um tempo antes de ativar um plano novamente.",
       "waitone": "Aguarde um tempo antes de ativar um plano novamente.",
       "digitecode": "Digite o código para ativar o seu plano.",
@@ -390,7 +390,6 @@
       "embed": {
         "setFooter": "Use"
       },
-
       "embedAll": {
         "setFooter": "Página"
       }
@@ -398,7 +397,7 @@
 
     "terminal": {
       "sembot": "Você ainda não tem nenhuma aplicação hospedada nos nossos sistemas, use `.upload` para realizar o mesmo.",
-      "semid": "Digite o ID da aplicação que deseja ver os logs.",
+      "semid": "Digite o ID da aplicação que deseja ver as logs.",
       "iddiferente": "Este ID não é igual a nenhum das suas aplicações.",
       "parado": "A sua aplicação está desligada e não possui logs armazenadas.",
       "embedDiscord": {
@@ -437,6 +436,7 @@
         "meminval": "Quantidade de memória RAM inválida.",
         "zipinvalido": "O seu arquivo Zip é inválido."
       },
+
       "memoria": {
         "NaN": "A quantidade de memória informada não é um número.",
         "valor": "O valor da memória RAM da sua aplicação tem de ser `100MB` ou mais.",
@@ -446,6 +446,7 @@
         "aguarde": "**Aguarde...**",
         "espaco": "Alocando espaço..."
       },
+
       "thread": {
         "pergunta1": "Digite o ID da sua aplicação.",
         "indinvalido": "ID da aplicação: **{{botID}}** - ID inválido",
@@ -511,7 +512,7 @@
         "ambiente": "Configurando o Ambiente.",
         "build": "Buildando aplicação.",
         "start": "Configurando a inicialização...",
-        "fail": "{{autor}} a sua aplicação não pode ser iniciado, porque uma falha no seu código foi detectada..."
+        "fail": "{{autor}} a sua aplicação não pode ser iniciado porque uma falha no seu código foi detectada..."
       }
     },
 
@@ -550,7 +551,7 @@
         "corrigir": "corrija-o e tente novamente.",
         "ambiente": "Ocorreu um erro ao configurar o ambiente.\nEntre em contato com a alguém da equipe para resolver esse erro.",
         "fail": "{{user}} a sua aplicação não pode ser iniciada porque uma falha no seu código foi detectada...",
-        "cluster": "Identificamos ima falha interna no {{cluster}}, reporte este erro imediatamente para a equipe pela DM do @ModMail, \nError 201"
+        "cluster": "Identificamos uma falha interna no {{cluster}}, reporte este erro imediatamente para a equipe pela DM do @ModMail, \nError 201"
       },
       "errosfinais": {
         "anexo": "Você demorou muito tempo para enviar o anexo ou link do arquivo da sua aplicação.",
@@ -567,7 +568,7 @@
       "endin": "Termina",
       "embed": {
         "nome": "Nome/ID:",
-        "blacklist": "Blocklisted:",
+        "blacklist": "Blacklisted:",
         "bot": "Bots:",
         "plano": "Plano:",
         "f": "Gratuito",
