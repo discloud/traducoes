@@ -568,7 +568,7 @@
       "endin": "Termina",
       "embed": {
         "nome": "Nome/ID:",
-        "blacklist": "Blacklisted:",
+        "blacklist": "Blocklisted:",
         "bot": "Bots:",
         "plano": "Plano:",
         "f": "Gratuito",
