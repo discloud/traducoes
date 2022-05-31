@@ -10,7 +10,7 @@
                 "setFooter": "The link expires in 24 hours."
             },
             "dmFechado": "**It looks like your DM is locked, unlock to use the command.**",
-            "semreg": "There are no registry in our database.",
+            "semreg": "There are no registry in my database.",
             "timeout": "Wait `{{minutes}}m and {{seconds}}s` to generate a new backup of your application.",
             "gerando": "We are generating your application backup, please wait... \n\t{{gen}}",
             "gerar": "We are generating the backup of your application...",
@@ -22,7 +22,7 @@
         },
 
         "apps": {
-            "semreg": "There are no registry in our database.",
+            "semreg": "There are no registry in my database.",
             "semAplicações": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "dmBlock": "**It looks like your DM is locked, unlock to use the command.**",
             "container":"Offline for exceeding the RAM memory limit.",
@@ -105,82 +105,82 @@
 
         "dir": {
             "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
-            "semid": "Digite o ID da aplicação que você quer ver o diretório.",
+            "semid": "Type the ID of the application you want to see the directory.",
             "iddiferente": "This ID is not the same as any of your applications.",
             "zeroinstancia": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "upnot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
-            "iddiretorio": "Digite o ID da aplicação que você quer ver o diretório.",
-            "idnobot": "O ID que digitou não é igual a nenhum dos seus bots.",
-            "lerdiretorio": "Lendo o diretório da sua aplicação...",
-            "errodir": "Ocorreu um erro ao listar o diretório da sua aplicação, entre em contato com alguém da equipe.",
-            "erroup": "Ocorreu um erro ao dar upload do diretório da sua aplicação, entre em contato com alguém da equipe.",
-            "dirinfo": "{{pastas}} pastas, {{arquivos}} arquivos",
-            "listallarch": "Listagem das pastas/arquivos da sua aplicação {{botname}}:",
+            "iddiretorio": "Type the ID of the application you want to see the directory.",
+            "idnobot": "The ID you typed is not the same as any of your bots.",
+            "lerdiretorio": "Reading your application directory...",
+            "errodir": "There was an error listing your application directory, please contact someone on the team.",
+            "erroup": "There was an error uploading your application directory, please contact someone on the team.",
+            "dirinfo": "{{pastas}} folders, {{arquivos}} files",
+            "listallarch": "Listing of your application folders/files {{botname}}:",
             "embed": {
-                "setAuthor": "Listagem de todas as pastas/arquivos da sua aplicação"
+                "setAuthor": "Listing of all folders/files in your application"
             },
             "dmblock": "**It looks like your DM is locked, unlock to use the command.**",
             "embed2": {
-                "hastebin": "Listagem das pastas/arquivos da sua aplicação.",
-                "setDescription": "Clique aqui.",
+                "hastebin": "Listing of your application folders/files.",
+                "setDescription": "Click here.",
                 "setFooter": "hosted with ❤ by DisCloud"
             },
-            "dir": "Diretório da aplicação {{dir}}:",
-            "deletar": "Tem certeza que quer deletar o diretório da sua aplicação?",
-            "arquivos": "Todos os arquivos dentro desta pasta serão deletados permanentemente.",
-            "action": "Esta ação é irreversível!",
+            "dir": "Application directory {{dir}}:",
+            "deletar": "Are you sure you want to delete your application directory?",
+            "arquivos": "All files inside this folder will be permanently deleted.",
+            "action": "This action is irreversible!",
             "collect": {
-                "pastadeletar": "A pasta `{{dir}}` foi deletada",
-                "arquivodeletar": "O arquivo `{{file}}` foi deletado."
+                "pastadeletar": "The folder `{{dir}}` was deleted",
+                "arquivodeletar": "The file `{{file}}` was deleted."
             },
             "end": {
-                "delay": "Você demorou muito tempo e a ação foi cancelada."
+                "delay": "You took too long and the action was canceled."
             },
-            "delay": "Você tem que esperar mais `{{minutes}}m e {{seconds}}s` para poder fazer um novo backup.",
-            "cancel": "A ação foi cancelada.",
-            "erro": "**Ocorreu um erro ao tentar gerar o backup da sua aplicação.**",
-            "backup": "O backup do arquivo/pasta da ua aplicação foi enviado no seu DM.",
+            "delay": "you have to wait `{{minutes}}m and {{seconds}}s` to perform the backup.",
+            "cancel": "The action has been canceled.",
+            "erro": "**An error occurred while trying to backup your application.**",
+            "backup": "Your application file/folder backup was sent in your DM.",
             "embedDesc": {
-                "diretorio": "Diretório:",
-                "tamanho": "Tamanho:",
-                "mod": "Última modificação:",
-                "folder": "Pastas:",
-                "src": "Arquivos:",
-                "line": "Linhas:",
-                "extend": "Extensão:"  
+                "diretorio": "Directory:",
+                "tamanho": "Size:",
+                "mod": "Last modification:",
+                "folder": "Folders:",
+                "src": "Files:",
+                "line": "Lines:",
+                "extend": "Extension:"  
             }
         },
 
         "help": {
-            "output": "= Lista de comandos =\n\n[Use .help <commandname> para mais detalhes]\n",
-            "use": "Uso",
+            "output": "= Command list =\n\n[Use .help <commandname> for more details]\n",
+            "use": "Use",
             "embed": {
-                    "cloud": "Comandos da DisCloud:",
+                    "cloud": "DisCloud commands:",
                     "host": "made with ❤️ by Discloud",
-                    "cmd": "Comando {{cmd}}",
-                    "desc": "Descrição:",
-                    "op": "Opções:",
-                    "uso": "Uso: **{{prefix}}{{config}}\n**",
-                    "ali": "Alternativas:"
+                    "cmd": "Command {{cmd}}",
+                    "desc": "Description:",
+                    "op": "Options:",
+                    "uso": "Use: **{{prefix}}{{config}}\n**",
+                    "ali": "Alternatives:"
 
 
             }
         },
 
         "iniciar": {
-            "bancolimpo": "Sem registro no nosso banco de dados",
+            "bancolimpo": "There are no registry in my database.",
             "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
-            "semid": "Digite o ID da aplicação que você quer iniciar.",
+            "semid": "Type the ID of the application you want started.",
             "iddiferente": "This ID is not the same as any of your applications.",
-            "ligado": "A sua aplicação já está ligada.",
-            "duploip": "Você registrou duas contas diferentes na DisCloud, entre em contato com a equipe pela DM do @ModMail.",
-            "limitefree": "O limite de aplicações no Plano Free foi atingido, tente novamente mais tarde ou compre algum dos nossos planos e hospede sua aplicação agora sem limites.",
-            "startingbot": "Iniciando a sua aplicação...",
-            "error": "Há algo de errado com a sua instância, remova sua aplicação e envie novamente usando os comandos: `.removerapp` e em seguida `.upload`.",
-            "aguar": "Aguarde..",
-            "iniciarerro": "Ocorreu um erro ao iniciar a sua aplicação.",
-            "sucesso": "A sua aplicação foi iniciada com sucesso.",
-            "aguardarCMD": "Você já utilizou um comando anteriormente e ele ainda está em processamento, aguarde ele finalizar para utilizar outro."
+            "ligado": "Your application is now online.",
+            "duploip": "You have registered two different accounts on DisCloud, contact the team via @ModMail DM.",
+            "limitefree": "The application limit in the Free Plan has been reached, try again later or buy one of our plans and host your application now without limits.",
+            "startingbot": "Starting your application...",
+            "error": "There is something wrong with your instance, remove your application and resubmit using the commands: `.remove` and then `.upload`.",
+            "aguar": "Wait...",
+            "iniciarerro": "There was an error starting your application.",
+            "sucesso": "Your application has started successfully.",
+            "aguardarCMD": "You have already used a command before and it is still processing, wait for it to finish before using another."
         },
 
         "parar": {
@@ -263,7 +263,7 @@
         },
 
         "mods": { 
-            "dbregistro": "There are no registry in our database.",
+            "dbregistro": "There are no registry in my database.",
             "doe": "Digite uma opção para executar.",
             "did": "Digite o ID da aplicação.",
             "cmd": "O sistema de moderadores só está disponível para doadores `Gold` ou superiores.",
