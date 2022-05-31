@@ -183,33 +183,33 @@
             "aguardarCMD": "You have already used a command before and it is still processing, wait for it to finish before using another."
         },
 
-        "parar": {
-            "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
-            "semid": "Digite o ID da aplicação que você quer desligar.",
-            "iddiferente": "This ID is not the same as any of your applications.",
-            "parado": "A sua aplicação já está desligada, para ligar utilize o comando: `.start`.",
-            "dirvazio": "O diretório da sua aplicação está vazio.",
-            "aguar": "Aguarde...",
-            "erro": "Ocorreu um erro ao desligar a sua aplicação.",
-            "sucesso": "A sua aplicação foi desligada com sucesso."
+       "parar": {
+         "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
+         "semid": "Send the ID of the application that you want to turn off",
+         "iddiferente": "This ID is not the same as any of your applications.",
+         "parado": "Your application is already off, to turn on use the command: `.start`.",
+         "dirvazio": "The directory of your application is empty.",
+         "aguar": "Hold on...",
+         "erro": "An error occurred while shutting down your application.",
+         "sucesso": "Your application was turned off with success."
         },
 
-        "planos": {
-            "sim": "Sim",
-            "nao": "Não",
-            "nome": "Nome",
-            "memoria": "Memória RAM",
-            "maxbots": "Máximo de aplicações",
-            "preco": "Preço",
-            "mes": "mês",
-            "maxmods": "Máximo de moderadores",
-            "git": "Integração com GIT",
-            "limit": "Hospedar sem limites",
-            "renew": "Timer da aplicação",
-            "embed": {
-                "setAuthor": "Planos da DisCloud",
-                "setFooter": "Páginas"
-            }
+       "planos": {
+         "sim": "Yes",
+         "nao": "No",
+         "nome": "Name",
+         "memoria": "RAM Memory",
+         "maxbots": "Maximum of applications",
+         "preco": "Price",
+         "mes": "month",
+         "maxmods": "Maximum of moderators",
+         "git": "GIT Integration",
+         "limit": "Host without limits",
+         "renew": "Application timer",
+         "embed": {
+             "setAuthor": "DisCloud",
+              "setFooter": "Pages"
+               }
         },
 
         "git": {
