@@ -9,7 +9,7 @@
                 "setDescription": "Click here",
                 "setFooter": "The link expires in 24 hours."
             },
-            "dmFechado": "**It looks like your DM is locked, unlock to use the command.**",
+            "dmFechado": "You must have DMs enabled to use the command.",
             "semreg": "There are no registry in my database.",
             "timeout": "Wait `{{minutes}}m and {{seconds}}s` to generate a new backup of your application.",
             "gerando": "We are generating your application backup, please wait... \n\t{{gen}}",
@@ -24,7 +24,7 @@
         "apps": {
             "semreg": "There are no registry in my database.",
             "semAplicações": "You don't have any hosted applications. To host an application use the command: `.upload`.",
-            "dmBlock": "**It looks like your DM is locked, unlock to use the command.**",
+            "dmBlock": "You must have DMs enabled to use the command.",
             "container":"Offline for exceeding the RAM memory limit.",
             "embed": {
                 "nomeid": "Name/ID",
@@ -39,7 +39,7 @@
         },
 
         "cleardm": {
-            "erro": "**It looks like your DM is locked, unlock to use the command.**",
+            "erro": "You must have DMs enabled to use the command.",
             "semmsg": "There is no message sent by the bot in your DM.",
             "deletingMsg": "Cleaning {{nMsgs}} messages in {{minutos}} minute(s) and {{segundos}} seconds.",
             "msgFinal": "The last {{size}} messages sent by the bot in your DM have been deleted.",
@@ -119,7 +119,7 @@
             "embed": {
                 "setAuthor": "Listing of all folders/files in your application"
             },
-            "dmblock": "**It looks like your DM is locked, unlock to use the command.**",
+            "dmblock": "You must have DMs enabled to use the command.",
             "embed2": {
                 "hastebin": "Listing of your application folders/files.",
                 "setDescription": "Click here.",
@@ -234,7 +234,7 @@
             "tempo": "You took too long to send your application ID.",
             "verifyurl": "Please wait while we review the repository URL.",
             "reset": "Your token has been successfully reset.",
-            "dm": "**It looks like your DM is locked, unlock to use the command.**"
+            "dm": "You must have DMs enabled to use the command."
         },
 
         "memoria": {
@@ -406,7 +406,7 @@
                 "setTitle": "Application terminal {{tag}}",
                 "setFooter": "Last 2000 characters of application terminal {{tag}}",
                 "sendDM": "Your application logs have been sent to your DM.",
-                "dmBlock": "**It looks like your DM is locked, unlock to use the command.**"
+                "dmBlock": "You must have DMs enabled to use the command."
             },
             "embedDM": {
                 "setTitle": "Bot terminal {{tag}}",
@@ -521,7 +521,7 @@
             "main": "Main file:",
             "ram": "RAM memory:",
             "anexo": "**Send the attachment or link to your application files at .zip",
-            "porta": "USE THE DOOR `8080` in your application.",
+            "porta": "USE PORT `8080` in your application.",
             "ramsite": "**Send the number of RAM memory in MB you want to put in your application...**",
             "file": "**Send the name of your application main file.\nExamples: `server.js`, `main.py`, `server.jar`, `site.rb`,`index.php`, `index.html`**",
             "espaco": "Allocating space.",
