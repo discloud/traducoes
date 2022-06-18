@@ -418,7 +418,7 @@
       "ip": "Você registrou duas contas diferentes na DisCloud, entre em contato com a equipe pela DM do @ModMail.",
       "limite": "Você atingiu o limite de aplicações que pode hospedar ou você alocou toda a memória RAM disponível do seu plano.",
       "limite2": "Se ainda não tem um dos nossos planos, adquira um plano para liberar mais recursos.",
-      "mblivre": "Você precisa de ter pelo menos 100MB livres para hospedar uma aplicação e só lhe restam",
+      "mblivre": "Você precisa de ter pelo menos 100MB livres para hospedar uma aplicação e você está a usar",
       "free": "Você só pode hospedar uma aplicação no plano Free.",
       "limitefree": "O limite de aplicações no Plano Free foi atingido, tente novamente mais tarde ou compre algum dos nossos planos e hóspede a sua aplicação agora sem limites.",
       "canalduplo": "Você possui uma thread aberta para realizar commit ou upload da sua aplicação, aguarde até que o canal seja fechado para utilizar este comando novamente.",
