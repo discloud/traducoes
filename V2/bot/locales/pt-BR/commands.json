@@ -427,6 +427,8 @@
       "idinvalido": "Esse ID é inválido.",
       "botregister": "Esse ID é de uma aplicação que já está hospeda.",
       "nobotid": "O ID que você forneceu não é de uma aplicação.",
+      "discloudconfig": "O arquivo `discloud.config` não foi encontrado dentro do `.zip` enviado acima.",
+      "discloudconfigsintax": "Encontramos um erro dentro do  arquivo `discloud.config`, verifique se colocou as informações corretamente.",
       "msgedit": {
         "id": "ID da aplicação:",
         "arquivo": "Digite o nome do arquivo principal da sua aplicação.",
