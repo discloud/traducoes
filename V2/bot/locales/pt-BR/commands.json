@@ -539,6 +539,7 @@
         "limite": "**Você atingiu o limite de aplicações que pode hospedar ou você alocou toda a memória RAM disponível do seu plano.",
         "plano": "\nSe ainda não tem um dos nossos planos, faça uma doação para liberar mais recursos.",
         "sub": "Você ainda não possui nenhum subdomínio aprovado ou disponível para uso.",
+        "n": "Você não registrou o subdomínio `{{sb}}`.",
         "thread": "Você possui uma thread aberta para realizar commit ou upload da sua aplicação, aguarde até que o canal seja fechado para utilizar este comando novamente.",
         "canal": "Siga as instruções do canal:",
         "ramsite": "O valor da memória RAM da sua aplicação tem de ser `512MB` ou mais.",

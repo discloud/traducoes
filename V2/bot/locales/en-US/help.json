@@ -109,5 +109,8 @@
     
     "autorestart": {
         "desc": "Enable and disable application autorestart"
-    }
+    },
+    "api": {
+    "desc": "Generate token for using the Discloud API."
+  }
 }

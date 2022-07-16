@@ -537,6 +537,7 @@
                 "limite": "**You've reached the limit of application you can host or you've allocated all of your plans available RAM.",
                 "plano": "\nIf you don't already have one of our plans, make a donation to unlock more resources.",
                 "sub": "You do not yet have any subdomains approved or available for use.",
+                "n": "You did not register the subdomain `{{sb}}`.",
                 "thread": "You have an open thread to commit or upload your application, wait until the channel is closed to use this command again.",
                 "canal": "Follow channel instructions:",
                 "ramsite": "Your application RAM value must be `512MB` or more.",
