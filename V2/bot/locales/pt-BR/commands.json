@@ -138,7 +138,7 @@
       "delay": "Você tem que esperar mais `{{minutes}}m e {{seconds}}s` para poder fazer um novo backup.",
       "cancel": "A ação foi cancelada.",
       "erro": "**Ocorreu um erro ao tentar gerar o backup da sua aplicação.**",
-      "backup": "O backup do arquivo/pasta da ua aplicação foi enviado no seu DM.",
+      "backup": "O backup do arquivo/pasta foi gerado e enviado.",
       "embedDesc": {
         "diretorio": "Diretório:",
         "tamanho": "Tamanho:",
