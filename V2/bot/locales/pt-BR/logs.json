@@ -4,7 +4,7 @@
          "commitrestart": "<@{{user}}> a instância do seu bot **`{{botTag}}`** foi atualizada e reiniciada com sucesso!",
          "enduser": "<@{{obj}}> `({{obj}})` saiu do servidor e suas aplicações foram removidas!",
          "ramkilled": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** foi desligada por falta de memória RAM!",
-         "bottimeout": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** no plano free foi desligada por inatividade!"
+         "bottimeout": "<@{{userID}}> a instância do seu bot **`{{botTag}} ({{botID}})`** no plano Free foi desligada por inatividade!"
 
     },
 
