@@ -1,0 +1,351 @@
+{
+  "title": "DisCloud | en-US",
+  "templates": {
+    "main": {
+      "section_hero": {
+        "main_titles": {
+          "bot": "Your Bot",
+          "website": "Your Site",
+          "api": "Your API"
+        },
+        "title": "Online Now!",
+        "description": "A service made to host all your apps with free TLS certificates, global CDN, DDoS protection and automatic deployments with Git.",
+        "status": {
+          "users": "Total Users",
+          "sites": "Hosted Sites",
+          "bots": "Hosted Bots"
+        }
+      },
+      "section_tech": {
+        "title": "About Us",
+        "description": {
+          "first": {
+            "1_normal": "We are the ",
+            "2_strong": "first ",
+            "3_normal": "cloud platform ",
+            "4_strong": "specializing ",
+            "5_normal": "in Discord applications. Our services are based on a flexible container, where the ",
+            "8_strong": "user has autonomy ",
+            "9_normal": "o manage their resources as they wish"
+          },
+          "second": {
+            "1_normal": "We offer developers, ",
+            "2_strong": "24/7",
+            "5_normal": " a ",
+            "6_strong": " free",
+            "8_strong": " fast ",
+            "9_normal": " and ",
+            "10_strong": "simple way to host ",
+            "11_normal": "their applications. ",
+            "12_normal": "We are proud to be growing as a ",
+            "13_strong": "fully donor funded business",
+            "14_normal": ", we believe this is the ideal method to ",
+            "15_strong": "add value ",
+            "16_normal": "and promote an ",
+            "17_strong": "inclusive environment"
+          },
+          "third": {
+            "1_normal": "In this way, DisCloud fulfills its social function: the ",
+            "2_strong": "democratization",
+            "3_normal": " of hosting Bots for Discord with its non-profit platform. Benefiting, ",
+            "4_strong": "for over 3 years",
+            "5_normal": ", thousands of people, estimated at ",
+            "6_strong": "60,000 users",
+            "7_normal": " Currently, due to the merit of the team and the affection of the donors, our platform maintains ",
+            "8_strong": "thousands of applications online"
+          }
+        }
+      },
+      "section_about": {
+        "title": "Work with the language you love.",
+        "subtitle": "We currently have support for the following languages: Nodejs, Python, Golang, Ruby, PHP and etc. With Discloud you can deploy your project with one click, without wasting time and a MEGA EASY WAY."
+      },
+      "section_simple": {
+        "title": "We simplify your hosting!",
+        "subtitle": "We work hard so you don't have to work so much.Here we take care of all the 'boring' part of infrastructure configuration while you take care of your project.",
+        "main_columns": {
+          "facility": {
+            "title": "Easy",
+            "description": "We offer simple solutions to understand, configured, operated and more affordable than traditional solutions, without neglecting the quality of the service."
+          },
+          "commitment": {
+            "title": "Commitment",
+            "description": "Here you will find a team of different people, we offer exclusive service in Portuguese or English via Discord to ensure your tranquility."
+          }
+        },
+        "columns": {
+          "git": {
+            "title": "Automatic deploy with Git",
+            "description": "With our automatic deploy your instance will be updated whenever a modification is made on your repository at Github/Gitlab."
+          },
+          "backup": {
+            "title": "Backup Easy",
+            "description": "With just one simple command you can have a safety copy of your codes, content and database."
+          },
+          "flexibility": {
+            "title": "Flexibility",
+            "description": "Powerful, scalable and easy management instances, ideal for those seeking safety, speed and control."
+          },
+          "speed": {
+            "title": "More Speed",
+            "description": "100% SSD NVME storage platform to make your APIs, websites, databases and bots extremely fast and stable."
+          },
+          "sharing": {
+            "title": "Access Sharing",
+            "description": "Do not share passwords, but access.The project owner may share access to each application, specifying the level of access of each individual."
+          },
+          "monitor": {
+            "title": "Monitor Applications",
+            "description": "It's hard to make a decision without data, isn't it?So receive detailed logs and know exactly how much your application is consuming RAM, CPU, Network and SSD."
+          }
+        }
+      },
+      "section_host": {
+        "site": {
+          "title": "Website Hosting",
+          "subtitle": "From a simple static site to an API, Dashboard or other web application.",
+          "velocity": {
+            "title": "The speed your site deserves",
+            "description": "Its application is integrated with Cloudflare Premium, ensuring that all access is properly filtered and that users from anywhere in the world have a dynamic and comfortable access experience."
+          },
+          "dominio": {
+            "title": "Free Domain",
+            "description": "Here you do not need to buy a domain, we provide a completely free subdomain so you can host your web applications."
+          },
+          "security": {
+            "title": "The security your site needs",
+            "description": "We offer automatic SSL/TLS certificate integration, ensuring HTTPS protocol security, autonomy and reliability for your websites."
+          }
+        },
+        "apps": {
+          "firewall": {
+            "title": "Web application firewall",
+            "description": "We provide a powerful behavior -based WAF that tracks and intelligently neutralizes malicious attacks before they reach their APIs and websites"
+          },
+          "system": {
+            "title": "Native Anti-DDoS System",
+            "description": "Our system monitors network traffic and routes malicious activities for our attack mitigation farm as soon as a DDOS event is detected."
+          },
+          "dominio": {
+            "title": "Personalized domain",
+            "description": "You can use your own domain name (TLD) on your discloud web applications, thus helping your project to have found more prominence on the internet."
+          }
+        },
+        "bot": {
+          "title": "Free hosting of bots",
+          "subtitle": "We offer a simple, free and quick way to put your bots online 24 hours.",
+          "discord": {
+            "title": "Your Secure Discord Bot",
+            "description": "We seek to promote a healthy environment for everyone who uses Discord, aiming at this we create a decentralized system that acts preventively from preventing the discloud bots from exceeding Discord's API Rate Limit."
+          },
+          "music": {
+            "title": "Your online music bot",
+            "description": "We provide for your disk bot a system that has a dynamic, intelligent and high scalable algorithm that enjoys a wide range of public ip's leaving you free of blockage while playing your songs."
+          },
+          "plataform": {
+            "title": "Bots of any platform",
+            "description": "We offer hosting for the applications of the various existing platforms.Always taking care of all infrastructure safely and responsibly so you can keep your project focus."
+          },
+          "database": {
+            "title": "Local Database",
+            "description": "Our file system allows you to locally store your data on banks like SQLite, Lokidb and others."
+          },
+          "lavalink": {
+            "title": "Lavalink server",
+            "description": "Here you can host your private lavalink server to improve your bot streaming quality"
+          },
+          "manager": {
+            "title": "Manage it all through disorder",
+            "description": "Using our chatbot you can host and modify your applications through commands."
+          }
+        }
+      },
+      "section_donator": {
+        "title": "Donor Benefits",
+        "subtitle": "Your donation helps support development and keep our dedicated, and you still have access to exclusive resources and services.You can also update or downgrade your plan at any time.",
+        "donator": {
+          "buy": "Buy",
+          "gift": "Gift"
+        }
+      },
+      "table": {
+        "compare": "Compare the plans",
+        "benefits": "Benefits",
+        "value": {
+          "title": "Price",
+          "text": "Price to get the plan with proper benefits."
+        },
+        "month": "months",
+        "ram": {
+          "title": "RAM",
+          "text": "Amount of RAM available for your applications."
+        },
+        "cpu": {
+          "title": "CPU",
+          "text": "At Discloud, you can enjoy all the power of these processors, with water cooling to ensure ideal and constant performance."
+        },
+        "disco": {
+          "title": "Disco",
+          "text": "At Discloud, you can enjoy all the power of these processors, with water cooling to ensure ideal and constant performance."
+        },
+        "bots": {
+          "title": "Max Bots",
+          "text": "Maximum amount of bots that can be hosted."
+        },
+        "site": {
+          "title": "Max Sites",
+          "text": "Maximum quantity of websites that can be hosted."
+        },
+        "montra": {
+          "title": "Discloud Montra",
+          "text": "This is a decentralized system that acts preventively from preventing the discloud -hosted bots from exceeding Discord's API Rate Limit."
+        },
+        "dns": {
+          "title": "Private DNS server",
+          "text": "We provide a dedicated, efficient and more privacy server.To ensure the high flow of requests from thousands of bots and websites on our infrastructure."
+        },
+        "deploy": {
+          "title": "Automatic deploy with git",
+          "text": "This functionality will allow you to link an application hosted here on Discloud to a public or private Gitlab repository, enabling automated deploy."
+        },
+        "share": {
+          "title": "Share access",
+          "text": "With this feature you can configure access and set permissions to your applications for your development team, so you can increase your project productivity and collaboration."
+        },
+        "system": {
+          "title": "System of AutoRestart",
+          "text": "With this feature activated in your application if the system identifies an internal error in your project it will be automatically restarted."
+        },
+        "hostweb": {
+          "title": "Website Hosting",
+          "text": "Have the possibility to host APIs, dashboards, static/dynamic websites and other web applications with a free subdomain."
+        },
+        "ddos": {
+          "title": "Protection Anti-DDOS",
+          "text": "Our system monitors network traffic and routes malicious activities for our mitigation farm."
+        },
+        "waf": {
+          "title": "Discloud WAF",
+          "text": "Diswaf trace and intelligently neutralizes threats and malicious attacks before they reach their APIs and websites."
+        },
+        "dominio": {
+          "title": "Personalized Domains",
+          "text": "With this feature you can use your own domain name (TLD) in your web applications, for example, yoursite.com."
+        },
+        "gift": {
+          "title": "Discloud Gifts",
+          "text": "We will send you to interested customers at no additional cost, several personalized discloud stickers."
+        }
+      },
+      "localization": "Where are our clusters located?"
+    },
+    "plans": {
+      "title": "Simple, fair and predictable price.",
+      "subtitle": "Start for free and change your plan whenever you need it.",
+      "button1": "Main Plans",
+      "button2": "Other Plans"
+    },
+    "gift": {
+      "user": "Enter user ID",
+      "search": "Search",
+      "erro": "This user does not have a record or is not on our server!",
+      "error": "This user does not have the active gift option!",
+      "plan": "Current plan:",
+      "noplan": "None",
+      "falta": "Missing",
+      "day": "day(s)",
+      "login": "Login",
+      "gift": "Gift",
+      "max": "Supports even",
+      "or": "or",
+      "month": "month",
+      "cpu": "vCPU",
+      "ssd": "Storage SSD NVMe",
+      "ram": "RAM Memory",
+      "plans": "Choose a plan to present this member",
+      "method": "Choose a payment method",
+      "buy": "Buy",
+      "support": "Doubts? Contact our support:"
+    },
+    "howtohost": {
+      "title": "How to host",
+      "tutorial": {
+        "site": {
+          "title": "Site Registration",
+          "description": "The first step is to register on our site. To do this, just click the login button and you will be redirected to an authentication page where you will authorize the use of your data on our service. After authorizing you will be ready to use our service and make modifications to your applications through the website. We recommend you read the Terms of Service and Use Policy before hosting your discloud application to avoid suspension of your account of our services or related problems."
+        },
+        "config": {
+          "title": "Configuration file",
+          "description": "In Discloud you can automate the upload of applications in a more practical and quick way, so you will need to create a file called: 'Discloud.config', in which it will allow our system to detect the configuration made.Within this file we will assign the necessary resources for DupFast."
+        },
+        "file": {
+          "title": "Preparing the files",
+          "description": "After making the configuration file add it to your project folder.After that, Zipe (.zip) all files needed for application operation."
+        },
+        "up": {
+          "title": "Upload",
+          "description": "Once you have zipped all the necessary files and the configuration, redirect the Discloud server on Discord, and turn to the command chat and type '.up' to upload the application."
+        },
+        "online": {
+          "title": "Bot online",
+          "description": "After being notified that your application is online, everything is done!You can enjoy your application and be able to check the logs with '.logs' to see how your terminal are going and if you want to know more commands type '.help'."
+        }
+      }
+    },
+    "plan": {
+      "payment_methods": {
+        "title_subscription": "Select subscription method",
+        "continue": "Continue",
+        "title_payment": "Select payment method"
+      }
+    }
+  },
+  "components": {
+    "navbar": {
+      "blog": "Blog",
+      "prices": "Prices",
+      "getting_started": "How to host",
+      "docs": "Guide",
+      "contributors": "Contributors",
+      "logout": "Log Out",
+      "login": "Log In"
+    },
+    "plan_card": {
+      "details": {
+        "support_bots": "Supports up to {{bots}} Bot",
+        "support_sites": " or {{sites}} Sites",
+        "cpu": "vCPU",
+        "ssd": "Storage SSD NVMe",
+        "transfer": "Transfer Unlimited",
+        "resources": "Resources",
+        "git": "Integration to Git",
+        "share": "Share Access",
+        "system": "AutoRestart System",
+        "site": "Website Hosting",
+        "dominio": "Personalized Domain",
+        "buy": "Buy",
+        "login": "Sign In",
+        "started": "Start now",
+        "month": "mo"
+      }
+    },
+    "footer": {
+      "title": "2019 - 2022 © DisCloud • All rights reserved.",
+      "blog": "Blog",
+      "docs": "Guide",
+      "terms": "Terms Of Service",
+      "privacy": "Policy Of Use"
+    },
+    "mp_button": {
+      "buy": "Buy"
+    },
+    "paypal_button": {
+      "toasts_infos": {
+        "info": "Processing payment, please wait",
+        "sucess": "Payment approved successfully",
+        "error": "There was an error processing the payment, please contact the administration.",
+        "cancel": "Payment canceled"
+      }
+    }
+  }
+}
