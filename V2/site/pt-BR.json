@@ -29,19 +29,19 @@
             "9_normal": "para gerenciar seus recursos como desejar"
           },
           "second": {
-            "1_normal": " Oferecemos aos desenvolvedores, durante ",
+            "1_normal": "Oferecemos aos desenvolvedores, durante ",
             "2_strong": "24 horas por dia e 7 dias por semana",
-            "5_normal": "uma forma ",
-            "6_strong": "gratuita ",
-            "8_strong": "rápida ",
+            "5_normal": " uma forma ",
+            "6_strong": "gratuita",
+            "8_strong": " rápida ",
             "9_normal": " e ",
-            "10_strong": "simples de hospedar",
-            "11_normal": " suas aplicações. ",
+            "10_strong": "simples de hospedar ",
+            "11_normal": "suas aplicações. ",
             "12_normal": "É motivo de orgulho estar crescendo como um negócio ",
             "13_strong": "totalmente financiado pelos doadores",
             "14_normal": ", acreditamos que este é o método ideal para ",
-            "15_strong": "agregar valor",
-            "16_normal": " e promover um ",
+            "15_strong": "agregar valor ",
+            "16_normal": "e promover um ",
             "17_strong": "ambiente inclusivo"
           },
           "third": {
@@ -120,7 +120,7 @@
         "apps": {
           "firewall": {
             "title": "Firewall de Aplicativo Web",
-            "description": "Fornecemos um poderoso WAF baseado em comportamento que rastreia e neutraliza de forma inteligente ataques maliciosos antes que cheguem em suas APIs e Sites"
+            "description": "Fornecemos um poderoso WAF baseado em comportamento que rastreia e neutraliza de forma inteligente ataques maliciosos antes que cheguem em suas APIs e Sites."
           },
           "system": {
             "title": "Sistema nativo Anti-DDoS",
@@ -152,7 +152,7 @@
           },
           "lavalink": {
             "title": "Servidor Lavalink",
-            "description": "Aqui você pode hospedar seu servidor Lavalink privado para melhorar a qualidade de streaming do seu Bot"
+            "description": "Aqui você pode hospedar seu servidor Lavalink privado para melhorar a qualidade de streaming do seu Bot."
           },
           "manager": {
             "title": "Gerencie Tudo Pelo Discord",
@@ -186,7 +186,7 @@
         },
         "disco": {
           "title": "Disco",
-          "text": "Na DisCloud, você pode aproveitar toda a potência desses processadores, com refrigeração a água para garantir um desempenho ideal e constante."
+          "text": "Tecnologia de armazenamento fornecia para todas as aplicações hospedadas na Discloud."
         },
         "bots": {
           "title": "Max Bots",
