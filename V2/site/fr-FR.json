@@ -1,0 +1,351 @@
+{
+    "title": "DisCloud | fr-FR",
+    "templates": {
+      "main": {
+        "section_hero": {
+          "main_titles": {
+            "bot": "Votre Bot",
+            "website": "Votre Site",
+            "api": "Votre API"
+          },
+          "title": "Online Maintenant!",
+          "description": "Um service fait pour héberger toutes vos applications avec des certificats TLS gratuits, CDN mondial, protection contre DDoS et implementations automatiques avec Git",
+          "status": {
+            "users": "Total de Utilisateurs",
+            "sites": "Sites Hébergés",
+            "bots": "Bots Hébergés"
+          }
+        },
+        "section_tech": {
+          "title": "À propos",
+          "description": {
+            "first": {
+              "1_normal": "Nous sommes la ",
+              "2_strong": "première plate-forme ",
+              "3_normal": "cloud ",
+              "4_strong": "dédiée ",
+              "5_normal": "aux applications de Discord. Nos services reposent sur des conteneurs flexibles, où ",
+              "8_strong": "l'utilisateur dispose d'une autonomie ",
+              "9_normal": "pour gérer ses ressources comme souhaité"
+            },
+            "second": {
+              "1_normal": "Nous offrons aux développeurs, ",
+              "2_strong": "24/7",
+              "5_normal": "une forme ",
+              "6_strong": "gratuite, ",
+              "8_strong": "rapide ",
+              "9_normal": " et ",
+              "10_strong": "simple à héberger",
+              "11_normal": " vos applications. ",
+              "12_normal": "C'est la raison d'être fier de grandir en tant qu'entreprise ",
+              "13_strong": "entièrement financé par les donateurs",
+              "14_normal": ", nous croyons que c'est la méthode idéale pour ",
+              "15_strong": "ajouter de la valeur",
+              "16_normal": " et promouvoir un ",
+              "17_strong": "environnement inclusif"
+            },
+            "third": {
+              "1_normal": "De cette manière, remplit sa fonction sociale : la ",
+              "2_strong": "démocratisation",
+              "3_normal": " de l'hébergement de Bots pour Discord avec sa plateforme à but non lucratif. Bénéficiant, ",
+              "4_strong": "depuis plus de 3 ans",
+              "5_normal": ", des milliers de personnes, estimées à ",
+              "6_strong": "60.000 utilisateurs.",
+              "7_normal": " Actuellement, grâce au mérite de l'équipe et à l'affection des donateurs, notre plateforme maintient ",
+              "8_strong": "des milliers d'applications en ligne."
+            }
+          }
+        },
+        "section_about": {
+          "title": "Travaillez dans la langue qui vous plaît.",
+          "subtitle": "Nous prenons actuellement en charge les langages suivants : Nodejs, Python, Golang, Ruby, PHP, etc. Avec Discloud, vous pouvez déployer votre projet en un clic, sans perdre de temps et d'une façon MEGA SIMPLE."
+        },
+        "section_simple": {
+          "title": "Nous simplifions votre hébergement !",
+          "subtitle": "Nous travaillons dur pour que vous n'ayez pas à travailler autant. Ici, nous nous occupons de toute la partie 'ennuyeuse' de la configuration de l'infrastructure pendant que vous vous occupez de votre projet.",
+          "main_columns": {
+            "facility": {
+              "title": "Facilité",
+              "description": "Nous proposons des solutions simples à appréhender, configurées, exploitées et plus abordables que les solutions traditionnelles, sans pour autant négliger la qualité du service."
+            },
+            "commitment": {
+              "title": "Engagement",
+              "description": "Ici vous trouverez une équipe de personnes différentes, nous offrons un service exclusif en portugais ou en anglais via Discord pour assurer votre tranquillité."
+            }
+          },
+          "columns": {
+            "git": {
+              "title": "Déploiement automatique avec Git",
+              "description": "Avec notre déploiement automatique, votre instance sera mise à jour chaque fois qu'une modification est apportée à votre référentiel sur Github/Gitlab."
+            },
+            "backup": {
+              "title": "Sauvegarde facile",
+              "description": "Avec une simple commande, vous pouvez avoir une copie de sécurité de vos codes, contenus et base de données."
+            },
+            "flexibility": {
+              "title": "Souplesse",
+              "description": "Instances puissantes, évolutives et avec une gestion facile, idéal pour ceux qui recherchent la sécurité, la vitesse et le contrôle."
+            },
+            "speed": {
+              "title": "Plus rapide",
+              "description": "Plate-forme de stockage 100 % SSD NVMe pour rendre vos APIs, sites Web, bases de données et bots extrêmement rapides et stables."
+            },
+            "sharing": {
+              "title": "Partage d'accès",
+              "description": "Ne partagez pas les mots de passe, mais les accès. Le porteur de projet peut partager l'accès à chaque application en précisant le niveau d'accès de chacun."
+            },
+            "monitor": {
+              "title": "Surveiller les applications",
+              "description": "Il est difficile de prendre une décision sans données, n'est-ce pas? Recevez donc des journaux détaillés et sachez exactement combien votre application consomme de RAM, du CPU, du réseau et du SSD."
+            }
+          }
+        },
+        "section_host": {
+          "site": {
+            "title": "Hébergement de sites Web",
+            "subtitle": "D'un simple site statique à une API, un tableau de bord ou une autre application Web.",
+            "velocity": {
+              "title": "La vitesse que votre site mérite",
+              "description": "Votre application est intégrée à Cloudflare Premium, garantissant que tous les accès soient correctement filtrés et que les utilisateurs de n'importent où dans le monde bénéficient d'une expérience d'accès dynamique et confortable."
+            },
+            "dominio": {
+              "title": "Domaine gratuit",
+              "description": "Ici, vous n'avez pas besoin d'acheter un domaine, nous fournissons un sous-domaine entièrement gratuit afin que vous puissiez héberger vos applications web."
+            },
+            "security": {
+              "title": "La sécurité dont votre site a besoin",
+              "description": "Nous proposons une intégration automatique des certificats SSL/TLS, garantissant la sécurité, l'autonomie et la fiabilité du protocole HTTPS pour vos sites Web."
+            }
+          },
+          "apps": {
+            "firewall": {
+              "title": "Firewall d'applications Web",
+              "description": "Nous fournissons un puissant WAF basé sur le comportement qui suit et neutralise intelligemment les attaques malveillantes avant qu'elles n'atteignent leurs API et sites Web."
+            },
+            "system": {
+              "title": "Système anti-DDoS natif",
+              "description": "Notre système surveille le trafic réseau et achemine les activités malveillantes vers notre farm d'atténuation des attaques dès qu'un événement DDOS est détecté."
+            },
+            "dominio": {
+              "title": "Domaine personnalisé",
+              "description": "Vous pouvez utiliser votre propre nom de domaine (TLD) sur vos applications Web Discloud, aidant ainsi votre projet à trouver plus de visibilité sur Internet."
+            }
+          },
+          "bot": {
+            "title": "Hébergement gratuit de Bots",
+            "subtitle": "Nous vous proposons un moyen simple, gratuit et rapide de mettre votre bot en ligne 24 heures.",
+            "discord": {
+              "title": "Votre bot Discord sécurisé",
+              "description": "Nous cherchons à promouvoir un environnement sain pour tous ceux qui utilisent Discord. Dans ce but, nous créons un système décentralisé qui agit de manière préventive en empêchant les bots hébergés dans Discloud de dépasser la limite de débit (rate limite) de l'API de Discord."
+            },
+            "music": {
+              "title": "Votre bot de musique en ligne",
+              "description": "Nous fournissons à votre Bot Discord un système doté d'un algorithme dynamique, intelligent et hautement évolutif qui bénéficie d'une large gamme d'adresses IP publiques vous laissant libre de tout blocage lors de la lecture de vos musiques."
+            },
+            "plataform": {
+              "title": "Bots de n'importe quelle plate-forme",
+              "description": "Nous proposons l'hébergement des applications des différentes plateformes existantes. Nous prenons toujours soin de toute l'infrastructure de manière sûre et responsable afin que vous puissiez rester concentré sur votre projet."
+            },
+            "database": {
+              "title": "Base de données locale",
+              "description": "Notre système de fichiers vous permet de stocker localement vos données sur des banques comme SQLite, Lokidb et autres."
+            },
+            "lavalink": {
+              "title": "Serveur Lavalink",
+              "description": "Ici, vous pouvez héberger votre serveur lavalink privé pour améliorer la qualité du streaming de votre bot"
+            },
+            "manager": {
+              "title": "Gérer tout cela à travers Discord",
+              "description": "Grâce à notre ChatBot, vous pouvez héberger et modifier vos applications via des commandes."
+            }
+          }
+        },
+        "section_donator": {
+          "title": "Avantages des Donateurs",
+          "subtitle": "Votre don aide à soutenir le développement et à maintenir notre dévouement, et vous avez toujours accès à des ressources et services exclusifs. Vous pouvez également mettre à jour ou rétrograder votre plan à tout moment.",
+          "donator": {
+            "buy": "Acheter",
+            "gift": "Offrir"
+          }
+        },
+        "table": {
+          "compare": "Comparez les forfaits",
+          "benefits": "Benefits",
+          "value": {
+            "title": "Prix",
+            "text": "Prix pour obtenir un forfait avec les avantages appropriés."
+          },
+          "month": "mois",
+          "ram": {
+            "title": "RAM",
+            "text": "Quantité de RAM disponible pour vos applications."
+          },
+          "cpu": {
+            "title": "CPU",
+            "text": "Chez Discloud, vous pouvez profiter de toute la puissance de ces processeurs, avec un refroidissement par eau pour assurer des performances idéales et constantes."
+          },
+          "disco": {
+            "title": "Disque",
+            "text": "Technologie de stockage fournie pour toutes les applications hébergées sur Discloud."
+          },
+          "bots": {
+            "title": "Max Bots",
+            "text": "Nombre maximum de bots pouvant être hébergés en même temps."
+          },
+          "site": {
+            "title": "Max Sites",
+            "text": "Quantité maximale de sites Web pouvant être hébergés en même temps."
+          },
+          "montra": {
+            "title": "Discloud Montra",
+            "text": "Il s'agit d'un système décentralisé qui agit de manière préventive pour empêcher les bots hébergés chez Discloud de dépasser la limite de débit (rate limite) de l'API de Discord."
+          },
+          "dns": {
+            "title": "Serveur DNS privé",
+            "text": "Nous fournissons un serveur DNS dédié, efficace et plus confidentiel. Pour assurer le flux élevé de demandes de milliers de bots et de sites Web sur notre infrastructure."
+          },
+          "deploy": {
+            "title": "Déploiement automatique avec git",
+            "text": "Cette fonctionnalité vous permettra de lier une application hébergée chez Discloud à un référentiel GitHub/GitLab public ou privé, permettant un déploiement automatisé."
+          },
+          "share": {
+            "title": "Partager l'accès",
+            "text": "Avec cette fonctionnalité, vous pouvez configurer l'accès et définir des autorisations pour vos applications pour votre équipe de développement afin d'augmenter la productivité et la collaboration de votre projet."
+          },
+          "system": {
+            "title": "Système de autorestart",
+            "text": "Avec cette fonctionnalité activée dans votre application, si le système identifie une erreur interne dans votre projet, il sera automatiquement redémarré."
+          },
+          "hostweb": {
+            "title": "Hébergement de sites Web",
+            "text": "Avoir la possibilité d'héberger des APIs, des tableaux de bord, des sites Web statiques/dynamiques et d'autres applications Web avec un sous-domaine gratuit."
+          },
+          "ddos": {
+            "title": "Protection Anti-DDOS",
+            "text": "Notre système surveille le trafic réseau et achemine les activités malveillantes vers notre farm d'atténuation."
+          },
+          "waf": {
+            "title": "Discloud WAF",
+            "text": "Diswaf trace et neutralise intelligemment les menaces et les attaques malveillantes avant qu'elles n'atteignent vos APIs et sites Web."
+          },
+          "dominio": {
+            "title": "Domaines personnalisés",
+            "text": "Avec cette fonctionnalité, vous pouvez utiliser votre propre nom de domaine (TLD) dans vos applications Web, par exemple, VotreSite.com"
+          },
+          "gift": {
+            "title": "Discloud Cadeaux",
+            "text": "Nous enverrons aux clients intéressés sans frais supplémentaires, plusieurs stickers discloud personnalisés."
+          }
+        },
+        "localization": "Où sont situés nos clusters?"
+      },
+      "plans": {
+        "title": "Prix simple, juste et prévisible.",
+        "subtitle": "Démarrez gratuitement et modifiez votre plan chaque fois que vous en avez besoin.",
+        "button1": "Forfaits Principaux",
+        "button2": "Autres Forfaits"
+      },
+      "gift": {
+        "user": "Insérez l'ID de l'utilisateur",
+        "search": "Chercher",
+        "erro": "Cet utilisateur, n'a pas de registre ou n'est pas dans notre serveur!",
+        "error": "Cet utilisateur n'a pas l'option de recevoir des cadeaux activée!",
+        "plan": "Forfait actuel:",
+        "noplan": "Aucun",
+        "falta": "Manque",
+        "day": "jour(s)",
+        "login": "Connexion",
+        "gift": "Cadeau",
+        "max": "Prend en charge jusqu'à",
+        "or": "ou",
+        "month": "mois",
+        "cpu": "vCPU",
+        "ssd": "Stockage SSD NVMe",
+        "ram": "Mémoire RAM",
+        "plans": "Choisissez un forfait pour présenter ce membre",
+        "method": "Choisissez une méthode de paiement",
+        "buy": "Acheter",
+        "support": "Questions? Contactez notre support: "
+      },
+      "howtohost": {
+        "title": "Comment héberger",
+        "tutorial": {
+          "site": {
+            "title": "Inscription dans le site Web",
+            "description": "La première étape consiste à vous inscrire sur notre site. Pour ce faire, il vous suffit de cliquer sur le bouton de connexion et vous serez redirigé vers une page d'authentification où vous autoriserez l'utilisation de vos données sur notre service. Après avoir autorisé, vous serez prêt à utiliser notre service et à apporter des modifications à vos applications via le site Web. Nous vous recommandons de lire les conditions d'utilisation et la politique d'utilisation avant d'héberger votre application chez Discloud afin d'éviter la suspension de votre compte de nos services ou des problèmes connexes."
+          },
+          "config": {
+            "title": "Fichier de configuration",
+            "description": "Chez DisCloud vous pouvez automatiser le téléchargement d'applications de manière plus pratique et rapide. Vous devrez donc créer un fichier appelé : 'Discloud.config', dans lequel il permettra à notre système de détecter la configuration effectuée. Dans ce fichier, nous attribueront les ressources nécessaires à DupFast."
+          },
+          "file": {
+            "title": "Préparation des fichiers",
+            "description": "Après avoir créé le fichier de configuration, ajoutez-le à votre dossier de projet. Après ceci, comprimez (.zip) tous les fichiers nécessaires au fonctionnement de l'application."
+          },
+          "up": {
+            "title": "Upload",
+            "description": "Une fois que vous avez comprimé tous les fichiers nécessaires et la configuration, redirigez-vous au serveur Discloud sur Discord, et dirigez-vous vers le chat de commandes et tapez '.up' pour télécharger l'application."
+          },
+          "online": {
+            "title": "Bot online",
+            "description": "Après avoir été notifié que votre application est en ligne, tout est fait! Vous pouvez profiter de votre application et pouvoir consulter les logs avec '.logs' pour voir comment va votre terminal et si vous voulez en savoir plus tapez '.help' ."
+          }
+        }
+      },
+      "plan": {
+        "payment_methods": {
+          "title_subscription": "Sélectionnez la méthode d'abonnement",
+          "continue": "Continuer",
+          "title_payment": "Sélectionnez la méthode de paiement"
+        }
+      }
+    },
+    "components": {
+      "navbar": {
+        "blog": "Blog",
+        "prices": "Prix",
+        "getting_started": "Comment héberger",
+        "docs": "Guia",
+        "contributors": "Contributeurs",
+        "logout": "Déconnexion",
+        "login": "Connexion"
+      },
+      "plan_card": {
+        "details": {
+          "support_bots": "Prend en charge jusqu'à {{bots}} Bot",
+          "support_sites": " ou {{sites}} sites web",
+          "cpu": "vCPU",
+          "ssd": "Stockage SSD NVMe",
+          "transfer": "Transfert illimité",
+          "resources": "Ressources",
+          "git": "Intégration à Git",
+          "share": "Partager l'accès",
+          "system": "Système de AutoRestart",
+          "site": "Hébergement de sites Web",
+          "dominio": "Domaine personnalisé",
+          "buy": "Acheter",
+          "login": "Connexion",
+          "started": "Commencer maintenant",
+          "month": "mois"
+        }
+      },
+      "footer": {
+        "title": "2019 - 2022 © DisCloud • Tous les droits sont réservés",
+        "blog": "Blog",
+        "docs": "Documentation",
+        "terms": "Conditions d'utilisation",
+        "privacy": "Politique d'utilisation"
+      },
+      "mp_button": {
+        "buy": "Acheter"
+      },
+      "paypal_button": {
+        "toasts_infos": {
+          "info": "Traitement du paiement, veuillez patienter",
+          "sucess": "Paiement approuvé avec succès",
+          "error": "Une erreur s'est produite lors du traitement du paiement, veuillez contacter l'administration.",
+          "cancel": "Paiement annulé"
+        }
+      }
+    }
+}
