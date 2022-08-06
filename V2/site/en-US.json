@@ -213,7 +213,7 @@
           "text": "With this feature you can configure access and set permissions to your applications for your development team, so you can increase your project productivity and collaboration."
         },
         "system": {
-          "title": "System of AutoRestart",
+          "title": "AutoRestart system",
           "text": "With this feature activated in your application if the system identifies an internal error in your project it will be automatically restarted."
         },
         "hostweb": {
