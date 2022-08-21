@@ -66,7 +66,7 @@
                 "amienteerror2": "Contact someone on the team to resolve this error.",
                 "reniciandobot": "Restarting an application...",
                 "build": "Building application...",
-                "packerro": "We've identified an error in your file `{{arquivo}}`, fix it and try again.",
+                "packerro": "We've identified an error in your file `{{file}}`, fix it and try again.",
                 "arquivos": "Your application files have been successfully updated.",
                 "iniciali": "Configuring startup.",
                 "time": "You took too long to send your application file attachment or link.",
