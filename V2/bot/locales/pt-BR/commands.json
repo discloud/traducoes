@@ -434,7 +434,7 @@
         "arquivo": "Digite o nome do arquivo principal da sua aplicação.",
         "ex": "Exemplos:",
         "arquivoprincipal": "Arquivo principal:",
-        "definirmb": "Digite o número de memória RAM em MB que deseja colocar na sua aplicação.",
+        "definirmb": "Digite o número de memória RAM em MB que deseja colocar na sua aplicação. Você tem `{{restRAM}}`MB de RAM disponível.",
         "meminval": "Quantidade de memória RAM inválida.",
         "zipinvalido": "O seu arquivo .zip é inválido."
       },
