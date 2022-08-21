@@ -498,7 +498,7 @@
                     "error": "**There was an error configuring the environment.\nContact someone on the team to resolve this error.**",
                     "error2": "**There was an error configuring the {{LanNumber}} environment.\nContact the team via DM from <@862417513839853598>.**",
                     "erroconfig": "Error configuring environment for {{tag}}",
-                    "erroconfig2": "**An error occurred.\nWe did not detect `{{file}}` in your application directory.**",
+                    "erroconfig2": "**An error occurred.\nWe did not detect `{{arquivo}}` in your application directory.**",
                     "erroespaco": "**There was an error allocating space.\nCheck that the zip file you uploaded is not corrupted, valid or locked with some password.**",
                     "index": "**An error occurred.\nThe main file you defined `{{main}}` does not exist or you have compressed the files incorrectly.**",
                     "falha": "We identified an internal failure in {{cluster}}, reporting this error in <@862417513839853598> DM, \nError 201."
