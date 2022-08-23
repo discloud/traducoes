@@ -16,7 +16,7 @@
     },
 
     "commit": {
-        "desc": "update your application files"
+        "desc": "Update your application files"
     },
 
     "dir": {
@@ -35,11 +35,11 @@
         "desc": "Lists all existing commands in the bot."
     },
 
-    "start": {
+    "iniciar": {
         "desc": "Start your application."
     },
 
-    "memory": {
+    "memoria": {
         "desc": "Change the maximum RAM memory consumed by an application."
     },
 
@@ -47,7 +47,7 @@
         "desc": "Perform various functions related to the moderator system."
     },
 
-    "stop": {
+    "parar": {
         "desc": "Stop your application."
     },
 
@@ -55,15 +55,15 @@
         "desc": "View the latency of your application."
     },
 
-    "plans": {
+    "planos": {
         "desc": "View all available plans and their benefits."
     },
 
-    "restart": {
+    "reiniciar": {
         "desc": "Restart your application."
     },
 
-    "removeapp": {
+    "removerapp": {
         "desc": "Delete your instance, deleting all data and settings."
     },
 
@@ -75,7 +75,7 @@
         "desc": "View the status of an application."
     },
 
-    "subdomain": {
+    "subdominio": {
         "desc": "Register or remove a subdomain in DisCloud."
     },
 
@@ -83,7 +83,7 @@
         "desc": "Displays the terminal of your application."
     },
 
-    "transfer": {
+    "transferir": {
         "desc": "Activate a plan by gift in DisCloud."
     },
 
@@ -110,7 +110,14 @@
     "autorestart": {
         "desc": "Enable and disable application autorestart"
     },
+    "restorepoints": {
+        "desc": "Create restoration points for an application."
+    },
     "api": {
     "desc": "Generate token for using the Discloud API."
-  }
+    },
+
+    "locale": {
+    "desc": "Changing language that the discloud bot will answer you."
+    }
 }
