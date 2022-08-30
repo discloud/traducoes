@@ -9,7 +9,7 @@
                 "setDescription": "Click here",
                 "setFooter": "Link expire in 1 day"
             },
-            "dmFechado": "Your DM is locked, release to be able to use the command."
+            "dmFechado": "Your DM is locked, you need to unlock it to be able to use the command."
         },
 
         "bots": {
@@ -43,7 +43,7 @@
             "idinvalido": "The provided ID is not the same as any of your bots.",
             "botparado": "Your bot is stopped, if you want to start it use:",
             "killRam":"Your application is turned off due to lack of RAM in your instance.",
-            "canalduplo": "You already have an open thread to commit or upload your bot, wait until the channel closes to use this command again.",
+            "canalduplo": "You already have an open thread to commit or upload your bot. To use this command again, please wait until the channel closes.",
             "thread": {
                 "envie": "Send the file you want to commit.",
                 "arquivoerro": "There is something wrong with your instance, remove your bot and resubmit using the commands",
@@ -70,7 +70,7 @@
             "sembots": "you haven't uploaded any bot yet, use `.up` to upload.",
             "semid": "type the ID of the bot you want to delete a file or folder.",
             "idinvalido": "the given ID is not the same as any of your bots.",
-            "semcaminho": "type the path of the file or folder you want to delete from the bot directory.",
+            "semcaminho": "type the file path or folder you want to delete from the bot directory.",
             "principal": "you cannot delete your bot's main file.",
             "invalidFolder": "you cannot delete the {{folder}} folder from your bot directory.",
             "invalidFile": "you cannot delete the {{file}} file from your bot directory.",

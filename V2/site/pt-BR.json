@@ -279,7 +279,7 @@
           "description": "Na DisCloud é possível automatizar o upload das aplicações de uma forma mais prática e rápida, para isso, será necessário criar um arquivo chamado: 'discloud.config', no qual permitirá que nosso sistema detecte a configuração feita. Dentro desse arquivo iremos atribuir os recursos necessários para a DupFast."
         },
         "file": {
-          "title": "Preparando os arquivo",
+          "title": "Preparando os arquivos",
           "description": "Após fazer o arquivo de configuração adicione-o a pasta do seu projeto. Após isso, zipe (.ZIP) todos os arquivos necessários para o funcionamento da aplicação."
         },
         "up": {
