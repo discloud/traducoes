@@ -110,7 +110,13 @@
   "autorestart": {
     "desc": "Ativar ou desativar o autorestart de uma aplicação."
   },
+  "restorepoints": {
+    "desc": "Criar pontos de restauração de uma aplicação."
+},
   "api": {
     "desc": "Gerar token para o uso da API da Discloud."
+  },
+  "locale": {
+    "desc": "Mudar linguagem que o bot da Discloud vai te responder."
   }
 }
