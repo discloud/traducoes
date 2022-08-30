@@ -1,21 +1,21 @@
 {
     "botlogs":{
-         "uponline": "{{user}} the your bot instance ** `${botTag}`** is online!",
-         "commitrestart": "{{user}} the your bot instance **`{{botTag}}`** has been updated and restarted successfully!",
+         "uponline": "{{user}}, your bot instance ** `${botTag}`** is online!",
+         "commitrestart": "{{user}}, your bot instance **`{{botTag}}`** has been updated and restarted successfully!",
          "enduser": "<@{{obj}}> `({{obj}})` left the server and its Bots and Sites have been removed!",
-         "ramkilled": "<@{{userID}}> the your bot instance **`{{botTag}} ({{botID}})`** was turned off due to lack of RAM!",
-         "bottimeout": "<@{{userID}}> the your bot instance **`{{botTag}} ({{botID}})`** in the free plan it was turned off due to inactivity!"
+         "ramkilled": "<@{{userID}}>, your bot instance **`{{botTag}} ({{botID}})`** was turned off due to lack of RAM!",
+         "bottimeout": "<@{{userID}}>, your bot instance **`{{botTag}} ({{botID}})`** in the free plan was turned off due to inactivity!"
 
     },
 
     "sitelogs":{
-        "uponline": "{{user}} the your website instance **`{{site}}`** is online!",
-        "commitrestart": "{{user}} the your website instance **`{{site}}`** has been updated and restarted successfully!",
-        "ramkilled": "<@{{userID}}> the your website instance **`{{site}}`** was turned off due to lack of RAM!",
-        "upsite":"<@{{userID}}> the your website instance **`{{site}}`** is online!",
-        "commitsite":"<@{{userID}}> the your website instance **`{{site}}`** has undergone changes and is now online!",
-        "removesite":"<@{{userID}}> the your website instance **`{{site}}`** has been successfully removed!",
-        "startsite":"<@{{userID}}> the your website instance **`{{site}}`** is online!",
-        "stopsite": "<@{{userID}}> the your website instance **`{{site}}`** is offline!"
+        "uponline": "{{user}}, your website instance **`{{site}}`** is online!",
+        "commitrestart": "{{user}}, your website instance **`{{site}}`** has been updated and restarted successfully!",
+        "ramkilled": "<@{{userID}}>, your website instance **`{{site}}`** was turned off due to lack of RAM!",
+        "upsite":"<@{{userID}}>, website instance **`{{site}}`** is online!",
+        "commitsite":"<@{{userID}}>, your website instance **`{{site}}`** has undergone changes and is now online!",
+        "removesite":"<@{{userID}}>, your website instance **`{{site}}`** has been successfully removed!",
+        "startsite":"<@{{userID}}>, your website instance **`{{site}}`** is online!",
+        "stopsite": "<@{{userID}}>, your website instance **`{{site}}`** is offline!"
     }
 }
