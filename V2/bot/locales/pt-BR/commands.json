@@ -417,7 +417,7 @@
       "registro": "Antes de usar esse comando, registre-se no nosso site <http://discloudbot.com>.",
       "ip": "Você registrou duas contas diferentes na DisCloud, entre em contato com a equipe pela DM do <@862417513839853598>.",
       "limite": "Você atingiu o limite de aplicações que pode hospedar ou você alocou toda a memória RAM disponível do seu plano",
-      "limite2": "Se ainda não tem um dos nossos planos, adquira um plano para liberar mais recursos.",
+      "limite2": "Se ainda não tem um dos nossos planos, adquira um plano para liberar mais recursos. \nCaso queira atualizar alguns arquivos no bot use: `.commit` \nSe deseja remover o bot e enviá-lo novamente use: `.rb`",
       "mblivre": "Você precisa de ter pelo menos 100MB livres para hospedar uma aplicação e você está a usar",
       "free": "Você só pode hospedar uma aplicação no plano Free.",
       "limitefree": "O limite de aplicações no Plano Free foi atingido, tente novamente mais tarde ou compre algum dos nossos planos e hóspede a sua aplicação agora sem limites.",
