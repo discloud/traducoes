@@ -436,7 +436,7 @@
                 "arquivo": "Send the name of your application main file.",
                 "ex": "Examples:",
                 "arquivoprincipal": "Main file:",
-                "definirmb": "Send the number of RAM memory in MB you want to put in your application. You have `{{restRam}}` MB of RAM Available.",
+                "definirmb": "Send the number of RAM memory in MB you want to put in your application. You have `{{restRAM}}` MB of RAM Available.",
                 "meminval": "Invalid amount of RAM memory.",
                 "zipinvalido": "Your zip file is invalid."
             },
