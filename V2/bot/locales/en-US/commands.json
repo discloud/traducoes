@@ -418,7 +418,7 @@
         "up": {
             "registro": "Before you can host any application, you must register on our website. <http://discloudbot.com>.",
             "ip": "You have registered two different accounts on DisCloud, contact the team via @ModMail DM.",
-            "limite": "You've reached the limit of application you can host or you've allocated all of your plans available RAM.",
+            "limite": "You've reached the limit of application you can host or you've allocated all of your plans available RAM. \nIf you want to update some files on the Bot use: `.commit` \nIf you want to remove the bot and send it again use: `.rb`\n",
             "limite2": "If you don't already have one of our plans, purchase a plan to unlock more resources.",
             "mblivre": "You need to have at least 100MB free to host an application and you only have",
             "free": "You can only host one application on the Free plan.",
