@@ -276,7 +276,7 @@
         },
         "config": {
           "title": "Configuration file",
-          "description": "In Discloud you can automate the upload of applications in a more practical and quick way, so you will need to create a file called: 'Discloud.config', in which it will allow our system to detect the configuration made.Within this file we will assign the necessary resources for DupFast."
+          "description": "In Discloud you can automate the upload of applications in a more practical and quick way, so you will need to create a file called: 'discloud.config', in which it will allow our system to detect the configuration made.Within this file we will assign the necessary resources for DupFast."
         },
         "file": {
           "title": "Preparing the files",
