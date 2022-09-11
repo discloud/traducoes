@@ -1,0 +1,153 @@
+{
+    "main": {
+        "memberDiscord": "Você precisa ser um membro do nosso servidor Discord para usar nossa API - https://discloud.app",
+        "notApp": "Você não tem nenhum aplicativo.",
+        "file": "arquivo obrigatório",
+        "getBackup": "Uma falha ocorreu ao obter os arquivos de backup do seu aplicativo.",
+        "maxGB": "O backup do seu aplicativo excede 1 GB.",
+        "appExe": "O aplicativo já possui um processo de execução.",
+        "idApp": "Este ID não pertence a nenhuma de suas aplicações.",
+        "todosParameter": "O parâmetro All não é suportado nesta rota.",
+        "appRemove": "Sua aplicação foi removida.",
+        "notMod":"Você não pertence a nenhuma equipe deste aplicativo {{app}}"
+    },
+    "routes": {
+        "upload":{
+            "rar":"A extensão {{file}} não é suportada, use a extensão .zip.",
+            "app": "Seu aplicativo foi iniciado.",
+            "webApp": "Seu aplicativo da web foi iniciado -",
+        "erro": {
+            "93": "O arquivo divloud.config não foi encontrado dentro do .zip enviado.",
+            "403": "Encontramos um erro dentro do arquivo divloud.config, verifique se ele colocou as informações corretamente.",
+            "91": "Ocorreu um erro alocando o espaço. Verifique se o arquivo zip enviado não está corrompido, válido ou bloqueado com uma senha.",
+            "typeApp": "Informe o TYPE em seu arquivo discloud.config",
+            "mainFile": "O arquivo principal informado no discloud.config está incorreto.",
+            "fileMain": "Digite qual é o arquivo principal do seu app em seu arquivo discloud.config",
+            "ram": "Informe a quantidade de RAM em seu arquivo discloud.config",
+            "limitHost": "Você atingiu o limite de aplicação que pode hospedar em seu plano.",
+            "appLimit": "Você atingiu o limite de aplicação que pode hospedar ou alocou toda a RAM disponível do seu plano.",
+            "ramValue": "A RAM deve ser um valor acima de 100 MB",
+            "appHost": "Você só pode hospedar um bot no plano gratuito.",
+            "allocating": "Ocorreu um erro alocando espaço. Verifique se o arquivo zip enviado não está corrompido, válido ou bloqueado com uma senha.",
+            "configAmb": "Ocorreu um erro ao configurar o ambiente. Entre em contato com alguém da equipe para resolver esse erro.",
+            "lanNumber": "Ocorreu um erro ao configurar o ambiente Lannumber. Entre em contato com alguém da equipe para resolver esse erro.",
+            "subdomain": "Adicione o subdomínio do seu site no campo ID do seu arquivo discloud.config",
+            "website": "O sistema de sites está disponível apenas para planos `Platinum` ou superior.",
+            "approve": "Você ainda não tem subdomínio aprovado ou disponível para uso.",
+            "mbMin": "Você precisa ter pelo menos 512 MB de memória disponível para fazer upload do seu aplicativo web.",
+            "mbMax": "O valor da RAM do seu aplicativo deve ser de 512 MB ou mais.",
+            "read": "Erro ao tentando ler o arquivo discloud.config",
+            "idApp": "O ID {{app}} pertence a um aplicativo que já está hospedado.",
+            
+            "ramLimit": "The RAM limit of your plan is {{plans}} mb",
+            "freeHost": "You need to have at least {{mem}}MB free to host an application and you are using, if you don't have one of our plans yet, get a plan to release more features.",
+            "botLang": "An error has occurred. We do not detect {{botlang}} in the directory of your application.",
+            "erroFile": "We identified an error in your file {{langbot}}, correct it and try again.",
+            "lastMemory": "You cannot put this amount of memory in your application, only you remain {{mem}} MB",
+            "siteLang": "An error has occurred.We do not detect {{sitelang}} in the directory of your application.",
+            "siteErro": "We identified an error in your file {{siteLang}}, correct it and try again.",
+            "subDomain": "You did not register the {{subDomain}} subdomain."
+        } 
+        },
+        "user":{
+            "userData": "Os dados do usuário foram carregados com sucesso"
+        },
+        "locale":{
+            "error":"A tradução para a linguagem {{lang}} ainda não existe.",
+            "msg":"Você será respondido em português pela DisCloud apartir de agora."
+
+        },
+        "app": {
+            "allApps": "As informações de seus aplicativos foram carregadas.",
+            "oneApp": "A informação de seu aplicativo foi carregada.",
+            "notOwner": "Este ID não pertence a nenhuma de suas aplicações.",
+            
+            "backup":{
+                "backupLoad": "Os backups de seus aplicativos foram carregados.",
+                "backupOk": "O backup do seu aplicativo será gerado com sucesso."
+            },
+            "commit":{
+                "200": "Os arquivos do seu aplicativo foram atualizados com sucesso.",
+                "201": "Erro ao Rebuildar e renight o contêiner.",
+                "204": "A extensão .ru não é compatível, use a extensão .zip.",
+                "222": "Seu aplicativo não pode ser iniciado porque uma falha no seu código foi detectada, verifique os logs do aplicativo para obter mais detalhes.",
+                "302": "Ocorreu um erro ao configurar seu ambiente.",
+                "404": "Ocorreu um erro ao baixar o arquivo enviado, verifique se o arquivo não está corrompido e tente novamente.",
+                "504": "Identificamos um erro no seu arquivo {{file}}, corrija -o e tente novamente."
+            },
+            "logs":{
+                "logsLoad": "Os registros de seus aplicativos foram carregados"
+            },
+            "ram":{
+                "changeMem": "Alterar a memória usada por aplicativos está disponível apenas para doadores de carbono ou superiores.",
+                "ramOk": "A memória do seu aplicativo foi alterada com sucesso.",
+
+                "erro": {
+                    "value": "Quantidade de RAM inválida.",
+                    "botRam": "A RAM deve ser um valor igual ou acima de 100 MB.",
+                    "webRam": "Os aplicativos da Web precisam de pelo menos 512 MB.",
+                    "changeMem": "Ocorreu um erro ao tentar alterar a memória de seu aplicativo."
+                }
+            },
+            "restart":{
+                "appRestart": "Sua aplicação foi reiniciada.",
+                "appOff": "Seu aplicativo já está desligado.",
+
+                "erro": {
+                    "erroApp": "Erro ao reiniciar seu aplicativo.",
+                    "erroRestart": "Ocorreu um erro ao reiniciar sua aplicação.",
+                    "erroDependencies": "Ocorreu um erro de dependências ao reiniciar sua aplicação."
+                }
+            },
+            "start":{
+                "appConnect": "Seu aplicativo foi conectado.",
+                "appOn": "Sua aplicação já está ligada.",
+                "appLink": "Sua aplicação foi vinculada.",
+
+                "erro": {
+                    "erroStart": "Ocorreu um erro ao iniciar seu aplicativo.",
+                    "erroDependencies": "Um erro de dependências ocorreu ao iniciar sua aplicação."
+                }
+            },
+            "status":{
+                "statusApp": "O status de seus aplicativos foi carregado"
+            },
+            "stop":{
+                "stoping": "Seu aplicativo foi desligado."
+            },
+            "apt":{
+                "not":"Não existe pacotes disponiveis para essa linguagem",
+                "aptNot": "Não existe pacotes disponiveis com esse nome",
+                "errorNewApt": "Detectamos um erro ao configurar os novos pacotes.",
+                "install": "O pacote {{newApt}} foi instalado",
+                "del": "O pacote {{newApt}} foi desinstalado"
+            },
+            "team":{
+                "appTeam": "Você não está em nenhuma equipe de aplicativos.",
+                "modAppRemove": "Moderador removido do aplicativo.",
+                "modd": "Esse moderador já foi registrado.",
+                
+                "erro": {
+                    "modPlan": "O sistema de moderadores está disponível apenas para doadores de ouro ou mais alto.",
+                    "appMod": "Este aplicativo já atingiu o máximo de moderadores possível.",
+                    "arrayPerm": "Variavel Perms precisa ser uma variedade de permissões.",
+                    "modOwn": "Você não pode adicionar como moderador em seu próprio aplicativo.",
+                    "notMod": "Este moderador não existe neste aplicativo."
+                }
+            }
+        },
+        "team":{
+            "backup":{},
+            "commit":{},
+            "delete": {},
+            "logs":{},
+            "ram":{},
+            "restart":{},
+            "start":{},
+            "status":{},
+            "stop":{
+                "appOff": "Sua aplicação foi desativada."
+            }
+        }
+    }
+}
