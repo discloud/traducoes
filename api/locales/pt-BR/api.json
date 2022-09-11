@@ -17,8 +17,8 @@
             "app": "Seu aplicativo foi iniciado.",
             "webApp": "Seu aplicativo da web foi iniciado -",
         "erro": {
-            "93": "O arquivo divloud.config não foi encontrado dentro do .zip enviado.",
-            "403": "Encontramos um erro dentro do arquivo divloud.config, verifique se ele colocou as informações corretamente.",
+            "93": "O arquivo discloud.config não foi encontrado dentro do .zip enviado.",
+            "403": "Encontramos um erro dentro do arquivo discloud.config, verifique se ele colocou as informações corretamente.",
             "91": "Ocorreu um erro alocando o espaço. Verifique se o arquivo zip enviado não está corrompido, válido ou bloqueado com uma senha.",
             "typeApp": "Informe o TYPE em seu arquivo discloud.config",
             "mainFile": "O arquivo principal informado no discloud.config está incorreto.",
