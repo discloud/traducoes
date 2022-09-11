@@ -276,7 +276,7 @@
           },
           "config": {
             "title": "Fichier de configuration",
-            "description": "Chez DisCloud vous pouvez automatiser le téléchargement d'applications de manière plus pratique et rapide. Vous devrez donc créer un fichier appelé : 'Discloud.config', dans lequel il permettra à notre système de détecter la configuration effectuée. Dans ce fichier, nous attribueront les ressources nécessaires à DupFast."
+            "description": "Chez DisCloud vous pouvez automatiser le téléchargement d'applications de manière plus pratique et rapide. Vous devrez donc créer un fichier appelé : 'discloud.config', dans lequel il permettra à notre système de détecter la configuration effectuée. Dans ce fichier, nous attribueront les ressources nécessaires à DupFast."
           },
           "file": {
             "title": "Préparation des fichiers",
