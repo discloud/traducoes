@@ -118,8 +118,8 @@
                 "not":"There are no packages available for this language",
                 "aptNot": "There are no packages available with that name",
                 "errorNewApt": "We detected an error by setting up the new packages.",
-                "install": "The {{newpt}} package was installed",
-                "del": "The package {{Newapt}} was uninstalled"
+                "install": "The {{newApt}} package was installed",
+                "del": "The package {{newApt}} was uninstalled"
             },
             "team":{
                 "appTeam": "You are not on any app team",
