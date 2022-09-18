@@ -1,10 +1,14 @@
 {
-    "backup": {
-        "desc": "Backup your bot files."
+    "apps": {
+        "desc": "Lists all the apps of a client."
     },
 
-    "bots": {
-        "desc": "Lists all bots of a client."
+    "apt": {
+        "desc": "Install Packages on the linux instance of your Application."
+    },
+
+    "backup": {
+        "desc": "Back up your Application's files."
     },
 
     "cleardm": {
@@ -12,47 +16,43 @@
     },
 
     "commit": {
-        "desc": "Update your bot files."
-    },
-
-    "delete": {
-        "desc": "Delete a file or folder from your bot's directory."
+        "desc": "Update your application files"
     },
 
     "dir": {
-        "desc": "View the directory structure of your bot."
+        "desc": "View your application's directory structure"
+    },
+
+    "gift": {
+        "desc": "Activate a gift plan in DisCloud."
     },
 
     "git": {
-        "desc": "Sync a git repository to your bot for automatic updates."
+        "desc": "Synchronize a git repository to your application for automatic updates."
     },
 
     "help": {
-        "desc": "Lists all commands in the bot."
+        "desc": "Lists all existing commands in the bot."
     },
 
     "iniciar": {
-        "desc": "Start your bot."
+        "desc": "Start your application."
     },
 
     "memoria": {
-        "desc": "Change the maximum RAM consumed by a bot."
+        "desc": "Change the maximum RAM memory consumed by an application."
     },
 
     "mod": {
         "desc": "Perform various functions related to the moderator system."
     },
 
-    "novoup": {
-        "desc": "Upload a bot using the configuration file .discloudconfig"
-    },
-
     "parar": {
-        "desc": "Stop your bot."
+        "desc": "Stop your application."
     },
 
     "ping": {
-        "desc": "View bot latency."
+        "desc": "View the latency of your application."
     },
 
     "planos": {
@@ -60,30 +60,64 @@
     },
 
     "reiniciar": {
-        "desc": "Restart your bot."
+        "desc": "Restart your application."
     },
 
-    "removerbot": {
-        "desc": "Delete your instance by deleting all data and settings."
+    "removerapp": {
+        "desc": "Delete your instance, deleting all data and settings."
     },
 
     "resetweek": {
-        "desc": "Reset the time your bot will turn off."
+        "desc": "Reset the time when your app will shut down."
     },
 
     "status": {
-        "desc": "View the status of a bot."
+        "desc": "View the status of an application."
+    },
+
+    "subdominio": {
+        "desc": "Register or remove a subdomain in DisCloud."
     },
 
     "terminal": {
-        "desc": "Shows the terminal of your bot."
+        "desc": "Displays the terminal of your application."
+    },
+
+    "transferir": {
+        "desc": "Activate a plan by gift in DisCloud."
     },
 
     "up": {
-        "desc": "Upload your bot to DisCloud."
+        "desc": "Upload in your app on DisCloud."
+    },
+
+    "upconfig": {
+        "desc": "Upload an application to the DisCloud with the discloud.config file."
+    },
+
+    "upsite": {
+        "desc": "Upload your site to the DisCloud."
     },
 
     "userinfo": {
-        "desc": "View customer information."
+        "desc": "View a customer's information."
+    },
+    
+    "version": {
+        "desc": "Edit the version of the language used in your application."
+    },
+    
+    "autorestart": {
+        "desc": "Enable and disable application autorestart"
+    },
+    "restorepoints": {
+        "desc": "Create restoration points for an application."
+    },
+    "api": {
+    "desc": "Generate token for using the Discloud API."
+    },
+
+    "locale": {
+    "desc": "Changing language that the discloud bot will answer you."
     }
 }

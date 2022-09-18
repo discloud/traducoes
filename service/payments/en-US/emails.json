@@ -21,7 +21,7 @@
 
     "backupbots": {
         "subject": "Backup of your bots",
-        "texto_1": "Your bots has been removed because your <b>{{PLAN}}</b> plan has ended. You can download your bots backup by clicking the buttons below. Remember that your bots can go back online with our <b>Free</b> plan or you can buy a new plan <b><a href='https://discloudbot.com/#precos'>by clicking here</a></b>.",
+        "texto_1": "Your bots has been removed because your <b>{{PLAN}}</b> plan has ended. You can download your bots backup by clicking the buttons below. Remember that your bots can go back online with our <b>Free</b> plan or you can buy a new plan <b><a href='https://discloudbot.com/plans'>by clicking here</a></b>.",
         "texto_2": "You have 1 month to download your bot backup, otherwise it will be permanently deleted.",
         "download_bot": "Download {{BOTNAME}} backup"
     }

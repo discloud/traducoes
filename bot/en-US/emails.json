@@ -11,9 +11,10 @@
         }
     },
 
-    "3daysleft": {
-        "subject": "Renewing your plan",
-        "texto_1": "Your <b>{{PLAN}}</b> plan will expire on <b>{{DAYS}}</b>. You can renew your plan by clicking the button below. Remember to backup your bots!",
+    "daysleft": {
+        "subject_1": "Renewing your plan {{PLAN}} (1 day left)",
+        "subject_3": "Renewing your plan {{PLAN}} (3 days left)",
+        "texto_1": "Your <b>{{PLAN}}</b> plan will expire on <b>{{REST}}</b>. You can renew your plan by clicking the button below. Remember to backup your bots!",
         "texto_2": "At the end of the term, all data from your Bots and instances will be permanently deleted.",
         "renew_plan": "Renew plan"
     },
