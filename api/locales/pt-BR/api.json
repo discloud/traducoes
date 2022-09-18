@@ -36,17 +36,17 @@
             "approve": "Você ainda não tem subdomínio aprovado ou disponível para uso.",
             "mbMin": "Você precisa ter pelo menos 512 MB de memória disponível para fazer upload do seu aplicativo web.",
             "mbMax": "O valor da RAM do seu aplicativo deve ser de 512 MB ou mais.",
-            "read": "Erro ao tentando ler o arquivo discloud.config",
+            "read": "Erro ao tentar ler o arquivo discloud.config",
             "idApp": "O ID {{app}} pertence a um aplicativo que já está hospedado.",
             
-            "ramLimit": "The RAM limit of your plan is {{plans}} mb",
-            "freeHost": "You need to have at least {{mem}}MB free to host an application and you are using, if you don't have one of our plans yet, get a plan to release more features.",
-            "botLang": "An error has occurred. We do not detect {{botlang}} in the directory of your application.",
-            "erroFile": "We identified an error in your file {{langbot}}, correct it and try again.",
-            "lastMemory": "You cannot put this amount of memory in your application, only you remain {{mem}} MB",
-            "siteLang": "An error has occurred.We do not detect {{sitelang}} in the directory of your application.",
-            "siteErro": "We identified an error in your file {{siteLang}}, correct it and try again.",
-            "subDomain": "You did not register the {{subDomain}} subdomain."
+            "ramLimit": "A RAM do seu plano é de {{plans}} mb",
+            "freeHost": "Tu precisas de ter, pelo menos, {{mem}}MB livre para hospedar uma aplicaçã. Caso ainda não tenha, adquira um plano para ter mais recursos.",
+            "botLang": "Ocorreu um erro. Não foi detectado o arquivo {{botlang}} no diretório da sua aplicação.",
+            "erroFile": "Encontramos um erro no ficheiro {{langbot}}, corrija-o e tente novamente.",
+            "lastMemory": "Não podemos colocar esta memória na sua aplicação, apenas tem {{mem}} MB",
+            "siteLang": "Ocorreu um erro. Não detectamos {{sitelang}} no diretório da sua aplicação.",
+            "siteErro": "Identificamos um erro no arquivo {{siteLang}}, corrija-o e tente novamente.",
+            "subDomain": "Você não registrou o subdomínio {{subDomain}}."
         } 
         },
         "user":{
