@@ -50,87 +50,87 @@
         } 
         },
         "user":{
-            "userData": "User data were successfully charged"
+            "userData": "User data successfully loaded"
         },
         "locale":{
-            "error":"The translation into language {{lang}} does not yet exist.",
-            "msg":"You will be answered in english by Discloud from now."
+            "error":"The translation for the language {{lang}} does not exists yet.",
+            "msg":"Now, you will be answered in english by Discloud.."
         },
         "app": {
             "allApps": "The information from your applications has been loaded.",
             "oneApp": "The information of your application has been loaded.",
-            "notOwner": "This id does not belong to any of its applications.",
+            "notOwner": "This id does not belong to any of your applications.",
             
             "backup":{
-                "backupLoad": "The backups of your applications were loaded",
-                "backupOk": "The backup of your application will be generated successfully"
+                "backupLoad": "Backups from your applications loading.",
+                "backupOk": "Backup of your application will be generated successfully."
             },
             "commit":{
                 "200": "The files of your application have been successfully updated.",
                 "201": "Error when rebuildar and renight the container.",
                 "204": "The .rar extension is not compatible, use the .zip extension.",
-                "222": "Your application cannot be started because a fault in your code has been detected, check the application logs for more details.",
+                "222": "Your application cannot be started because a fault in your code has been detected, check your application's logs for more details.",
                 "302": "An error occurred when configuring your environment.",
-                "404": "An error occurred when downloading the file you sent, make sure the file is not corrupted and try again.",
-                "504": "We identified an error in your file {{file}}, correct it and try again."
+                "404": "An error occurred when downloading the file you sent, make sure the file is not corrupted or bloacked and try again.",
+                "504": "We identified an error at {{file}}, correct it and try again."
             },
             "logs":{
-                "logsLoad": "The logs of your applications were loaded"
+                "logsLoad": "Logs from your application loaded."
             },
             "ram":{
-                "changeMem": "Changing the memory used by applications is only available for Carbon or superior donors.",
+                "changeMem": "Changing the memory used by applications is only available for Carbon or superior donators.",
                 "ramOk": "The memory of your application has been successfully changed.",
 
                 "erro": {
-                    "value": "Amount of invalid RAM.",
-                    "botRam": "RAM must be a value equal to or above 100MB.",
+                    "value": "RAM value invalid.",
+                    "botRam": "RAM must be a value equal or above 100MB.",
                     "webRam": "Web applications need at least 512MB.",
-                    "changeMem": "An error occurred when trying to change the memory of its application."
+                    "changeMem": "An error occurred when trying to change the memory of your application."
                 }
             },
             "restart":{
-                "appRestart": "Its application was restarted.",
-                "appOff": "Its application is already off.",
+                "appRestart": "Your application was restarted.",
+                "appOff": "Your application is already offline.",
 
                 "erro": {
                     "erroApp": "Error when restarting your application.",
-                    "erroRestart": "An error occurred when restarting its application.",
-                    "erroDependencies": "An error of dependencies occurred when restarting its application."
+                    "erroRestart": "An error occurred when restarting your application.",
+                    "erroDependencies": "An error of dependencies occurred when restarting your application."
                 }
             },
             "start":{
-                "appConnect": "Its application was connected.",
-                "appOn": "Its application is already on.",
-                "appLink": "Its application has been linked.",
+                "appConnect": "Your application have been connected.",
+                "appOn": "Your application is already online.",
+                "appLink": "Your application has been linked.",
 
                 "erro": {
-                    "erroStart": "An error occurred when starting its application.",
-                    "erroDependencies": "An error of dependencies occurred when starting its application."
+                    "erroStart": "An error occurred when starting your application.",
+                    "erroDependencies": "An error of dependencies occurred when starting your application."
                 }
             },
             "status":{
-                "statusApp": "The status of your applications were loaded"
+                "statusApp": "Status for your applications have been loaded."
             },
             "stop":{
-                "stoping": "Your application has been turned off"
+                "stoping": "Your application stopped."
             },
             "apt":{
                 "not":"There are no packages available for this language",
                 "aptNot": "There are no packages available with that name",
                 "errorNewApt": "We detected an error by setting up the new packages.",
-                "install": "The {{newApt}} package was installed",
-                "del": "The package {{newApt}} was uninstalled"
+                "install": "Package {{newApt}} installed.",
+                "del": "Package {{newApt}} uninstalled."
             },
             "team":{
-                "appTeam": "You are not on any app team",
+                "appTeam": "You are not on any applicatio team.",
                 "modAppRemove": "Moderator removed from the application",
                 "modd": "This moderator has already been registered.",
                 
                 "erro": {
-                    "modPlan": "The moderators system is only available for gold or higher donors.",
+                    "modPlan": "The moderators system is only available for gold or higher donators.",
                     "appMod": "This application has already reached as much moderators as possible.",
                     "arrayPerm": "Variavel perms needs to be an array of permissions",
-                    "modOwn": "You cannot add as a moderator in your own application.",
+                    "modOwn": "You cannot add you as a moderator in your own application.",
                     "notMod": "This moderator does not exist in this app"
                 }
             }
@@ -146,7 +146,7 @@
             "start":{},
             "status":{},
             "stop":{
-                "appOff": "Its application was off."
+                "appOff": "Your application stopped."
             }
         }
     }
