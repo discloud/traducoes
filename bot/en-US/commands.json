@@ -148,7 +148,24 @@
                 "src": "Files:",
                 "line": "Lines:",
                 "extend": "Extension:"  
-            }
+            },
+            
+            "deleteDir": "Are you sure you want to delete the directory",
+            "deletePerm": "All files inside this folder will be permanently deleted.",
+            "irreversible": "This action is irreversible!",
+            "Folder": "The folder",
+            "eliminated": "was eliminated.",
+            "backupError": "An error occurred while trying to backup your bot.",
+            "caracter": "The content of this file exceeds 4000 characters.",
+            "content": "The content you entered is the same as the content already present in the current file.",
+            "archive": "The file was successfully changed, do you want to restart your application for the changes to take effect?",
+            "erroRestart": "An error occurred while trying to restart the application.",
+            "restart": "The application was restarted and the file changes were successfully applied.",
+            "errorAlt": "File changed and application not restarted.",
+            "wait": "Wait...",
+            "actionCancel": "You took too long and the action was cancelled. Your application has not been restarted.",
+            "directErro": "There was an error trying to access this path, perhaps it has been deleted or modified.",
+            "errorEdit": "An error occurred while trying to edit the file."
         },
 
         "help": {
@@ -178,7 +195,10 @@
             "aguar": "Wait...",
             "iniciarerro": "There was an error starting your application.",
             "sucesso": "Your application has started successfully.",
-            "aguardarCMD": "You have already used a command before and it is still processing, wait for it to finish before using another."
+            "aguardarCMD": "You have already used a command before and it is still processing, wait for it to finish before using another.",
+            "iniciar": "{{start}} applications have been started.",
+            "iniciarOff": "Starting your applications offline...",
+            "iniciarApp": "Starting the application"
         },
 
        "parar": {
@@ -431,7 +451,7 @@
                 "s": "seconds"
             },
             "embedfull": {
-                "setDescription": {
+                "setDescription": { 
                     "name": "Name/ID:",
                     "cont": "Container:",
                     "lang": "Language:",
@@ -644,6 +664,30 @@
             "ping": "Ping?",
             "bot": "Bot:",
             "api": "API:"
+        },
+  
+        "apt": {
+          "Notpackage": "There are no packages available for this language.",
+          "installPackage": "Choose the package you want to install",
+          "removePackage": "**Removing packages...**",
+          "errorConfig": "We detected an error while configuring the new packages.",
+          "uninstall": "The `{{pkg}}` package has been uninstalled.",
+          "install": "**Installing packages...**",
+          "packageInstall": "Your instance now has the `{{pkg}}` package installed.",
+          "errorRemove": "We detected an error removing packages.",
+          "timeAction": "**📦 You took a long time to choose an action.**"
+        },
+    
+        "api": {
+          "token": "Your token is: ||`{{token}}`|| Do not reveal it to anyone. \nIf someone else has access to this Token, they can also get your plan and application status data.",
+          "DM": "Unlock your DM."
+        },
+    
+        "autorestart": {
+          "donator": "Command only available to platinum or higher donors",
+          "errorConfig": "We detected an error while setting up the environment.", 
+          "on": "Auto Restart has been `turned on` in the application: `{{app}}`",
+          "off":"Auto Restart has been `turned off` in the application: `{{app}}`"
         }
         
     }

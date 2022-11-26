@@ -25,6 +25,7 @@
       "semAplicações": "Você ainda não tem nenhuma aplicação hospedada nos nossos sistemas, use `.upload` para realizar o mesmo.",
       "dmBlock": "**Parece que o seu DM está bloqueado, libere-o para poder utilizar este comando.**",
       "container": "Offline por ultrapassar o limite de memória RAM.",
+      "userNotFound": "**Esse usuário não faz parte do servidor.**",
       "embed": {
         "nomeid": "Nome/ID",
         "lang": "Linguagem",
@@ -147,7 +148,23 @@
         "src": "Arquivos:",
         "line": "Linhas:",
         "extend": "Extensão:"
-      }
+      },
+      "deleteDir": "Tem a certeza que quer eliminar o diretório",
+      "deletePerm": "Todos os arquivos dentro desta pasta serão eliminados permanentemente.",
+      "irreversible": "Esta ação é irreversível!",
+      "Folder": "A pasta",
+      "eliminated": "foi eliminada.",
+      "backupError": "Ocorreu um erro ao tentar gerar o backup do seu bot.",
+      "caracter": "O conteudo desse arquivo ultrapassa os 4000 caracteres.",
+      "content": "O conteudo que você inseriu é igual ao conteudo já presente no arquivo atual.",
+      "archive": "O arquivo foi alterado com sucesso, deseja reiniciar a sua aplicação para que as alterações sejam aplicadas?",
+      "erroRestart": "Ocorreu um erro ao tentar reiniciar a aplicação.",
+      "restart": "A aplicação foi reiniciada e as alterações do arquivo foram aplicadas com sucesso.",
+      "errorAlt": "Arquivo alterado e aplicação não reiniciada.",
+      "wait": "Aguarde...",
+      "actionCancel": "Você demorou muito tempo e a ação foi cancelada. A sua aplicação não foi reiniciada.",
+      "directErro": "Ocorreu um erro ao tentar aceder esse caminho, talvez ele tenha sido deletado ou modificado.",
+      "errorEdit": "Ocorreu um erro ao tentar editar o arquivo."
     },
 
     "help": {
@@ -177,7 +194,10 @@
       "aguar": "Aguarde..",
       "iniciarerro": "Ocorreu um erro ao iniciar a sua aplicação.",
       "sucesso": "A sua aplicação foi iniciada com sucesso.",
-      "aguardarCMD": "Você já usou um comando anteriormente e ele ainda está em processamento, aguarde ele finalizar para usar outro."
+      "aguardarCMD": "Você já usou um comando anteriormente e ele ainda está em processamento, aguarde ele finalizar para usar outro.",
+      "iniciar": "Foram iniciadas {{start}} aplicações.",
+      "iniciarOff": "A iniciar as suas aplicações off-line...",
+      "iniciarApp": "A iniciar a aplicação"
     },
 
     "parar": {
@@ -646,6 +666,30 @@
       "ping": "Ping?",
       "bot": "Bot:",
       "api": "API:"
+    },
+  
+    "apt": {
+      "Notpackage": "Não existe pacotes disponiveis para essa linguagem",
+      "installPackage": "Escolha o pacote que deseja instalar",
+      "removePackage": "**Removendo pacotes...**",
+      "errorConfig": "Detectamos um erro ao configurar os novos pacotes.",
+      "uninstall": "O pacote `{{pkg}}` foi desinstalado.",
+      "install": "**Instalando pacotes...**",
+      "packageInstall": "A sua instância agora está com o pacote `{{pkg}}` instalado.",
+      "errorRemove": "Detectamos um erro ao remover os pacotes.",
+      "timeAction": "**📦 Você demorou muito tempo para escolher uma ação.**"
+    },
+
+    "api": {
+      "token": "O seu token é: ||`{{token}}`|| Não revele-o a ninguém. \nSe outra pessoa tiver acesso a este Token ela também poderá obter os dados de status do seu plano e aplicação.",
+      "DM": "Unlock your DM."
+    },
+
+    "autorestart": {
+      "donator": "Comando disponivel apenas para doadores platina ou superior",
+      "errorConfig": "Detectamos um erro ao configurar o ambiente.", 
+      "on": "Auto Restart foi `ligado` na aplicaçao: `{{app}}`",
+      "off":"Auto Restart foi `desligado` na aplicaçao: `{{app}}`"
     }
   }
 }
