@@ -390,8 +390,8 @@
     },
 
     "subdominio": {
-      "requisito": "O sistema de sites só está disponível para doadores `Platina` ou superiores.",
-      "requisito2": "O sistema de sites só está disponível para doadores `Platina` ou superiores.",
+      "requisito": "O sistema de sites só está disponível para doadores",
+      "requisito2": "`Platina` ou superiores.",
       "reagir": "Reaja com",
       "reagir2": "para registrar um novo subdomínio.",
       "reagir3": "para remover um subdomínio.",
