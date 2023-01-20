@@ -187,7 +187,7 @@
             "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Send the ID of the application you want started.",
             "iddiferente": "This ID is not the same as any of your applications.",
-            "ligado": "Your application is now online.",
+            "ligado": "Your application is already online.",
             "duploip": "You have registered two different accounts on DisCloud, contact the team via @ModMail DM.",
             "limitefree": "The application limit in the Free Plan has been reached, try again later or buy one of our plans and host your application now without limits.",
             "startingbot": "Starting your application...",
