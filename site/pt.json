@@ -16,7 +16,8 @@
                 "link11": "Sair",
                 "link12": "Entrar",
                 "link13": "Português",
-                "link14": "English"
+                "link14": "English",
+                "link15": "Français"
             }
         },
 
@@ -362,7 +363,7 @@
             "assinatura": "Verificar assinaturas",
             "delAppDesc":"A exclusão deste aplicativo resultará na perda irreversível de todos os arquivos e configurações. Tem certeza de que deseja prosseguir?",
             "logs":{
-                "criada": "A aplicação criada com sucesso!",
+                "criada": "A aplicação foi criada com sucesso!",
                 "deletada": "A aplicação foi deletada!",
                 "ligada": "A aplicação foi ligada!",
                 "desligada": "A aplicação foi desligada!"
@@ -503,7 +504,7 @@
         "assinaturas": {
            "cancelModal":{
             "cancelarPlano": "Cancelar assinatura",
-            "temcerteza": "Tem certeza que deseja cancelar sua assinatura",
+            "temcerteza": "Tem certeza que deseja cancelar sua assinatura?",
             "aocancelar": "Ao cancelar a cobrança o seu plano atual não será mais renovado automaticamente.",
             "noDia": "No dia {day} você irá perder recursos importantes:",
             "acesso": "Compartilhamento de Acesso",

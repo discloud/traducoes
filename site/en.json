@@ -15,52 +15,46 @@
                 "assinatura": "Billing",
                 "link11": "Exit",
                 "link12": "Enter",
-                "link13": "Portuguese",
-                "link14": "English"
+                "link13": "Português",
+                "link14": "English",
+                "link15": "Français"
             }
         },
-
         "footer": {
             "nav": {
                 "nome": "Company",
                 "link": "Prices",
                 "link2": "About",
                 "link3": "Brand"
-        },
+            },
             "nav2": {
                 "nome": "API",
                 "link": "How to use",
                 "link2": "NodeJS Module",
                 "link3": "Python Module"
             },
-
             "nav3": {
                 "nome": "Resources",
                 "link": "How to Host?",
                 "link2": "Talk to Us",
                 "link3": "Blog"
             },
-
             "pay": {
                 "nome": "Forms of Payment"
-            }, 
-
+            },
             "copyright": {
                 "discloud": "DisCloud © 2019 -",
                 "copy": " • All rights reserved."
             },
-
             "nav4": {
                 "nav": "Documentation",
                 "nav2": "Terms of Service",
                 "nav3": "Usage Policies"
             }
         }
-        
     },
-
-    "home":{
-        "1":"Y",
+    "home": {
+        "1": "Y",
         "site": "our Site",
         "bots": "our Bot",
         "api": "our API",
@@ -69,7 +63,7 @@
         "trans": "Transforming the Way You Host Your Applications",
         "deploys": "Monthly deploys",
         "users": "Our users",
-        "apps":"Apps Hosted",
+        "apps": "Apps Hosted",
         "hardware": "Ideal Hardware with",
         "hardware2": "Maximum Performance",
         "core": "24 cores and 48 CPU threads",
@@ -82,7 +76,6 @@
         "appSpan": "perfect plan",
         "app3": "for you!",
         "start": "Know now",
-
         "web": {
             "min": "For less than $0.2 per day",
             "title": "Website hosting",
@@ -96,7 +89,6 @@
             "desc": "We take care of the heavy lifting while you have fun and focus on taking care of and growing your community. Join us today and experience the peace of mind of having your bot hosted with the best.",
             "button": "See all features"
         }
-
     },
     "Breads": {
         "home": "Home",
@@ -105,22 +97,19 @@
         "bread4": "VSCode",
         "bread5": "CLI",
         "plans": "Prices",
-        "bread7":"About"
+        "bread7": "About"
     },
     "WebSites": {
         "site": "Your site deserves the best",
         "site2": "and we have the",
         "site3": "perfect plan",
         "site4": "for you!",
-
         "page": {
             "host": "Features included in our",
             "host2": "web hosting",
-
             "hero": {
                 "title": "Cloudflare Premium",
                 "desc": "Its web application is integrated with Cloudflare Premium, ensuring that all access is properly filtered and that users have a dynamic and comfortable experience.",
-            
                 "card": {
                     "title": "Web Application Firewall",
                     "desc": "We provide a powerful behavior-based WAF that intelligently tracks and neutralizes malicious attacks before they reach your Sites."
@@ -129,13 +118,10 @@
                     "title": "Native Anti-DDoS system",
                     "desc": "Our system monitors network traffic and routes malicious activity to our attack mitigation farm as soon as a DDoS event is detected."
                 }
-            
             },
-
             "hero2": {
                 "title": "Free Domain",
                 "desc": "Here you don't need to worry about buying a domain; we provide a subdomain totally free for you to host your applications.",
-                
                 "card": {
                     "title": "Custom Domain",
                     "desc": "You can use your own domain name (TLD) in your web applications, for example yourite.com, thus helping your project stand out on the Internet."
@@ -144,18 +130,14 @@
                     "title": "Private DNS Resolver",
                     "desc": "We provide a dedicated DNS Server, efficient and with more privacy. To ensure the high flow of requests from the thousands of apps in our infrastructure."
                 }
-            
             },
-
             "hero3": {
                 "title": "SSL Certificate",
                 "desc": "We offer an automatic integration of SSL/TLS certificates, ensuring the security, autonomy, reliability, and efficiency of the HTTPS protocol for your sites.",
-
                 "card": {
                     "title": "Automatic Deploy with Git",
                     "desc": "With our automatic deployment your instance will be updated whenever a change is made to a branch in your GitHub repository."
                 },
-
                 "card2": {
                     "title": "Access Sharing",
                     "desc": "Do not share passwords, but rather, access. You can share access to each application by specifying the access level for each individual."
@@ -163,55 +145,47 @@
             }
         }
     },
-
     "Bots": {
         "page": {
             "host": "Features included in our",
             "host2": "bot hosting",
-
             "hero": {
                 "title": "Your Discord Bot Responsible",
                 "desc": "We seek to promote a healthy environment for everyone who uses Discord, for this we created a decentralized system that acts preventively preventing the Bot hosted in the Discloud from exceeding the rate limit of the Discord API.",
-            
-            "card": {
-                "title": "Local Database",
-                "desc": "Our file system allows you to locally store your data in banks such as Sqlite, LokiDB and others."
-            },
-
-            "card2": {
-                "title": "Package System",
-                "desc": "We provide native support for let's APTs such as: Canvas, Puppeteer, Libgl, Openssl, Cmake and many others"
-            }
-        },
-
-        "hero2": {
-            "title": "Your Online Music Bot",
-            "desc": "We provide a system that has a dynamic, intelligent and highly scalable algorithm that takes advantage of a wide range of public IP's leaving you free of blockages while playing your music.",
-
-            "card": {
-                "title": "FFmpeg support",
-                "desc": "With our FFmpeg support, we help developers deliver a high-quality sound experience to their community."
-        },
-            "card2": {
-                "title": "Lavalink Server",
-                "desc": "Here you can host your private Lavalink server to improve the quality and streaming speed of your bot's music."
+                "card": {
+                    "title": "Local Database",
+                    "desc": "Our file system allows you to locally store your data in banks such as Sqlite, LokiDB and others."
+                },
+                "card2": {
+                    "title": "Package System",
+                    "desc": "We provide native support for let's APTs such as: Canvas, Puppeteer, Libgl, Openssl, Cmake and many others"
                 }
             },
-        "hero3": {
-            "title": "Bots from Any Platform",
-            "desc": "We offer hosting for Bots on the various existing platforms. With responsibility, we take care of the complex infrastructure, so you can focus exclusively on the growth and evolution of your community.",
-        
-            "card": {
-                "title": "Automatic Deploy with Git",
-                "desc": "With our automatic deployment your instance will be updated whenever a change is made to a branch in your GitHub repository."
+            "hero2": {
+                "title": "Your Online Music Bot",
+                "desc": "We provide a system that has a dynamic, intelligent and highly scalable algorithm that takes advantage of a wide range of public IP's leaving you free of blockages while playing your music.",
+                "card": {
+                    "title": "FFmpeg support",
+                    "desc": "With our FFmpeg support, we help developers deliver a high-quality sound experience to their community."
+                },
+                "card2": {
+                    "title": "Lavalink Server",
+                    "desc": "Here you can host your private Lavalink server to improve the quality and streaming speed of your bot's music."
+                }
             },
-            "card2": {
-                "title": "Access Sharing",
-                "desc": "Do not share passwords, but rather, access. You can share access to each application by specifying the access level for each individual."
+            "hero3": {
+                "title": "Bots from Any Platform",
+                "desc": "We offer hosting for Bots on the various existing platforms. With responsibility, we take care of the complex infrastructure, so you can focus exclusively on the growth and evolution of your community.",
+                "card": {
+                    "title": "Automatic Deploy with Git",
+                    "desc": "With our automatic deployment your instance will be updated whenever a change is made to a branch in your GitHub repository."
+                },
+                "card2": {
+                    "title": "Access Sharing",
+                    "desc": "Do not share passwords, but rather, access. You can share access to each application by specifying the access level for each individual."
+                }
             }
-        }
-    },
-
+        },
         "site": "Your bot deserves the best",
         "site2": "and we have the",
         "site3": "perfect plan",
@@ -223,14 +197,12 @@
                 "title": "Manage everything",
                 "title2": "from your PC terminal",
                 "desc": "We officially maintain 2 CLIs developed in different languages, use whichever is more convenient.",
-                "console":{
-                 "dir":"myBot",
-                 "token":"Your discloud token",
-                 "success":"[DISCLOUD API] User data was loaded successfully"   
-
+                "console": {
+                    "dir": "myBot",
+                    "token": "Your discloud token",
+                    "success": "[DISCLOUD API] User data was loaded successfully"
                 }
             },
-
             "card": {
                 "install": "CLI Installation",
                 "obs": "If the version appears, it means that it was installed correctly.",
@@ -243,312 +215,308 @@
             "title": "Extension for",
             "title2": "Visual Studio Code",
             "desc": "This feature is here to simplify your workflow during development.",
-        
-        "button": {
-            "1": "Download from Marketplace",
-            "2": "Download from Open VSX"
-        },
-        "watch": {
-            "text": "Watch the video and",
-            "text2": "learn how to use our extension"
+            "button": {
+                "1": "Download from Marketplace",
+                "2": "Download from Open VSX"
+            },
+            "watch": {
+                "text": "Watch the video and",
+                "text2": "learn how to use our extension"
             }
         }
     },
-    "plans":{
-        "title":"Simple, fair and predictable pricing",
-        "subtitle":"Start for free and change your plan whenever you need to.",
-        "ssd":"Enterprise NVMe SSD",
+    "plans": {
+        "title": "Simple, fair and predictable pricing",
+        "subtitle": "Start for free and change your plan whenever you need to.",
+        "ssd": "Enterprise NVMe SSD",
         "banda": "Unlimited Bandwidth",
-        "mes":"/mo",
-        "button":{
-            "comprar":"Buy",
-            "alterar":"Change",
-            "gratis":"Free",
-            "reativar":"Reactivate",
-            "ativado":"Active",
+        "mes": "/mo",
+        "button": {
+            "comprar": "Buy",
+            "alterar": "Change",
+            "gratis": "Free",
+            "reativar": "Reactivate",
+            "ativado": "Active",
             "fazerlogin": "Sign in"
         },
-        "modal":{
-            "title":"Reactivate plan?",
+        "modal": {
+            "title": "Reactivate plan?",
             "subtitle": "We will start renewing your plan automatically again.",
-            "sim":"Yes",
-            "nao":"No"
+            "sim": "Yes",
+            "nao": "No"
         },
-        "table":{
+        "table": {
             "title": "Better plans",
-            "dns":"Private DNS Server",
-            "suporte":"Dedicated Support Agent",
-            "acesso":"Share Access",
-            "git":"Automatic Deployment with Git",
-            "autorestart":"AutoRestart System",
-            "sites":"Web Hosting",
-            "ddos":"Protection against DDos",
-            "domain":"Custom Domains",
-            "gift":"Discloud Gifts"
+            "dns": "Private DNS Server",
+            "suporte": "Dedicated Support Agent",
+            "acesso": "Share Access",
+            "git": "Automatic Deployment with Git",
+            "autorestart": "AutoRestart System",
+            "sites": "Web Hosting",
+            "ddos": "Protection against DDos",
+            "domain": "Custom Domains",
+            "gift": "Discloud Gifts"
         }
     },
     "sobre": {
         "title": "About Us ❤️",
         "description": {
-          "first": {
-            "1_normal": "We are the ",
-            "2_strong": "first ",
-            "3_normal": "cloud platform ",
-            "4_strong": "specializing ",
-            "5_normal": "in Discord applications. Our services are based on a flexible container, where the ",
-            "8_strong": "user has autonomy ",
-            "9_normal": "o manage their resources as they wish"
-          },
-          "second": {
-            "1_normal": "We offer developers, ",
-            "2_strong": "24/7",
-            "5_normal": " a ",
-            "6_strong": " free",
-            "8_strong": " fast ",
-            "9_normal": " and ",
-            "10_strong": "simple way to host",
-            "11_normal": "their applications. ",
-            "12_normal": "We are proud to be growing as a ",
-            "13_strong": "fully donor funded business",
-            "14_normal": "we believe this is the ideal method to ",
-            "15_strong": "add value ",
-            "16_normal": "and promote an ",
-            "17_strong": "inclusive environment"
-          },
-          "third": {
-            "1_normal": "In this way, DisCloud fulfills its social function: the ",
-            "2_strong": "democratization",
-            "3_normal": " of hosting Bots for Discord with its non-profit platform. Benefiting, ",
-            "4_strong": "for over 3 years",
-            "5_normal": "thousands of people, estimated at ",
-            "6_strong": "60,000 users",
-            "7_normal": " Currently, due to the merit of the team and the affection of the donors, our platform maintains ",
-            "8_strong": "thousands of applications online"
-          }
-        },
-        "timeline":{
-            "title":{
-                    "1": "Follow",
-                    "2": "our trajectory"
-                },
-            "discord":{
-                "pr": "what do you think about calling it Discloud?",
-                "bruno":"great, we can use discloudbot.com"
+            "first": {
+                "1_normal": "We are the ",
+                "2_strong": "first ",
+                "3_normal": "cloud platform ",
+                "4_strong": "specializing ",
+                "5_normal": "in Discord applications. Our services are based on a flexible container, where the ",
+                "8_strong": "user has autonomy ",
+                "9_normal": "o manage their resources as they wish"
             },
-            "2019":"We were born out of founder Pedro Ricardo's dissatisfaction with the lack of simple and free ways to host Discord bots. In 2019, he joined forces with Bruno Marley an old friend from other projects, and they created something amazing that eventually became Discloud.",
+            "second": {
+                "1_normal": "We offer developers, ",
+                "2_strong": "24/7",
+                "5_normal": " a ",
+                "6_strong": " free",
+                "8_strong": " fast ",
+                "9_normal": " and ",
+                "10_strong": "simple way to host",
+                "11_normal": "their applications. ",
+                "12_normal": "We are proud to be growing as a ",
+                "13_strong": "fully donor funded business",
+                "14_normal": "we believe this is the ideal method to ",
+                "15_strong": "add value ",
+                "16_normal": "and promote an ",
+                "17_strong": "inclusive environment"
+            },
+            "third": {
+                "1_normal": "In this way, DisCloud fulfills its social function: the ",
+                "2_strong": "democratization",
+                "3_normal": " of hosting Bots for Discord with its non-profit platform. Benefiting, ",
+                "4_strong": "for over 3 years",
+                "5_normal": "thousands of people, estimated at ",
+                "6_strong": "60,000 users",
+                "7_normal": " Currently, due to the merit of the team and the affection of the donors, our platform maintains ",
+                "8_strong": "thousands of applications online"
+            }
+        },
+        "timeline": {
+            "title": {
+                "1": "Follow",
+                "2": "our trajectory"
+            },
+            "discord": {
+                "pr": "what do you think about calling it Discloud?",
+                "bruno": "great, we can use discloudbot.com"
+            },
+            "2019": "We were born out of founder Pedro Ricardo's dissatisfaction with the lack of simple and free ways to host Discord bots. In 2019, he joined forces with Bruno Marley an old friend from other projects, and they created something amazing that eventually became Discloud.",
             "2020": "Discloud was a success after its launch, during this year we had a great acceptance by the users. It was a year full of accomplishments and learning.",
-            "2021":"We released the first version of the public API and opened the beta test of Discloud v2.",
+            "2021": "We released the first version of the public API and opened the beta test of Discloud v2.",
             "2022": "We created our CLI and extension for VScode, and started to support website hosting and APIs with WAF, Anti-DDos, and SSL.",
-            "2023":"With the Discloud rebrand, we started a fresh start. We ditched outdated technologies and rewrote much of our backend in Rust to provide more security, innovation, and efficiency. We are ready to take this new journey."
+            "2023": "With the Discloud rebrand, we started a fresh start. We ditched outdated technologies and rewrote much of our backend in Rust to provide more security, innovation, and efficiency. We are ready to take this new journey."
         }
-      },
-    "login":{
-        "title": "Access Dashboard",
-        "subtitle":"In the future we will only allow logging in with GitHub, so it is important that you start using it only. Goodbye Discord registration!"
     },
-    "dash":{
-        "user":{
-            "recursos":"Resources",
-            "avisoVincular":"You have not linked your Discord account yet. Click here to join now.",
-            "vincular":"Link another account",
-            "plano":"Plan",
-            "team":"Team (Coming Soon)",
-            "delApp":"Delete Application",
+    "login": {
+        "title": "Access Dashboard",
+        "subtitle": "In the future we will only allow logging in with GitHub, so it is important that you start using it only. Goodbye Discord registration!"
+    },
+    "dash": {
+        "user": {
+            "recursos": "Resources",
+            "avisoVincular": "You have not linked your Discord account yet. Click here to join now.",
+            "vincular": "Link another account",
+            "plano": "Plan",
+            "team": "Team (Coming Soon)",
+            "delApp": "Delete Application",
             "sim": "Yes",
             "nao": "No",
             "assinatura": "Verify Subscriptions",
-            "delAppDesc":"Deleting this application will result in the irreversible loss of all files and settings. Are you sure you want to proceed?",
-            "logs":{
-                "criada": "The application created successfully!",
+            "delAppDesc": "Deleting this application will result in the irreversible loss of all files and settings. Are you sure you want to proceed?",
+            "logs": {
+                "criada": "The application was created successfully!",
                 "deletada": "The application has been deleted!",
                 "ligada": "The application has been turned on!",
                 "desligada": "The application has been turned off!"
             },
-            "apps":{
+            "apps": {
                 "title": "Applications",
                 "subtitle": "Hosted Sites and Bots",
                 "semApps": "You have not hosted any applications yet.",
-                "action":"Actions",
-                "parar":"Stop",
-                "deletar":"Delete"
+                "action": "Actions",
+                "parar": "Stop",
+                "deletar": "Delete"
             },
-            "timeline":{
-                "title":"Timeline",
-                "subtitle":"Latest registrations",
-                "parado":"was stopped successfully",
-                "ligado":"was successfully connected",
-                "faltaRam":"crashed due to lack of ram",
-                "caiu":"crashed due to a coding error",
-                "reiniciado":"was successfully restarted",
-                "editRam":"the ram was edited",
+            "timeline": {
+                "title": "Timeline",
+                "subtitle": "Latest registrations",
+                "parado": "was stopped successfully",
+                "ligado": "was successfully connected",
+                "faltaRam": "crashed due to lack of ram",
+                "caiu": "crashed due to a coding error",
+                "reiniciado": "was successfully restarted",
+                "editRam": "the ram was edited",
                 "alterado": "was changed successfully",
-                "git":"was automatically commited by git",
+                "git": "was automatically commited by git",
                 "criado": "was created successfully",
-                "deletado":"was deleted successfully",
-                "rebuild":"was rebuilt successfully",
+                "deletado": "was deleted successfully",
+                "rebuild": "was rebuilt successfully",
                 "domain": "the custom domain was modified"
             },
-            "subdominio":{
-                "title":"Subdomain",
-                "subtitle":"Register a Subdomain",
-                "desc":"Here you don't need to buy a domain, we provide a totally free subdomain for you to host your web applications. This feature is only available in platinum and above.",
-                "alerta":"The subdomain must be between 2 and 12 characters long and consist only of lowercase letters, numbers, and hyphen.",
-                "seusite":"yoursite",
-                "status":"Status",
-                "remover":"Remove",
-                "registrar":"Register",
+            "subdominio": {
+                "title": "Subdomain",
+                "subtitle": "Register a Subdomain",
+                "desc": "Here you don't need to buy a domain, we provide a totally free subdomain for you to host your web applications. This feature is only available in platinum and above.",
+                "alerta": "The subdomain must be between 2 and 12 characters long and consist only of lowercase letters, numbers, and hyphen.",
+                "seusite": "yoursite",
+                "status": "Status",
+                "remover": "Remove",
+                "registrar": "Register",
                 "inativo": "Inactive",
                 "ativo": "Active"
             },
-            "domain":{
-                "title":"Custom Domain",
-                "subtitle":"Register a Custom Domain",
-                "desc":"Link a domain that already belongs to you. This feature is only available in Diamond and above. Do not use http, https and www.",
-                "seusite":"yoursite.com",
-                "selecioneUm":"Select a Subdomain",
-                "registrar":"Register",
-                "domain":"Domain",
-                "zonas":"Zones",
-                "vinculado":"Linked App",
-                "remover":"Remove",
-                "aviso":"For your domain to work, you need to purchase and set it up at a hosting service such as GoDaddy, Registro.br, Cloudflare or others.",
+            "domain": {
+                "title": "Custom Domain",
+                "subtitle": "Register a Custom Domain",
+                "desc": "Link a domain that already belongs to you. This feature is only available in Diamond and above. Do not use http, https and www.",
+                "seusite": "yoursite.com",
+                "selecioneUm": "Select a Subdomain",
+                "registrar": "Register",
+                "domain": "Domain",
+                "zonas": "Zones",
+                "vinculado": "Linked App",
+                "remover": "Remove",
+                "aviso": "For your domain to work, you need to purchase and set it up at a hosting service such as GoDaddy, Registro.br, Cloudflare or others.",
                 "centralLInk": "https://docs.discloudbot.com/v/en",
                 "inativo": "Inactive",
                 "ativo": "Active",
-                "nenhum":"None",
-                "modal":{
-                    "titulo":"Configure DNS",
-                    "subtitle":"To set up your domain, you need to add the following DNS records:",
+                "nenhum": "None",
+                "modal": {
+                    "titulo": "Configure DNS",
+                    "subtitle": "To set up your domain, you need to add the following DNS records:",
                     "nome": "Name",
-                    "tipo":"Type",
+                    "tipo": "Type",
                     "valor": "Value",
-                    "ok":"Ok, I have set up my DNS."
+                    "ok": "Ok, I have set up my DNS."
                 }
-
             },
-            "api":{
+            "api": {
                 "title": "API Key",
                 "subtitle": "Your API key",
-                "desc":"Here is your Discloud API key. Keep it safe. If you need to change or revoke an API key, click the reset token button.",
-                "semToken":"You don't have a key yet, click the button below to create a new key.",
-                "resetToken":"Reset Token"
+                "desc": "Here is your Discloud API key. Keep it safe. If you need to change or revoke an API key, click the reset token button.",
+                "semToken": "You don't have a key yet, click the button below to create a new key.",
+                "resetToken": "Reset Token"
             },
-            "upload":{
-                "discloudConfig":"The discloud.config file is required for uploading. Click here to learn how to create it!",
+            "upload": {
+                "discloudConfig": "The discloud.config file is required for uploading. Click here to learn how to create it!",
                 "upload": "Sending",
-                "solteAqui":"Drop the file here",
+                "solteAqui": "Drop the file here",
                 "iniciando": "Starting your application...",
-                "enviando":"Sending your files...",
+                "enviando": "Sending your files...",
                 "termosDeUso": "By using our service you are agreeing to our terms of service and use."
             }
         },
-        "appPage":{
-            "profile":{
+        "appPage": {
+            "profile": {
                 "uptime": "Application Uptime",
-                "deletar":"Delete Application",
-                "iniciar":"Start application",
-                "parar":"Stop Application",
+                "deletar": "Delete Application",
+                "iniciar": "Start application",
+                "parar": "Stop Application",
                 "reiniciar": "Restart Application",
-                "rebuild":"Rebuild application",
-                "status":"Update consumption status",
+                "rebuild": "Rebuild application",
+                "status": "Update consumption status",
                 "up": "Consumption during upload",
-                "down":"Consumption during download",
-                "ssd":"NVMe SSD Consumption",
+                "down": "Consumption during download",
+                "ssd": "NVMe SSD Consumption",
                 "cpuName": "AMD Epyc"
             },
-            "apt":{
-                "title":"APT",
-                "subtitle":"APTs",
-                "desc":"APT (Advanced package tool), refers to the package installer used in Linux distributions based on Debian or Ubuntu. At DisCloud, you can add some packages listed below to your application instance in case of need.  If you have any questions, please refer to our documentation.",
-                "linkDocs":"https://docs.discloudbot.com/v/en/discloud.config/configuration/apt",
+            "apt": {
+                "title": "APT",
+                "subtitle": "APTs",
+                "desc": "APT (Advanced package tool), refers to the package installer used in Linux distributions based on Debian or Ubuntu. At DisCloud, you can add some packages listed below to your application instance in case of need.  If you have any questions, please refer to our documentation.",
+                "linkDocs": "https://docs.discloudbot.com/v/en/discloud.config/configuration/apt",
                 "dev": "Under construction..."
             },
-            "commit":{
-                "title":"Commit",
+            "commit": {
+                "title": "Commit",
                 "subtitle": "Commit",
-                "desc":"Send one or more files to update the code of your application.",
-                "carregando":"Loading",
+                "desc": "Send one or more files to update the code of your application.",
+                "carregando": "Loading",
                 "iniciando": "Starting your application...",
-                "enviando":"Sending your files...",
+                "enviando": "Sending your files...",
                 "solteAqui": "Drop the file here",
                 "termos": "Do you agree to the Discloud terms of service and usage policies?",
                 "upload": "Send Changes"
             },
-            "editRam":{
-                "title":"Edit Ram",
+            "editRam": {
+                "title": "Edit Ram",
                 "subtitle": "Settings",
                 "desc": "Configure your app the way you like it",
                 "editarRam": "Edit RAM memory",
-                "salvar":"Save",
-                "apenasDoador":"Resources available for donors only"
+                "salvar": "Save",
+                "apenasDoador": "Resources available for donors only"
             },
-            "git":{
-                "title":"Auto Deploy with Git",
-                "desc":"Synchronize a git repository with your application for automatic commits.  Whenever a commit is sent to your application repository, the DisCloud will update your application files automatically. If you have any questions, please refer to our documentation."
+            "git": {
+                "title": "Auto Deploy with Git",
+                "desc": "Synchronize a git repository with your application for automatic commits.  Whenever a commit is sent to your application repository, the DisCloud will update your application files automatically. If you have any questions, please refer to our documentation."
             },
-            "team":{ 
-                "title":"Team",
-                "subtitle":"Register a Moderator",
-                "desc":"With this feature you can configure access and set permissions in your applications for your development team, thus increasing your project's productivity and collaboration."
+            "team": {
+                "title": "Team",
+                "subtitle": "Register a Moderator",
+                "desc": "With this feature you can configure access and set permissions in your applications for your development team, thus increasing your project's productivity and collaboration."
             },
-            "version":{
-                "title":"Version",
-                "desc":"Change the language version of your application whenever necessary, from the oldest to the latest. If you have any questions, consult our documentation.",
-                "linkDocs":"https://docs.discloudbot.com/v/en/discloud.config/configuration/version" 
+            "version": {
+                "title": "Version",
+                "desc": "Change the language version of your application whenever necessary, from the oldest to the latest. If you have any questions, consult our documentation.",
+                "linkDocs": "https://docs.discloudbot.com/v/en/discloud.config/configuration/version"
             }
         },
         "assinaturas": {
-           "cancelModal":{
-            "cancelarPlano": "Unsubscribe",
-            "temcerteza": "Are you sure you want to cancel your subscription",
-            "aocancelar": "When you cancel the charge your current plan will no longer be renewed automatically.",
-            "noDia": "On the {day} you will lose important resources:",
-            "acesso": "Access Sharing",
-            "git": "Automatic Deployment with Git",
-            "sites": "Web Hosting",
-            "autorestart": "AutoRestart System",
-            "ddos": "Protection against DDos",
-            "domain":"Custom Domains",
-            "sim":"Yes, cancel my plan",
-            "nao":"No"
-
-          },
-          "changeModal": {
-            "alterar":"Change Plan",
-            "desc":"All our plans include AMD EPYC™ processor, DDR4 memory, NVMe SSD storage and unlimited traffic.",
-            "comportaAte":"Holds more than {numberDeApps} applications",
-            "mes":"/mo",
-            "pormes": "per month",
-            "esterEgger": "This is only for the strong...",
-            "padrao":"Standard",
-            "salvar":"Save",
-            "cancelar":"Cancel"
-          },
-          "invoice": {
-            "planoMensal":"(monthly plan)",
-            "alterar":"Change Plan",
-            "pago": "Paid",
-            "pendente":"Pendant",
-            "devido": "Debt",
-            "baixar": "Download",
-            "faturas": "Invoices",
-            "desc": "Payment history and all invoices for your account.",
-            "reativar": "Reactivate plan?",
-            "reativarDesc":"We will automatically start renewing your plan again.",
-            "sim":"Yes",
-            "nao":"No"
-          },
-          "sub":{
-            "title":"Subscription",
-            "canceladoDia":"Your plan will be cancelled on {day}.",
-            "proximoPagamento": "Your next automatic payment will be of {price} on {day}.",
-            "comprar": "Buy plan",
-            "cancelar":"Unsubscribe",
-            "arrapendeu": "Reactivate your account by clicking the button below. If you cancelled by mistake, this is your chance to regain access to all our features.",
-            "reativar":"Reactivate subscription",
-            "ativar": "Activate a plan now"
-          }
-          
+            "cancelModal": {
+                "cancelarPlano": "Unsubscribe",
+                "temcerteza": "Are you sure you want to cancel your subscription?",
+                "aocancelar": "When you cancel the charge your current plan will no longer be renewed automatically.",
+                "noDia": "On the {day} you will lose important resources:",
+                "acesso": "Access Sharing",
+                "git": "Automatic Deployment with Git",
+                "sites": "Web Hosting",
+                "autorestart": "AutoRestart System",
+                "ddos": "Protection against DDos",
+                "domain": "Custom Domains",
+                "sim": "Yes, cancel my plan",
+                "nao": "No"
+            },
+            "changeModal": {
+                "alterar": "Change Plan",
+                "desc": "All our plans include AMD EPYC™ processor, DDR4 memory, NVMe SSD storage and unlimited traffic.",
+                "comportaAte": "Holds more than {numberDeApps} applications",
+                "mes": "/mo",
+                "pormes": "per month",
+                "esterEgger": "This is only for the strong...",
+                "padrao": "Standard",
+                "salvar": "Save",
+                "cancelar": "Cancel"
+            },
+            "invoice": {
+                "planoMensal": "(monthly plan)",
+                "alterar": "Change Plan",
+                "pago": "Paid",
+                "pendente": "Pendant",
+                "devido": "Debt",
+                "baixar": "Download",
+                "faturas": "Invoices",
+                "desc": "Payment history and all invoices for your account.",
+                "reativar": "Reactivate plan?",
+                "reativarDesc": "We will automatically start renewing your plan again.",
+                "sim": "Yes",
+                "nao": "No"
+            },
+            "sub": {
+                "title": "Subscription",
+                "canceladoDia": "Your plan will be cancelled on {day}.",
+                "proximoPagamento": "Your next automatic payment will be of {price} on {day}.",
+                "comprar": "Buy plan",
+                "cancelar": "Unsubscribe",
+                "arrapendeu": "Reactivate your account by clicking the button below. If you cancelled by mistake, this is your chance to regain access to all our features.",
+                "reativar": "Reactivate subscription",
+                "ativar": "Activate a plan now"
+            }
         }
     }
 }
