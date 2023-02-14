@@ -1,0 +1,522 @@
+{
+    "navlink": {
+        "header": {
+            "nav": {
+                "link": "Forfaits",
+                "link2": "Services",
+                "link3": "Hébergement Web et API",
+                "link4": "Héberger de Bots",
+                "link5": "Télécharger",
+                "link6": "Extension VSCode",
+                "link7": "CLI",
+                "link8": "Documentation",
+                "linkDocs": "https://discloud.gitbook.io/fr-alpha",
+                "dash": "Tableau de bord",
+                "assinatura": "Facturation",
+                "link11": "Déconnexion",
+                "link12": "Connexion",
+                "link13": "Português",
+                "link14": "English",
+                "link15": "Français"
+            }
+        },
+        "footer": {
+            "nav": {
+                "nome": "Entreprise",
+                "link": "Forfaits",
+                "link2": "À propos",
+                "link3": "Marque"
+            },
+            "nav2": {
+                "nome": "API",
+                "link": "Comment utiliser",
+                "link2": "Module NodeJS",
+                "link3": "Module Python"
+            },
+            "nav3": {
+                "nome": "Ressources",
+                "link": "Comment héberger?",
+                "link2": "Parle-nous",
+                "link3": "Blog"
+            },
+            "pay": {
+                "nome": "Formes de paiement"
+            },
+            "copyright": {
+                "discloud": "DisCloud © 2019 -",
+                "copy": " • Tous les droits sont réservés."
+            },
+            "nav4": {
+                "nav": "Documentation",
+                "nav2": "Terms of Service",
+                "nav3": "Politiques d'utilisation"
+            }
+        }
+    },
+    "home": {
+        "1": "V",
+        "site": "otre Site Web",
+        "bots": "otre Bot",
+        "api": "otre API",
+        "cron": "otre Cronjob",
+        "online": "Maintenant en ligne!",
+        "trans": "Transformer la façon dont vous hébergez vos applications",
+        "deploys": "Déploiements mensuels",
+        "users": "Nos utilisateurs",
+        "apps": "Applications hébergées",
+        "hardware": "Hardware idéal avec",
+        "hardware2": "Performance maximum",
+        "core": "24 cœurs et 48 threads CPU",
+        "memory": "Mémoire RAM DDR4 2933 MHz",
+        "ssd": "Enterprise NVMe SSD",
+        "high": "Évolutivité et performances élevées",
+        "obs": "*Tous nos plans gratuits et payants ont le même hardware",
+        "app": "Vos applications méritent le meilleur",
+        "app2": "et nous avons le",
+        "appSpan": "forfait parfait",
+        "app3": "pour vous!",
+        "start": "Savoir maintenant",
+        "web": {
+            "min": "Pour moins de 0,2$ par jour",
+            "title": "Hébergement de sites Web",
+            "desc": "D'un simple site Web statique à une API ou un tableau de bord, nous proposons des solutions robustes et personnalisées pour répondre à vos besoins. Ne perdez plus de temps à vous soucier de l'infrastructure, laissez-nous nous en occuper pour vous.",
+            "button": "Voir toutes les ressources"
+        },
+        "bot": {
+            "min": "Gratuit pour toujours",
+            "title": "Nous hébergeons des Bots",
+            "title2": "depuis n'importe quelle plateforme",
+            "desc": "Nous nous occupons du gros du travail pendant que vous vous amusez et que vous vous concentrez sur la prise en charge et la croissance de votre communauté. Rejoignez-nous aujourd'hui et découvrez la tranquillité d'esprit d'avoir votre bot hébergé avec les meilleurs.",
+            "button": "Voir toutes les fonctionnalités"
+        }
+    },
+    "Breads": {
+        "home": "Accueil",
+        "bread2": "Héberger des Bots",
+        "bread3": "Hébergement Web et API",
+        "bread4": "VSCode",
+        "bread5": "CLI",
+        "plans": "Forfaits",
+        "bread7": "À propos"
+    },
+    "WebSites": {
+        "site": "Votre site mérite le meilleur",
+        "site2": "et nous avons le",
+        "site3": "forfait parfait",
+        "site4": "pour vous!",
+        "page": {
+            "host": "Fonctionnalités incluses dans notre",
+            "host2": "hébergement Web et API",
+            "hero": {
+                "title": "Cloudflare Premium",
+                "desc": "Votre application Web est intégrée à Cloudflare Premium, garantissant que tous les accès sont correctement filtrés et que les utilisateurs bénéficient d'une expérience dynamique et confortable.",
+                "card": {
+                    "title": "Firewall d'applications Web",
+                    "desc": "Nous fournissons un puissant WAF basé sur le comportement qui suit et neutralise intelligemment les attaques malveillantes avant qu'elles n'atteignent vos sites."
+                },
+                "card2": {
+                    "title": "Système anti-DDoS natif",
+                    "desc": "Notre système surveille le trafic réseau et achemine les activités malveillantes vers notre ferme d'atténuation des attaques dès qu'un événement DDoS est détecté."
+                }
+            },
+            "hero2": {
+                "title": "Domaine gratuit",
+                "desc": "Ici, vous n'avez pas à vous soucier de l'achat d'un domaine; nous mettons à votre disposition un sous-domaine totalement gratuit pour héberger vos applications.",
+                "card": {
+                    "title": "Domaine personnalisé",
+                    "desc": "Vous pouvez utiliser votre propre nom de domaine (TLD) dans vos applications web, par exemple votresite.com, permettant ainsi à votre projet de se démarquer sur Internet."
+                },
+                "card2": {
+                    "title": "Résolveur DNS privé",
+                    "desc": "Nous fournissons un serveur DNS dédié, efficace et avec plus de confidentialité. Pour assurer le flux élevé de demandes provenant des milliers d'applications de notre infrastructure."
+                }
+            },
+            "hero3": {
+                "title": "SSL Certificate",
+                "desc": "Nous proposons une intégration automatique des certificats SSL/TLS, garantissant la sécurité, l'autonomie, la fiabilité et l'efficacité du protocole HTTPS pour vos sites web.",
+                "card": {
+                    "title": "Déploiement automatique avec Git",
+                    "desc": "Avec notre déploiement automatique, votre instance sera mise à jour chaque fois qu'une modification est apportée à une branche de votre référentiel GitHub."
+                },
+                "card2": {
+                    "title": "Partage d'accès",
+                    "desc": "Ne partagez pas les mots de passe, mais plutôt l'accès. Vous pouvez partager l'accès à chaque application en spécifiant le niveau d'accès pour chaque individu."
+                }
+            }
+        }
+    },
+    "Bots": {
+        "page": {
+            "host": "Fonctionnalités incluses dans notre",
+            "host2": "hébergement de Bots",
+            "hero": {
+                "title": "Votre Bot Discord Responsable",
+                "desc": "Nous cherchons à promouvoir un environnement sain pour tous ceux qui utilisent Discord, pour cela nous avons créé un système décentralisé qui agit de manière préventive en empêchant le Bot hébergé dans Discord de dépasser la limite de débit de l'API Discord.",
+                "card": {
+                    "title": "Base de données locale",
+                    "desc": "Notre système de fichiers vous permet de stocker localement vos données dans des banques telles que Sqlite, LokiDB et autres."
+                },
+                "card2": {
+                    "title": "Système de paquet",
+                    "desc": "Nous fournissons un support natif pour les APT tels que: Canvas, Puppeteer, Libgl, Openssl, Cmake et bien d'autres."
+                }
+            },
+            "hero2": {
+                "title": "Votre Bot de Musique Online",
+                "desc": "Nous fournissons un système doté d'un algorithme dynamique, intelligent et hautement évolutif qui tire parti d'une large gamme d'adresses IP publiques vous laissant libre de tout blocage lors de la lecture de votre musique.",
+                "card": {
+                    "title": "Prise en charge de FFmpeg",
+                    "desc": "Grâce à notre support FFmpeg, nous aidons les développeurs à offrir une expérience sonore de haute qualité à leur communauté."
+                },
+                "card2": {
+                    "title": "Serveur Lavalink",
+                    "desc": "Ici, vous pouvez héberger votre serveur Lavalink privé pour améliorer la qualité et la vitesse de diffusion de la musique de votre bot."
+                }
+            },
+            "hero3": {
+                "title": "Bots de n'importe quelle plate-forme",
+                "desc": "Nous proposons l'hébergement de Bots sur les différentes plateformes existantes. Avec responsabilité, nous nous occupons de l'infrastructure complexe, afin que vous puissiez vous concentrer exclusivement sur la croissance et l'évolution de votre communauté.",
+                "card": {
+                    "title": "Déploiement automatique avec Git",
+                    "desc": "Avec notre déploiement automatique, votre instance sera mise à jour chaque fois qu'une modification est apportée à une branche de votre référentiel GitHub."
+                },
+                "card2": {
+                    "title": "Partage d'accès",
+                    "desc": "Ne partagez pas les mots de passe, mais plutôt l'accès. Vous pouvez partager l'accès à chaque application en spécifiant le niveau d'accès pour chaque individu."
+                }
+            }
+        },
+        "site": "Votre Bot mérite le meilleur",
+        "site2": "et nous avons le",
+        "site3": "forfait parfait",
+        "site4": "pour vous!"
+    },
+    "cli": {
+        "page": {
+            "hero": {
+                "title": "Tout gérer",
+                "title2": "depuis votre terminal de votre PC",
+                "desc": "Nous maintenons officiellement 2 CLI développées dans différentes langues, utilisez celle qui vous convient le mieux.",
+                "console": {
+                    "dir": "monBot",
+                    "token": "Votre token discloud",
+                    "success": "[DISCLOUD API] Les données utilisateur ont été chargées avec succès"
+                }
+            },
+            "card": {
+                "install": "Installation de la CLI",
+                "obs": "Si la version apparaît, cela signifie qu'elle a été installée correctement.",
+                "more": "Plus de commandes"
+            }
+        }
+    },
+    "vscode": {
+        "page": {
+            "title": "Extension pour",
+            "title2": "Visual Studio Code",
+            "desc": "Cette fonctionnalité est là pour simplifier votre flux de travail pendant le développement.",
+            "button": {
+                "1": "Télécharger depuis la place de marché",
+                "2": "Télécharger à partir d'Open VSX"
+            },
+            "watch": {
+                "text": "Regardez la vidéo et",
+                "text2": "apprenez à comment utiliser notre extension"
+            }
+        }
+    },
+    "plans": {
+        "title": "Tarification simple, juste et prévisible",
+        "subtitle": "Démarrez gratuitement et modifiez votre forfait chaque fois que vous en avez besoin.",
+        "ssd": "Enterprise NVMe SSD",
+        "banda": "Bande passante illimitée",
+        "mes": "/mo",
+        "button": {
+            "comprar": "Acheter",
+            "alterar": "Changer",
+            "gratis": "Gratuit",
+            "reativar": "Reactiver",
+            "ativado": "Activé",
+            "fazerlogin": "Connexion"
+        },
+        "modal": {
+            "title": "Réactiver le forfait?",
+            "subtitle": "Nous recommencerons à renouveler votre forfait automatiquement.",
+            "sim": "Oui",
+            "nao": "Non"
+        },
+        "table": {
+            "title": "De meilleurs forfaits",
+            "dns": "Serveur DNS privé",
+            "suporte": "Agent d'assistance dédié",
+            "acesso": "Partage d'accès",
+            "git": "Déploiement automatique avec Git",
+            "autorestart": "Système de redémarrage automatique",
+            "sites": "Hébergement Web et API",
+            "ddos": "Protection Anti-DDOS",
+            "domain": "Domaines personnalisés",
+            "gift": "Discloud Cadeaux"
+        }
+    },
+    "sobre": {
+        "title": "À propos de nous ❤️",
+        "description": {
+            "first": {
+                "1_normal": "Nous sommes la ",
+                "2_strong": "première ",
+                "3_normal": "plate-forme cloud ",
+                "4_strong": "spécialisée ",
+                "5_normal": "dans les applications Discord. Nos services sont basés sur un conteneur flexible, où le ",
+                "8_strong": "l'utilisateur a de l'autonomie ",
+                "9_normal": "o gérer leurs ressources comme ils l'entendent"
+            },
+            "second": {
+                "1_normal": "Nous offrons aux développeurs, ",
+                "2_strong": "24 heures sur 24 et 7 jours sur 7",
+                "5_normal": " une forme ",
+                "6_strong": " gratuite",
+                "8_strong": " rápide ",
+                "9_normal": " et ",
+                "10_strong": "moyen simple d'héberger",
+                "11_normal": "leurs applications. ",
+                "12_normal": "Nous sommes fiers de grandir en tant que ",
+                "13_strong": "entreprise entièrement financée par des donateurs",
+                "14_normal": "nous croyons que c'est la méthode idéale pour ",
+                "15_strong": "donner de la valeur ",
+                "16_normal": "et promouvoir un ",
+                "17_strong": "environnement inclusif"
+            },
+            "third": {
+                "1_normal": "Ainsi, DisCloud remplit sa fonction sociale: le ",
+                "2_strong": "démocratisation",
+                "3_normal": " d'héberger Bots for Discord avec sa plateforme à but non lucratif. Bénéficiant, ",
+                "4_strong": "depuis plus de 3 ans",
+                "5_normal": "milliers de personnes, estimées à ",
+                "6_strong": "60,000 utilisateurs",
+                "7_normal": " Actuellement, grâce au mérite de l'équipe et à l'affection des donateurs, notre plateforme maintient ",
+                "8_strong": "des milliers d'applications en ligne."
+            }
+        },
+        "timeline": {
+            "title": {
+                "1": "Suivre",
+                "2": "notre trajectoire"
+            },
+            "discord": {
+                "pr": "Que pensez-vous de l'appeler Discloud?",
+                "bruno": "Super, nous pouvons utiliser discloudbot.com"
+            },
+            "2019": "Nous sommes nés du mécontentement du fondateur Pedro Ricardo face au manque de moyens simples et gratuits d'héberger des bots Discord. En 2019, il s'est associé à Bruno Marley, un vieil ami d'autres projets, et ils ont créé quelque chose d'incroyable qui est finalement devenu Discloud.",
+            "2020": "Discloud a été un succès après son lancement, au cours de cette année, nous avons eu une grande acceptation par les utilisateurs. Ce fut une année pleine de réalisations et d'apprentissage.",
+            "2021": "Nous avons publié la première version de l'API publique et ouvert le test bêta de Discloud v2.",
+            "2022": "Nous avons créé notre CLI et notre extension pour VScode, et avons commencé à prendre en charge l'hébergement de sites Web et les API avec WAF, Anti-DDos et SSL.",
+            "2023": "Avec le changement de marque Discloud, nous avons pris un nouveau départ. Nous avons abandonné les technologies obsolètes et réécrit une grande partie de notre backend en Rust pour offrir plus de sécurité, d'innovation et d'efficacité. Nous sommes prêts à entreprendre ce nouveau voyage."
+        }
+    },
+    "login": {
+        "title": "Accéder au tableau de bord",
+        "subtitle": "À l'avenir, nous n'autoriserons la connexion qu'avec GitHub, il est donc important que vous commenciez à l'utiliser uniquement. Adieu l'inscription avec Discord!"
+    },
+    "dash": {
+        "user": {
+            "recursos": "Resources",
+            "avisoVincular": "Vous n'avez pas encore lié votre compte Discord. Cliquez ici pour vous inscrire maintenant.",
+            "vincular": "Lier un autre compte",
+            "plano": "Forfait",
+            "team": "Équipe (À venir)",
+            "delApp": "Supprimer l'application",
+            "sim": "Oui",
+            "nao": "Non",
+            "assinatura": "Vérifier les abonnements",
+            "delAppDesc": "La suppression de cette application entraînera la perte irréversible de tous les fichiers et paramètres. Êtes-vous sur de vouloir continuer?",
+            "logs": {
+                "criada": "L'application a été créée avec succès!",
+                "deletada": "L'application a été supprimée!",
+                "ligada": "L'application a été démarrée!",
+                "desligada": "L'application a été étainte!"
+            },
+            "apps": {
+                "title": "Applications",
+                "subtitle": "Sites hébergés et Bots",
+                "semApps": "Vous n'avez pas encore hébergé d'applications.",
+                "action": "Actions",
+                "parar": "Arrêter",
+                "deletar": "Effacer"
+            },
+            "timeline": {
+                "title": "Registre",
+                "subtitle": "Derniers registres",
+                "parado": "a été arrêté avec succès",
+                "ligado": "a été connecté avec succès",
+                "faltaRam": "a crashé par manque de ram",
+                "caiu": "a crashé par erreure de code",
+                "reiniciado": "a été redémarré avec succès",
+                "editRam": "la ram a été modifiée",
+                "alterado": "a été modifié avec succès",
+                "git": "a été automatiquement validé par git",
+                "criado": "a été créé avec succès",
+                "deletado": "a été supprimé avec succès",
+                "rebuild": "a été reconstruit avec succès",
+                "domain": "le domaine personnalisé a été modifié"
+            },
+            "subdominio": {
+                "title": "Sous-domaine",
+                "subtitle": "Enregistrer un sous-domaine",
+                "desc": "Ici, vous n'avez pas besoin d'acheter un domaine, nous vous fournissons un sous-domaine totalement gratuit pour héberger vos applications Web. Cette fonctionnalité est uniquement disponible en forfait platine et au-dessus.",
+                "alerta": "Le sous-domaine doit comporter entre 2 et 12 caractères et se composer uniquement de lettres minuscules, de chiffres et de traits d'union.",
+                "seusite": "votresite",
+                "status": "Statut",
+                "remover": "Retirer",
+                "registrar": "Enregistrer",
+                "inativo": "Inactif",
+                "ativo": "Actif"
+            },
+            "domain": {
+                "title": "Domaine personnalisé",
+                "subtitle": "Enregistrer un domaine personnalisé",
+                "desc": "Liez un domaine qui vous appartient déjà. Cette fonctionnalité n'est disponible que dans le forfait Diamond et supérieur. N'utilisez pas http, https et www.",
+                "seusite": "votresite.com",
+                "selecioneUm": "Sélectionnez un sous-domaine",
+                "registrar": "Enregistrer",
+                "domain": "Domaine",
+                "zonas": "Zones",
+                "vinculado": "Application liée",
+                "remover": "Retirer",
+                "aviso": "Pour que votre domaine fonctionne, vous devez l'acheter et le configurer auprès d'un service d'hébergement tel que GoDaddy, Registro.br, Cloudflare ou autres.",
+                "centralLInk": "https://discloud.gitbook.io/fr-alpha",
+                "inativo": "Inactif",
+                "ativo": "ACtif",
+                "nenhum": "Aucun",
+                "modal": {
+                    "titulo": "Configurer le DNS",
+                    "subtitle": "Pour configurer votre domaine, vous devez ajouter les enregistrements DNS suivants:",
+                    "nome": "Nom",
+                    "tipo": "Type",
+                    "valor": "Valeur",
+                    "ok": "Ok, j'ai configuré mon DNS."
+                }
+            },
+            "api": {
+                "title": "Clé API",
+                "subtitle": "Votre clé API",
+                "desc": "Voici votre clé API Discloud. Garde-le en sécurité. Si vous devez modifier ou révoquer une clé API, cliquez sur le bouton de réinitialisation du token.",
+                "semToken": "Vous n'avez pas encore de clé, cliquez sur le bouton ci-dessous pour en créer une nouvelle.",
+                "resetToken": "Réinitialiser le Token"
+            },
+            "upload": {
+                "discloudConfig": "Le fichier discloud.config est requis pour le téléchargement. Cliquez ici pour apprendre à le créer!",
+                "upload": "Envoi en cours",
+                "solteAqui": "Déposez vos fichiers ici",
+                "iniciando": "Initialisation de votre candidature...",
+                "enviando": "Envoi de vos fichiers...",
+                "termosDeUso": "En utilisant notre service, vous acceptez nos conditions d'utilisation et de service."
+            }
+        },
+        "appPage": {
+            "profile": {
+                "uptime": "Uptime de l'application",
+                "deletar": "Supprimer l'application",
+                "iniciar": "Démarrer l'application",
+                "parar": "Arrêter l'application",
+                "reiniciar": "Redémarrer l'application",
+                "rebuild": "Reconstruire l'application",
+                "status": "Mettre à jour l'état de la consommation",
+                "up": "Consommation pendant le upload",
+                "down": "Consommation pendant le téléchargement",
+                "ssd": "Consommation de SSD NVMe",
+                "cpuName": "AMD Epyc"
+            },
+            "apt": {
+                "title": "APT",
+                "subtitle": "APTs",
+                "desc": "APT (Advanced package tool), fait référence au programme d'installation de packages utilisé dans les distributions Linux basées sur Debian ou Ubuntu. Chez DisCloud, vous pouvez ajouter certains packages listés ci-dessous à votre instance d'application en cas de besoin. Si vous avez des questions, veuillez consulter notre documentation.",
+                "linkDocs": "https://discloud.gitbook.io/fr-alpha/discloud.config/configurer/apt",
+                "dev": "En cours de construction..."
+            },
+            "commit": {
+                "title": "Commit",
+                "subtitle": "Commit",
+                "desc": "Envoyez un ou plusieurs fichiers pour mettre à jour le code de votre application.",
+                "carregando": "Chargement",
+                "iniciando": "Démarrage de votre application",
+                "enviando": "Envoi de vos fichiers...",
+                "solteAqui": "Déposez vos fichiers ici",
+                "termos": "Acceptez-vous les conditions d'utilisation et les politiques d'utilisation de Discloud?",
+                "upload": "Envoyer les modifications"
+            },
+            "editRam": {
+                "title": "Modifier la RAM",
+                "subtitle": "Paramètres",
+                "desc": "Configurez votre application comme vous l'aimez",
+                "editarRam": "Modifier la mémoire RAM",
+                "salvar": "Sauvegarder",
+                "apenasDoador": "Ressources disponibles uniquement pour les donateurs"
+            },
+            "git": {
+                "title": "Déploiement automatique avec Git",
+                "desc": "Synchronisez un répertoire git avec votre application pour les commits automatiques. Chaque fois qu'un commit est envoyé à votre répertoire d'applications, DisCloud mettra automatiquement à jour vos fichiers d'application. Si vous avez des questions, veuillez consulter notre documentation."
+            },
+            "team": {
+                "title": "Équipe",
+                "subtitle": "Enregistrer un modérateur",
+                "desc": "Avec cette fonctionnalité, vous pouvez configurer l'accès et définir des autorisations dans vos applications pour votre équipe de développement, augmentant ainsi la productivité et la collaboration de votre projet."
+            },
+            "version": {
+                "title": "Version",
+                "desc": "Changez la version linguistique de votre application chaque fois que nécessaire, de la plus ancienne à la plus récente. Si vous avez des questions, consultez notre documentation.",
+                "linkDocs": "https://discloud.gitbook.io/fr-alpha/discloud.config/configurer/version"
+            }
+        },
+        "assinaturas": {
+            "cancelModal": {
+                "cancelarPlano": "Se désabonner",
+                "temcerteza": "Êtes-vous sûr de vouloir annuler votre abonnement?",
+                "aocancelar": "Lorsque vous annulez la charge, votre forfait actuel ne sera plus renouvelé automatiquement.",
+                "noDia": "Le {day} vous perdrez des ressources importantes:",
+                "acesso": "Partage d'accès",
+                "git": "Déploiement automatique avec Git",
+                "sites": "Hébergement Web et API",
+                "autorestart": "Système de redémarrage automatique",
+                "ddos": "Protection Anti-DDOS",
+                "domain": "Domaines personnalisés",
+                "sim": "Oui, résilier mon forfait",
+                "nao": "Non, continuer avec le forfait"
+            },
+            "changeModal": {
+                "alterar": "Changer de forfait",
+                "desc": "Tous nos plans incluent un processeur AMD EPYC™, une mémoire DDR4, un stockage SSD NVMe et un trafic illimité.",
+                "comportaAte": "Contient plus de {numberDeApps} applications",
+                "mes": "/mo",
+                "pormes": "par mois",
+                "esterEgger": "Ceci est seulement pour les plus forts...",
+                "padrao": "Standard",
+                "salvar": "Sauvegarder",
+                "cancelar": "Annuler"
+            },
+            "invoice": {
+                "planoMensal": "(forfait mensuel)",
+                "alterar": "Changer de forfait",
+                "pago": "Payé",
+                "pendente": "En attente",
+                "devido": "Charge",
+                "baixar": "Télécharger",
+                "faturas": "Factures",
+                "desc": "Historique des paiements et toutes les factures de votre compte.",
+                "reativar": "Réactiver le forfait?",
+                "reativarDesc": "Nous recommencerons automatiquement à renouveler votre forfait.",
+                "sim": "Oui",
+                "nao": "Non"
+            },
+            "sub": {
+                "title": "Abonnement",
+                "canceladoDia": "Votre forfait sera annulé le {day}.",
+                "proximoPagamento": "Votre prochain paiement automatique sera de {price} le {day}.",
+                "comprar": "Acheter un forfait",
+                "cancelar": "Unsubscribe",
+                "arrapendeu": "Réactivez votre compte en cliquant sur le bouton ci-dessous. Si vous avez annulé par erreur, c'est votre chance de retrouver l'accès à toutes nos fonctionnalités.",
+                "reativar": "Réactiver l'abonnement",
+                "ativar": "Activez un plan maintenant"
+            }
+        }
+    }
+}
