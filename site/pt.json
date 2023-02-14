@@ -1,0 +1,557 @@
+{
+    "navlink": {
+        "header": {
+            "nav": {
+                "link": "Planos",
+                "link2": "Serviços",
+                "link3": "Host de Sites e APIs",
+                "link4": "Host de Bots",
+                "link5": "Download",
+                "link6": "Extensão VSCode",
+                "link7": "CLI",
+                "link8": "Documentação",
+                "linkDocs": "https://docs.discloudbot.com/",
+                "dash": "Painel de Controle",
+                "assinatura": "Assinatura",
+                "link11": "Sair",
+                "link12": "Entrar",
+                "link13": "Português",
+                "link14": "English"
+            }
+        },
+
+        "footer": {
+            "nav": {
+                "nome": "Empresa",
+                "link": "Planos",
+                "link2": "Sobre",
+                "link3": "Brand"
+        },
+            "nav2": {
+                "nome": "API",
+                "link": "Como usar",
+                "link2": "Módulo NodeJS",
+                "link3": "Módulo Python"
+            },
+
+            "nav3": {
+                "nome": "Recursos",
+                "link": "Como Hospedar?",
+                "link2": "Fale Conosco",
+                "link3": "Blog"
+            },
+
+            "pay": {
+                "nome": "Formas de pagamento"
+            }, 
+
+            "copyright": {
+                "discloud": "DisCloud © 2019 -",
+                "copy": " • Todos os direitos reservados."
+            },
+
+            "nav4": {
+                "nav": "Documentação",
+                "nav2": "Termos de Serviço",
+                "nav3": "Políticas de Uso"
+            }
+        }
+        
+    },
+
+    "home": {
+        "1":"S",
+        "site": "eu Site",
+        "bots": "eu Bot",
+        "api": "ua API",
+        "cron": "eu Cronjob",
+        "online": "Online Agora!",
+        "trans": "Transformando a forma como você hospeda suas aplicações",
+        "deploys": "Deploys mensais",
+        "users": "Nossos Usuários",
+        "apps": "Apps Hospedados",
+        "hardware": "Hardware ideal com",
+        "hardware2": "Máxima Performance",
+        "core": "24 Núcleos e 48 threads de CPU",
+        "memory": "Memória RAM DDR4 2933 MHz",
+        "ssd": "SSD NVMe Empresarial",
+        "high": "Alta escalabilidade e desempenho",
+        "obs": "*Todos os nossos planos gratuito ou pago possuem o mesmo hardware",
+        "app": "A sua aplicação merece o melhor",
+        "app2": "e nós temos o",
+        "appSpan": "plano perfeito",
+        "app3": "para você!",
+        "start": "Conheça agora",
+
+    "web": {
+            "min": "Por menos de R$0,37 por dia",
+            "title": "Hospedagem de Sites",
+            "desc": "Desde um simples site estático a uma API ou Dashboard, oferecemos soluções robustas e personalizadas para atender às suas necessidades. Não perca mais tempo se preocupando com a infraestrutura, deixe-nos cuidar disso para você.",
+            "button": "Ver todos os recursos"
+        },
+    "bot": {
+            "min": "Gratuito para Sempre",
+            "title": "Hospedamos Bots",
+            "title2": "de qualquer plataforma",
+            "desc": "Cuidamos do trabalho pesado enquanto você se diverte e se concentra em cuidar e desenvolver a sua comunidade. Junte-se a nós hoje e experimente a tranquilidade de ter seu bot hospedado com os melhores.",
+            "button": "Ver todos os recursos"
+        }
+
+    },
+
+    "Breads": {
+        "home": "Início",
+        "bread2": "Hospedagem de Bots",
+        "bread3": "Hospedagem de Sites",
+        "bread4": "VSCode",
+        "bread5": "CLI",
+        "plans": "Planos",
+        "bread7":"Sobre"
+    },
+
+    "WebSites": {
+        
+        "site": "O seu site merece o melhor",
+        "site2": "e nós temos o",
+        "site3": "plano perfeito",
+        "site4": "para você!",
+
+        "page": {
+            "host": "Recursos incluidos em nossa",
+            "host2": "hospedagem de sites",
+
+            "hero": {
+                "title": "Cloudflare Premium",
+                "desc": "Sua aplicação web é integrada a Cloudflare Premium, garantindo que todos os acessos sejam devidamente filtrado e que os usuários tenham uma experiência dinâmica e confortável.",
+            
+                "card": {
+                    "title": "Firewall de Aplicativo Web",
+                    "desc": "Fornecemos um poderoso WAF baseado em comportamento que rastreia e neutraliza de forma inteligente ataques maliciosos antes que cheguem em suas APIs e Sites."
+                },
+                "card2": {
+                    "title": "Sistema nativo Anti-DDoS",
+                    "desc": "Nosso sistema monitora o tráfego de rede e roteia atividades maliciosas para nosso farm de mitigação de ataques assim que um evento DDoS é detectado."
+                }
+            
+            },
+
+            "hero2": {
+                "title": "Domínio Gratuito",
+                "desc": "Aqui você não precisa se preocupar em comprar um domínio, disponibilizamos um subdomínio totalmente gratuito para você hospedar as suas aplicações.",
+                
+                "card": {
+                    "title": "Domínio Personalizado",
+                    "desc": "Você poderá usar o seu próprio nome de domínio (TLD) em suas aplicações web, por exemplo, seusite.com. Ajudando assim o seu projeto a ter mais destaque na internet."
+                },
+                "card2": {
+                    "title": "Resolvedor DNS Privado",
+                    "desc": "Disponibilizamos um Servidor de DNS dedicado, eficiente e com mais privacidade. Para garantir o alto fluxo de requisiços dos milhares de apps em nossa infraestrutura."
+                }
+            },
+
+            "hero3": {
+                "title": "Certificado SSL",
+                "desc": "Oferecemos uma integração automática de certificados SSL/TLS, garantindo segurança, autonomia, confiabilidade e eficiência do protocolo HTTPS para seus sites.",
+
+                "card": {
+                    "title": "Deploy Automático com Git",
+                    "desc": "Com nosso deploy automático sua instância será atualizada sempre que uma modificação for feita em uma branch do seu repositório no GitHub."
+                },
+
+                "card2": {
+                    "title": "Compartilhamento de Acesso",
+                    "desc": "Não compartilhe senhas, mas sim, acessos. Você poderá compartilhar acesso a cada aplicação, especificando o nível de acesso de cada indivíduo."
+                }
+            }
+        }
+    },
+
+    "Bots": {
+        "page": {
+            "host": "Recursos incluidos em nossa",
+            "host2": "hospedagem de bots",
+
+            "hero": {
+                "title": "Seu Bot Discord Responsável",
+                "desc": "Buscamos promover um ambiente saudável a todos que utilizam o Discord, visando isso criamos um sistema descentralizado que atua de forma preventiva evitando que os Bot hospedados na Discloud ultrapasse o rate limit da API do Discord.",
+            
+            "card": {
+                "title": "Banco de Dados Local",
+                "desc": "Nosso sistema de arquivos permite que você possa armazenar localmente seus dados em bancos como Sqlite, LokiDB e outros."
+            },
+
+            "card2": {
+                "title": "Sistema de Pacotes",
+                "desc": "Fornecemos suporte nativo a vamos APTs como: Canvas, Puppeteer, Libgl, Openssl, Cmake e muitos outros."
+            }
+        },
+
+        "hero2": {
+            "title": "Seu Bot de Música Online",
+            "desc": "Proporcionamos um sistema que possui um algoritmo dinâmico, inteligente e alto escalável que usufrui de uma vasta faixa de IP's públicos deixando você livre de bloqueios durante a reprodução de suas músicas.",
+
+            "card": {
+                "title": "Suporte a FFmpeg",
+                "desc": "Com nosso suporte a FFmpeg, nós ajudamos os desenvolvedores a oferecer uma experiência de som de alta qualidade para sua comunidade."
+        },
+            "card2": {
+                "title": "Servidor Lavalink",
+                "desc": "Aqui você pode hospedar seu servidor Lavalink privado para melhorar a qualidade e velocidade de streaming das músicas do seu Bot."
+                }
+            },
+        "hero3": {
+            "title": "Bots de Qualquer Plataforma",
+            "desc": "Oferecemos hospedagem para as Bots das diversas plataformas existentes. Com responsabilidade, cuidamos da complexa infraestrutura, para que você possa se concentrar exclusivamente no crescimento e evolução do sua comunidade.",
+        
+            "card": {
+                "title": "Deploy Automático com Git",
+                "desc": "Com nosso deploy automático sua instância será atualizada sempre que uma modificação for feita em uma branch do seu repositório no GitHub."
+            },
+            "card2": {
+                "title": "Compartilhamento de Acesso",
+                "desc": "Não compartilhe senhas, mas sim, acessos. Você poderá compartilhar acesso a cada aplicação, especificando o nível de acesso de cada indivíduo."
+            }
+        }
+    },
+
+        "site": "O seu bot merece o melhor",
+        "site2": "e nós temos o",
+        "site3": "plano perfeito",
+        "site4": "para você!"
+    },
+
+    "cli": {
+        "page": {
+            "hero": {
+                "title": "Gerencie tudo pelo",
+                "title2": "terminal do seu PC",
+                "desc": "Mantemos oficialmente 2 CLIs desenvolvidas em linguagens diferentes, use a que for mais conveniente.",
+                "console":{
+                 "dir":"meuBot",
+                 "token":"Seu discloud token",
+                 "success":"[DISCLOUD API] Os dados do usuario foram carregados com sucesso"   
+
+                }
+            },
+
+            "card": {
+                "install": "Instalação CLI",
+                "obs": "Se aparecer a versão, significa que foi instalado corretamente.",
+                "more": "Mais Comandos"
+            }
+        }
+    },
+    "vscode": {
+        "page": {
+            "title": "Extensão do",
+            "title2": "Visual Studio Code",
+            "desc": "Este recurso veio para simplifica seu fluxo de trabalho durante o desenvolvimento.",
+        
+        "button": {
+            "1": "Baixar pelo Marketplace",
+            "2": "Baixar pelo Open VSX"
+        },
+        "watch": {
+            "text": "Assista ao vídeo e",
+            "text2": "aprenda como usar nossa extensão"
+            }
+        }
+    },
+    "plans":{
+        "title":"Preço simples, justo e previsível",
+        "subtitle":"Comece gratuitamente e altere o seu plano sempre que precisar.",
+        "ssd":"SSD NVMe Empresarial",
+        "banda": "Banda Ilimitada",
+        "mes":"/mês",
+        "button":{
+            "comprar":"Comprar",
+            "alterar":"Alterar",
+            "gratis":"Grátis",
+            "reativar":"Reativar",
+            "ativado":"Ativado",
+            "fazerlogin": "Fazer login"
+        },
+        "modal":{
+            "title":"Reativar plano?",
+            "subtitle": "Iremos começar a renovar o seu plano automaticamente novamente.<",
+            "sim":"sim",
+            "nao":"Não"
+        },
+        "table":{
+            "title": "Melhores planos",
+            "dns":"Servidor DNS Privado",
+            "suporte":"Agente de Suporte dedicado",
+            "acesso":"Compartilhar Acesso",
+            "git":"Deploy Automático com Git",
+            "autorestart":"Sistema de AutoRestart",
+            "sites":"Hospedagem de Sites",
+            "ddos":"Proteçao Anti-DDOS",
+            "domain":"Domínios personalizados",
+            "gift":"Discloud Brindes"
+        }
+    },
+    "sobre": {
+        "title": "Sobre Nós ❤️",
+        "description": {
+          "first": {
+            "1_normal": "Somos a ",
+            "2_strong": "primeira plataforma ",
+            "3_normal": "em nuvem ",
+            "4_strong": "especializada ",
+            "5_normal": "em aplicações para Discord. Nossos serviços são baseados em contêiner flexível, onde o ",
+            "8_strong": "usuário tem autonomia ",
+            "9_normal": "para gerenciar seus recursos como desejar"
+          },
+          "second": {
+            "1_normal": "Oferecemos aos desenvolvedores, durante ",
+            "2_strong": "24 horas por dia e 7 dias por semana",
+            "5_normal": " uma forma ",
+            "6_strong": "gratuita",
+            "8_strong": " rápida ",
+            "9_normal": " e ",
+            "10_strong": "simples de hospedar",
+            "11_normal": "suas aplicações. ",
+            "12_normal": "É motivo de orgulho estar crescendo como um negócio ",
+            "13_strong": "totalmente financiado pelos doadores",
+            "14_normal": " acreditamos que este é o método ideal para ",
+            "15_strong": "agregar valor ",
+            "16_normal": "e promover um ",
+            "17_strong": "ambiente inclusivo"
+          },
+          "third": {
+            "1_normal": "Dessa forma, a DisCloud cumpre com sua função social: a ",
+            "2_strong": "democratização",
+            "3_normal": " da hospedagem de Bots para Discord com sua plataforma sem fins lucrativos. Beneficiando, ",
+            "4_strong": "há mais de 3 anos",
+            "5_normal": "milhares de pessoas, cuja estimativa é de ",
+            "6_strong": "60.000 usuários",
+            "7_normal": " Atualmente, por mérito da equipe e carinho dos doadores, nossa plataforma mantém ",
+            "8_strong": "milhares de aplicações online"
+          }
+        },
+        "timeline":{
+            "title":{
+                "1": "Acompanhe",
+                "2": "nossa trajetória"
+            },
+            "discord":{
+                "pr": "O que acha de chamarmos de Discloud?",
+                "bruno":"ótimo, podemos usar o discloudbot.com"
+            },
+            "2019":"Nascemos a partir da insatisfação do fundador, Pedro Ricardo, com a falta de formas simples e gratuita para hospedar Bots Discord. Em 2019, ele juntou forças com Bruno Marley um velho amigo de outros projetos, e criaram algo incrível que acabou se tornando a Discloud.",
+            "2020": "A Discloud foi um sucesso após seu lançamento, durante esse ano, tivemos uma grande aceitação pelos usuários. Foi um ano cheio de conquistas e aprendizado.",
+            "2021":"Lançamos a primeira versão da API pública e abrimos o beta teste da Discloud v2.",
+            "2022": "Criamos nossa CLI e extensão para VScode, e começamos a oferecer suporte para hospedagem de sites e APIs com WAF, Anti-DDos e SSL.",
+            "2023":"Com a rebrand da Discloud, demos início a uma recomeço. Abandonamos tecnologias ultrapassadas e reescrevemos grande parte do nosso backend em Rust para oferecer mais segurança, inovação e eficiência. Estamos prontos para trilhar essa nova jornada."
+        }
+      },
+    "login":{
+        "title": "Acessar Dashboard",
+        "subtitle":"No futuro, só vamos permitir o login com GitHub, então é importante que você comece a usar somente ele. Adeus registro com Discord!"
+    },
+    "dash":{
+        "user":{
+            "recursos":"Recursos",
+            "avisoVincular":"Você ainda não vinculou sua conta do Discord. Clique aqui para fazer a associação agora.",
+            "vincular":"Vincular outra conta",
+            "plano":"Plano",
+            "team":"Team (Em Breve)",
+            "delApp":"Deletar Aplicação",
+            "sim": "Sim",
+            "nao": "Não",
+            "assinatura": "Verificar assinaturas",
+            "delAppDesc":"A exclusão deste aplicativo resultará na perda irreversível de todos os arquivos e configurações. Tem certeza de que deseja prosseguir?",
+            "logs":{
+                "criada": "A aplicação criada com sucesso!",
+                "deletada": "A aplicação foi deletada!",
+                "ligada": "A aplicação foi ligada!",
+                "desligada": "A aplicação foi desligada!"
+            },
+            "apps":{
+                "title": "Aplicações",
+                "subtitle": "Sites e Bots Hospedados",
+                "semApps": "Você ainda não hospedou nenhum aplicação.",
+                "action":"Ações",
+                "parar":"Parar",
+                "deletar":"Deletar"
+            },
+            "timeline":{
+                "title":"Timeline",
+                "subtitle":"Últimos registros",
+                "parado":"foi parado com sucesso",
+                "ligado":"foi ligado com sucesso",
+                "faltaRam":"caiu por falta de ram",
+                "caiu":"caiu por erro de codigo",
+                "reiniciado":"foi reiniciado com sucesso",
+                "editRam":"A ram foi editada",
+                "alterado": "foi alterado com sucesso",
+                "git":"foi commitado automaticamente pelo github",
+                "criado": "foi criado com sucesso",
+                "deletado":"foi deletado com sucesso",
+                "rebuild":"foi rebuildado com sucesso",
+                "domain": "o dominio personalizado foi modificado"
+            },
+            "subdominio":{
+                "title":"Subdomínio",
+                "subtitle":"Registre um Subdomínio",
+                "desc":"Aqui você não precisa comprar um domínio, disponibilizamos um subdomínio totalmente gratuito para que você possa hospedar as suas aplicações web. Este recurso esta disponivel apenas nos platina ou superior.",
+                "alerta":"O subdomínio deve ter entre 2 e 12 caracteres e ser composto apenas por letras minúsculas, números e hífen.",
+                "seusite":"seusite",
+                "status":"Status",
+                "remover":"Remover",
+                "registrar":"Registrar",
+                "inativo": "Inativo",
+                "ativo": "Ativo"
+            },
+            "domain":{
+                "title":"Domínio personalizado",
+                "subtitle":"Registre um Domínio personalizado",
+                "desc":"Vincule um domínio que já pertença a você. Este recurso esta disponivel apenas nos diamante ou superior. Não use http, https e www.",
+                "seusite":"seusite.com",
+                "selecioneUm":"Selecione um Subdomínio",
+                "registrar":"Registrar",
+                "domain":"Domínio",
+                "zonas":"Zonas",
+                "vinculado":"App Vinculado",
+                "remover":"Remover",
+                "aviso":"Para que seu domínio funcione, você precisa adquirir e configurá-lo em um serviço de hospedagem como GoDaddy, Registro.br, Cloudflare ou outros.",
+                "centralLInk": "https://docs.discloudbot.com/",
+                "inativo": "Inativo",
+                "ativo": "Ativo",
+                "nenhum":"Nenhum",
+                "modal":{
+                    "titulo":"Configurar DNS",
+                    "subtitle":"Para configurar o seu domínio, você precisa adicionar os seguintes registros DNS:",
+                    "nome": "Nome",
+                    "tipo":"Tipo",
+                    "valor": "Valor",
+                    "ok":"Ok! Configurei o meu DNS."
+                }
+
+            },
+            "api":{
+                "title": "API Key",
+                "subtitle": "Sua chave de API",
+                "desc":"Aqui está sua chave da API da Discloud. Mantenha segura. Se você precisar alterar ou revogar uma chave de API, clique no botão reset token.",
+                "semToken":"Você não tem uma chave ainda, clique no botão abaixo para criar uma nova chave.",
+                "resetToken":"Resetar Token"
+            },
+            "upload":{
+                "discloudConfig":"O arquivo discloud.config é obrigatório para realizar o upload. Clique aqui e aprenda como criá-lo!",
+                "upload": "Enviando",
+                "solteAqui":"Solte o arquivo aqui",
+                "iniciando": "Iniciando seu aplicativo...",
+                "enviando":"Enviando seus arquivos...",
+                "termosDeUso": "Ao usar nosso serviço você estará concordando com nossos termos de serviço e uso."
+            }
+        },
+        "appPage":{
+            "profile":{
+                "uptime": "Uptime da aplicação",
+                "deletar":"Deletar aplicação",
+                "iniciar":"Iniciar aplicação",
+                "parar":"Parar aplicação",
+                "reiniciar": "Reiniciar aplicação",
+                "rebuild":"Rebuildar aplicação",
+                "status":"Atualizar status de consumo",
+                "up": "Consumo durante upload",
+                "down":"Consumo durante download",
+                "ssd":"Consumo do SSD NVMe",
+                "cpuName": "AMD Epyc"
+            },
+            "apt":{
+                "title":"APT",
+                "subtitle":"APTs",
+                "desc":"O APT (Advanced package tool), faz referência ao instalador de pacotes utilizado em distribuições Linux baseadas em Debian ou Ubuntu. Na DisCloud, você pode adicionar alguns pacotes listados abaixo na instância da sua aplicação em caso de necessidade.  Caso tenha alguma dúvida, consulte nossa documentação.",
+                "linkDocs":"https://docs.discloudbot.com/discloud.config/configurar/apt",
+                "dev": "Em construçao..."
+            },
+            "commit":{
+                "title":"Commit",
+                "subtitle": "Commit",
+                "desc":"Enviar um ou mais arquivos para atualizar o codigo da sua aplicação.",
+                "carregando":"Carregando",
+                "iniciando": "Iniciando seu aplicativo...",
+                "enviando":"Enviando seus arquivos... ",
+                "solteAqui": "Solte o arquivo aqui",
+                "termos": "Concorda com os termos de serviço e políticas de uso da Discloud ?",
+                "upload": "Enviar Alterações"
+            },
+            "editRam":{
+                "title":"Editar Ram",
+                "subtitle": "Configurações",
+                "desc": "Configure seu app da maneira que achar melhor",
+                "editarRam": "Editar memoria RAM",
+                "salvar":"Salvar",
+                "apenasDoador":"Recursos disponível apenas para doadores"
+            },
+            "git":{
+                "title":"Auto Deploy com Git",
+                "desc":"Sincronize um repositório git com a sua aplicação para atualizações (commits) automáticas.  Sempre que um commit for enviado para o repositório da sua aplicação, a DisCloud irá atualizar os arquivos da sua aplicação automaticamente. Caso tenha alguma dúvida, consulte nossa documentação."
+            },
+            "team":{ 
+                "title":"Team",
+                "subtitle":"Registre um Moderador",
+                "desc":"Com esse recurso você poderá configurar o acesso e definir permissões nas suas aplicações para sua equipe de desenvolvimento, podendo assim aumentar a produtividade e a colaboração do seu projeto."
+            },
+            "version":{
+                "title":"Versão",
+                "desc":"Altere a versão da linguagem da sua aplicação sempre que necessário, seja da mais antiga à mais recente. Caso tenha alguma dúvida, consulte nossa documentação.",
+                "linkDocs":"https://docs.discloudbot.com/discloud.config/configurar/version" 
+            }
+        },
+        "assinaturas": {
+           "cancelModal":{
+            "cancelarPlano": "Cancelar assinatura",
+            "temcerteza": "Tem certeza que deseja cancelar sua assinatura",
+            "aocancelar": "Ao cancelar a cobrança o seu plano atual não será mais renovado automaticamente.",
+            "noDia": "No dia {day} você irá perder recursos importantes:",
+            "acesso": "Compartilhamento de Acesso",
+            "git": "Deploy Automático com Git",
+            "sites": "Hospedagem de Sites",
+            "autorestart": "Sistema de AutoRestart",
+            "ddos": "Proteçao Anti-DDOS",
+            "domain":"Dominios personalizados",
+            "sim":"Sim, cancele o meu plano",
+            "nao":"Não"
+
+          },
+          "changeModal": {
+            "alterar":"Alterar plano",
+            "desc":"Todos os nosso planos incluem o processador AMD EPYC™, memoria DDR4, armazenamento SSD NVMe e um tráfego ilimitado.",
+            "comportaAte":"Comporta mais de {numeroDeApps} aplicações",
+            "mes":"/mês",
+            "pormes": "por mês",
+            "esterEgger": "Isso é so pros fortes...",
+            "padrao":"Padrão",
+            "salvar":"Salvar",
+            "cancelar":"Cancelar"
+          },
+          "invoice": {
+            "planoMensal":"(plano mensal)",
+            "alterar":"Alterar plano",
+            "pago": "Pago",
+            "pendente":"Pendente",
+            "devido": "Devido",
+            "baixar": "Baixar",
+            "faturas": "Faturas",
+            "desc": "Histórico de pagamento e todas as faturas da sua conta.",
+            "reativar": "Reativar plano?",
+            "reativarDesc":"Iremos começar renovar o seu plano automaticamente de novo.",
+            "sim":"Sim",
+            "nao":"Não"
+          },
+          "sub":{
+            "title":"Assinatura",
+            "canceladoDia":"O seu plano será cancelado no dia {day}.",
+            "proximoPagamento": "Seu próximo pagamento automático será de {price} em {day}",
+            "comprar": "Comprar plano",
+            "cancelar":"Cancelar assinatura",
+            "arrapendeu": "Reative sua conta clicando no botão abaixo. Se você cancelou por engano, essa é a sua chance de retomar o acesso a todos os nossos recursos.",
+            "reativar":"Reativar assinatura",
+            "ativar": "Ativar um plano agora"
+          }
+          
+        }
+    }
+}
