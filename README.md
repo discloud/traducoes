@@ -1,6 +1,6 @@
 # Traduções v2
 
-> Cry#6014
+> Cry#2002
 
 > Kallum#2895
 
