@@ -77,7 +77,7 @@
         "memory": "Memória RAM DDR4 2933 MHz",
         "ssd": "SSD NVMe Empresarial",
         "high": "Alta escalabilidade e desempenho",
-        "obs": "*Todos os nossos planos gratuito ou pago possuem o mesmo hardware",
+        "obs": "*Todos os nossos planos sendo gratuito ou pago possuem o mesmo hardware",
         "app": "A sua aplicação merece o melhor",
         "app2": "e nós temos o",
         "appSpan": "plano perfeito",
@@ -246,7 +246,7 @@
         "page": {
             "title": "Extensão do",
             "title2": "Visual Studio Code",
-            "desc": "Este recurso veio para simplifica seu fluxo de trabalho durante o desenvolvimento.",
+            "desc": "Este recurso veio para simplificar seu fluxo de trabalho durante o desenvolvimento.",
         
         "button": {
             "1": "Baixar pelo Marketplace",
