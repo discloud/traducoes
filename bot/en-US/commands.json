@@ -3,15 +3,15 @@
         "backup": {
             "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Send the application ID you want to backup - Example: `.backup <application_ID>`.",
-            "iddiferente": "This ID is not the same as any of your applications.",
+            "iddiferente": "This ID you provided does not match any of the bots you have on your account.",
             "embed": {
                 "setAuthor": "Backup your application.",
                 "setDescription": "Click here",
                 "setFooter": "The link expires in 24 hours."
             },
             "dmFechado": "You must have DMs enabled to use the command.",
-            "semreg": "There are no registry in my database.",
-            "timeout": "Wait `{{minutes}}m and {{seconds}}s` to generate a new backup of your application.",
+            "semreg": "This user has no apps.",
+            "timeout": "Please wait `{{minutes}} minutes and {{seconds}} seconds` to generate a There are no registrynew backup of your application.",
             "gerando": "We are generating your application backup, please wait... \n\t{{gen}}",
             "gerar": "We are generating the backup of your application...",
             "erro": "There was an error getting your application backup files.",
