@@ -24,7 +24,7 @@
         "apps": {
             "semreg": "There are no registry in my database.",
             "semAplicações": "You don't have any hosted applications. To host an application use the command: `.upload`.",
-            "dmBlock": "You must have DMs enabled to use the command.",
+            "dmBlock": "You must have DMs enabled to use this command.",
             "container":"Offline for exceeding the RAM memory limit.",
             "embed": {
                 "nomeid": "Name/ID",
@@ -183,7 +183,7 @@
         },
 
         "iniciar": {
-            "bancolimpo": "There are no registry in my database.",
+            "bancolimpo": "There is no registry in my database.",
             "sembot": "You don't have any hosted applications. To host an application use the command: `.upload`.",
             "semid": "Send the ID of the application you want started.",
             "iddiferente": "This ID is not the same as any of your applications.",
@@ -191,7 +191,7 @@
             "duploip": "You have registered two different accounts on DisCloud, contact the team via @ModMail DM.",
             "limitefree": "The application limit in the Free Plan has been reached, try again later or buy one of our plans and host your application now without limits.",
             "startingbot": "Starting your application...",
-            "error": "There is something wrong with your instance, remove your application and resubmit using the commands: `.remove` and then `.upload`.",
+            "error": "There is something wrong with your ap, remove your application and resubmit using the commands: `.remove` and then `.upload`.",
             "aguar": "Wait...",
             "iniciarerro": "There was an error starting your application.",
             "sucesso": "Your application has started successfully.",
@@ -281,7 +281,7 @@
         },
 
         "mods": { 
-            "dbregistro": "There are no registry in my database.",
+            "dbregistro": "There is no registry in my database.",
             "doe": "Send an option to run.",
             "did": "Send application ID.",
             "cmd": "The moderator system is only available to `Gold` donors and above.",
@@ -405,8 +405,8 @@
             "domain": "If your subdomain does not contain any invalid words, please contact someone on the team.",
             "register": "The subdomain `{{collected}}` has been registered in your account and is now on a waiting list.\nWait for someone on the team to approve your subdomain.",
             "temp": "You took too long to type your subdomain name.",
-            "remove": "Subdomain **`{{subdomain}}`** has been removed from your subdomain list.",
-            "dm": "Could not send message to this user because DM is blocked.",
+            "remove": "Subdomain **`{{subdomain}}`** has been removed from your domain list.",
+            "dm": "Could not send message to this user because there dms aren't enabled.",
             "limitsub":"You have already registered the limited amount of subdomains available in your plan."
         },
 
@@ -559,7 +559,7 @@
                     "temporam": "You took a long time to typed your application RAM memory.",
                     "tempoid": "You took too long to typed the application ID.",
                     "id": "The ID you provided is not from an application.",
-                    "timeid": "You took too long to typed the application ID."
+                    "timeid": "You took too long to type the application ID."
             }
         },
             "erro": {
@@ -679,8 +679,8 @@
         },
     
         "api": {
-          "token": "Your token is: ||`{{token}}`|| Do not reveal it to anyone. \nIf someone else has access to this Token, they can also get your plan and application status data.",
-          "DM": "Unlock your DM."
+          "token": "Your token is: ||`{{token}}`|| Do not send it to anyone.\nIf someone else has access to this Token, they can get your plan, application, and other sensitive information about your your application(s).",
+          "DM": "Please enable your DMs."
         },
     
         "autorestart": {
