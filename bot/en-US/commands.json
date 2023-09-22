@@ -11,7 +11,7 @@
             },
             "dmFechado": "You must have DMs enabled to use the command.",
             "semreg": "This user has no apps.",
-            "timeout": "Please wait `{{minutes}} minutes and {{seconds}} seconds` to generate a There are no registrynew backup of your application.",
+            "timeout": "Please wait `{{minutes}} minutes and {{seconds}} seconds` to generate a new backup of your application.",
             "gerando": "We are generating your application backup, please wait... \n\t{{gen}}",
             "gerar": "We are generating the backup of your application...",
             "erro": "There was an error getting your application backup files.",
