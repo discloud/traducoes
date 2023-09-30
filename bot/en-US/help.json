@@ -64,7 +64,7 @@
     },
 
     "removerapp": {
-        "desc": "Permanently delete your data and settings of your bot."
+        "desc": "Permanently delete your data and settings of your app."
     },
 
     "resetweek": {
