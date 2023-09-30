@@ -1,6 +1,6 @@
 {
     "main": {
-        "memberDiscord": "You need to be a member of our Discord server to use our API. Join us at https://discord.gg/discloud-584490943034425391.",
+        "memberDiscord": "You need to be a member of our support server to use our API.",
         "notApp": "You do not have any applications.",
         "file": "Mandatory File",
         "getBackup": "An error occurred when trying to retrieve your application backup files.",
