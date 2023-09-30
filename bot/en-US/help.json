@@ -64,7 +64,7 @@
     },
 
     "removerapp": {
-        "desc": "Delete your instance, deleting all data and settings."
+        "desc": "Permanently delete your data and settings of your app."
     },
 
     "resetweek": {
@@ -80,7 +80,7 @@
     },
 
     "terminal": {
-        "desc": "Displays the terminal of your application."
+        "desc": "Displays the logs of your application."
     },
 
     "transferir": {

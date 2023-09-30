@@ -1,152 +1,145 @@
 {
     "main": {
-        "memberDiscord": "You need to be a member of our Discord server to use our API - https://discloud.app",
-        "notApp": "You don't have any app",
+        "memberDiscord": "You need to be a member of our support server to use our API.",
+        "notApp": "You do not have any applications.",
         "file": "Mandatory File",
-        "getBackup": "A flaw occurred when trying to get your application backuo files.",
-        "maxGB": "Your application backup files exceeds 1GB",
-        "appExe": "The application has already a process in execution.",
-        "idApp": "This id does not belong to any of your applications.",
-        "todosParameter": "The All parameter is not supported on this route.",
+        "getBackup": "An error occurred when trying to retrieve your application backup files.",
+        "maxGB": "Your application backup files exceed 1GB.",
+        "appExe": "The application already has a process in execution.",
+        "idApp": "This ID does not belong to any of your applications.",
+        "todosParameter": "The 'All' parameter is not supported on this route.",
         "appRemove": "Your application has been removed.",
-        "notMod":"You don't belong to any team of the app {{app}}"
+        "notMod": "You need to be a team member to manage the app {{app}}."
     },
     "routes": {
-        "upload":{
-            "rar":"The extension {{file}} is not supported, use the .zip extension.",
-            "app": "Your app has been started",
+        "upload": {
+            "rar": "The {{file}} extension is not supported; please use the .zip extension.",
+            "app": "Your app has been started.",
             "webApp": "Your web application has been started -",
-        "erro": {
-            "93": "The discloud.config file was not found within .zip sent.",
-            "403": "We found an error inside discloud.config file, make sure it has placed the information correctly.",
-            "91": "An error occurred when allocating the space. Verify that the zip file you sent is not corrupted, valid or blocked with a password.",
-            "typeApp": "Enter what type of application is on your discloud.config",
-            "mainFile": "The main file informed in discloud.config is incorrect.",
-            "fileMain": "Enter what is the application's main file on your discloud.config",
-            "ram": "Enter your application RAM on your discloud.config",
-            "limitHost": "You have reached the application's limit for your plan.",
-            "appLimit": "You have reached the application limit you can host or you allocated all available RAM of your plan.",
-            "ramValue": "RAM must be a value above 100MB",
-            "appHost": "You can only host one application on the free plane.",
-            "allocating": "An error occurred by allocating the space. Verify that the Zip file you sent is not corrupted, valid or blocked with a password.",
-            "configAmb": "An error occurred when configuring the environment. Contact someone from the team to solve this error.",
-            "lanNumber": "An error occurred when configuring the LanNumber environment. Contact someone from the team to solve this error.",
-            "subdomain": "Add the subdominium of your site to the ID field to your discloud.config",
-            "website": "The website system is only available for `platinum` or upper planes.",
-            "approve": "You still have no approved or available subdomain for use.",
-            "mbMin": "You need to have at least 512MB of memory available to upload your application.",
-            "mbMax": "The value of the RAM of your application must be 512MB or more.",
-            "read": "Error trying to read the discloud.config file",
-            "idApp": "ID {{app}} belongs to an application that is already hosting.",
-            
-            "ramLimit": "The RAM limit of your plan is {{plans}} mb",
-            "freeHost": "You need to have at least {{mem}}MB free to host an application and you are using, if you don't have one of our plans yet, get a plan to release more features.",
-            "botLang": "An error has occurred. We do not detect {{botlang}} in the directory of your application.",
-            "erroFile": "We identified an error in your file {{langbot}}, correct it and try again.",
-            "lastMemory": "You cannot put this amount of memory in your application, only you remain {{mem}} MB",
-            "siteLang": "An error has occurred.We do not detect {{sitelang}} in the directory of your application.",
-            "siteErro": "We identified an error in your file {{siteLang}}, correct it and try again.",
-            "subDomain": "You did not register the {{subDomain}} subdomain."
-        } 
+            "error": {
+                "93": "The discloud.config file was not found within the .zip file sent.",
+                "403": "We found an error inside the discloud.config file; make sure the information is correct.",
+                "91": "An error occurred while allocating space. Please verify that the zip file you sent is not corrupted, invalid, or locked with a password.",
+                "typeApp": "Enter the type of application in your discloud.config.",
+                "mainFile": "The main file specified in the discloud.config is incorrect.",
+                "fileMain": "Enter the application's main file name (including the extension) in your discloud.config.",
+                "ram": "Enter your application's RAM in your discloud.config file.",
+                "limitHost": "You have reached the application's RAM limit for your plan.",
+                "appLimit": "You have reached the application limit you can host, or you have allocated all available RAM for your plan.",
+                "ramValue": "RAM must be above 100MB.",
+                "appHost": "You can only host one application on the free plan.",
+                "allocating": "An error occurred while allocating space. Verify that the Zip file you sent is not corrupted, invalid, or locked with a password.",
+                "configAmb": "An error occurred while configuring the environment. Contact someone from the discloud team to help resolve this error.",
+                "lanNumber": "An error occurred while configuring the LanNumber environment. Contact someone from the discloud team to help resolve this error.",
+                "subdomain": "Add the subdomain of your site to the ID field of your discloud.config file.",
+                "website": "The website plan is only available for 'platinum' or higher plans.",
+                "approve": "You still have no approved or available subdomain for use.",
+                "mbMin": "You need to have at least 512MB of memory available to upload your application.",
+                "mbMax": "The RAM of your application must be 512MB or more.",
+                "read": "An error occurred while trying to read the discloud.config file.",
+                "idApp": "ID {{app}} belongs to an application that is already hosted.",
+                "ramLimit": "The RAM limit of your plan is {{plans}} MB.",
+                "freeHost": "You need to have at least {{mem}}MB of free memory to host an application. If you don't have one of our plans yet, consider getting a plan to access additional features and resources.",
+                "botLang": "An error has occurred. We do not detect {{botlang}} in the directory of your application.",
+                "erroFile": "We identified an error in your file {{langbot}}. Correct it and try again.",
+                "lastMemory": "You cannot allocate this amount of memory to your application; you only have {{mem}} MB remaining.",
+                "siteLang": "An error has occurred. We do not detect {{sitelang}} in the directory of your application.",
+                "siteErro": "We identified an error in your file {{siteLang}}. Correct it and try again.",
+                "subDomain": "You did not register the {{subDomain}} subdomain."
+            }
         },
-        "user":{
-            "userData": "User data successfully loaded"
+        "user": {
+            "userData": "User data successfully loaded."
         },
-        "locale":{
-            "error":"The translation for the language {{lang}} does not exists yet.",
-            "msg":"Now, you will be answered in english by Discloud.."
+        "locale": {
+            "error": "The translation for the language {{lang}} does not exist yet.",
+            "msg": "You will now be answered in English by Discloud."
         },
         "app": {
-            "allApps": "The information from your applications has been loaded.",
-            "oneApp": "The information of your application has been loaded.",
-            "notOwner": "This id does not belong to any of your applications.",
-            
-            "backup":{
-                "backupLoad": "Backups from your applications loading.",
-                "backupOk": "Backup of your application will be generated successfully."
+            "allApps": "The information for your applications has been loaded.",
+            "oneApp": "The information for your application has been loaded.",
+            "notOwner": "This ID does not belong to any of your applications.",
+            "backup": {
+                "backupLoad": "Backups for your applications are loading.",
+                "backupOk": "Backup for your application will be generated successfully."
             },
-            "commit":{
-                "200": "The files of your application have been successfully updated.",
-                "201": "Error when rebuildar and renight the container.",
-                "204": "The .rar extension is not compatible, use the .zip extension.",
-                "222": "Your application cannot be started because a fault in your code has been detected, check your application's logs for more details.",
+            "commit": {
+                "200": "The files for your application have been successfully updated.",
+                "201": "Error when rebuilding and relighting the container.",
+                "204": "The .rar extension is not compatible; use the .zip extension.",
+                "222": "Your application cannot be started because a fault in your code has been detected; check your application's logs for more details.",
                 "302": "An error occurred when configuring your environment.",
-                "404": "An error occurred when downloading the file you sent, make sure the file is not corrupted or bloacked and try again.",
-                "504": "We identified an error at {{file}}, correct it and try again."
+                "404": "An error occurred when downloading the file you sent; make sure the file is not corrupted or blocked and try again.",
+                "504": "We identified an error at {{file}}; correct it and try again."
             },
-            "logs":{
-                "logsLoad": "Logs from your application loaded."
+            "logs": {
+                "logsLoad": "Logs for your application are loading."
             },
-            "ram":{
-                "changeMem": "Changing the memory used by applications is only available for Carbon or superior donators.",
-                "ramOk": "The memory of your application has been successfully changed.",
-
-                "erro": {
-                    "value": "RAM value invalid.",
-                    "botRam": "RAM must be a value equal or above 100MB.",
-                    "webRam": "Web applications need at least 512MB.",
-                    "changeMem": "An error occurred when trying to change the memory of your application."
+            "ram": {
+                "changeMem": "Changing the memory used by applications is only available for Carbon or superior donors.",
+                "ramOk": "The memory for your application has been successfully changed.",
+                "error": {
+                    "value": "Invalid RAM value.",
+                    "botRam": "RAM must be a value equal to or above 100MB.",
+                    "webRam": "Web applications need at least 512MB of memory.",
+                    "changeMem": "An error occurred when trying to change the memory for your application."
                 }
             },
-            "restart":{
+            "restart": {
                 "appRestart": "Your application was restarted.",
                 "appOff": "Your application is already offline.",
-
-                "erro": {
+                "error": {
                     "erroApp": "Error when restarting your application.",
                     "erroRestart": "An error occurred when restarting your application.",
-                    "erroDependencies": "An error of dependencies occurred when restarting your application."
+                    "erroDependencies": "An error with dependencies occurred when restarting your application."
                 }
             },
-            "start":{
-                "appConnect": "Your application have been connected.",
+            "start": {
+                "appConnect": "Your application has been connected.",
                 "appOn": "Your application is already online.",
                 "appLink": "Your application has been linked.",
-
-                "erro": {
+                "error": {
                     "erroStart": "An error occurred when starting your application.",
-                    "erroDependencies": "An error of dependencies occurred when starting your application."
+                    "erroDependencies": "An error with dependencies occurred when starting your application."
                 }
             },
-            "status":{
-                "statusApp": "Status for your applications have been loaded."
+            "status": {
+                "statusApp": "Status for your applications has been loaded."
             },
-            "stop":{
-                "stoping": "Your application stopped."
+            "stop": {
+                "stoping": "Your application is stopping."
             },
-            "apt":{
-                "not":"There are no packages available for this language",
-                "aptNot": "There are no packages available with that name",
-                "errorNewApt": "We detected an error by setting up the new packages.",
+            "apt": {
+                "not": "There are no packages available for this language.",
+                "aptNot": "There are no packages available with that name.",
+                "errorNewApt": "We detected an error while setting up the new packages.",
                 "install": "Package {{newApt}} installed.",
                 "del": "Package {{newApt}} uninstalled."
             },
-            "team":{
-                "appTeam": "You are not on any applicatio team.",
-                "modAppRemove": "Moderator removed from the application",
+            "team": {
+                "appTeam": "You are not part of any application team.",
+                "modAppRemove": "Moderator removed from the application.",
                 "modd": "This moderator has already been registered.",
-                
-                "erro": {
-                    "modPlan": "The moderators system is only available for gold or higher donators.",
-                    "appMod": "This application has already reached as much moderators as possible.",
-                    "arrayPerm": "Variavel perms needs to be an array of permissions",
-                    "modOwn": "You cannot add you as a moderator in your own application.",
-                    "notMod": "This moderator does not exist in this app"
+                "error": {
+                    "modPlan": "The moderators system is only available for Gold or higher donors.",
+                    "appMod": "This application has already reached the maximum number of moderators.",
+                    "arrayPerm": "The 'perms' variable needs to be an array of permissions.",
+                    "modOwn": "You cannot add yourself as a moderator to your own application.",
+                    "notMod": "This moderator does not exist in this app."
                 }
             }
         },
-        "team":{
-            "backup":{},
-            "commit":{},
+        "team": {
+            "backup": {},
+            "commit": {},
             "delete": {},
-            "logs":{ 
-            },
-            "ram":{},
-            "restart":{},
-            "start":{},
-            "status":{},
-            "stop":{
-                "appOff": "Your application stopped."
+            "logs": {},
+            "ram": {},
+            "restart": {},
+            "start": {},
+            "status": {},
+            "stop": {
+                "appOff": "Your application is offline."
             }
         }
     }

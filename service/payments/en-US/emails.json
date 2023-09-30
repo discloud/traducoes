@@ -14,15 +14,15 @@
     "daysleft": {
         "subject_1": "Renewing your plan {{PLAN}} (1 day left)",
         "subject_3": "Renewing your plan {{PLAN}} (3 days left)",
-        "texto_1": "Your <b>{{PLAN}}</b> plan will expire on <b>{{REST}}</b>. You can renew your plan by clicking the button below. Remember to backup your bots!",
-        "texto_2": "At the end of the term, all data from your Bots and instances will be permanently deleted.",
+        "texto_1": "Your <b>{{PLAN}}</b> plan will expire on <b>{{REST}}</b>. You can renew your plan by clicking the button below. Remember to backup your bot files!",
+        "texto_2": "At the end of the plan, all data from your Bots and instances will be permanently deleted.",
         "renew_plan": "Renew plan"
     },
 
     "backupbots": {
         "subject": "Backup of your bots",
-        "texto_1": "Your bots has been removed because your <b>{{PLAN}}</b> plan has ended. You can download your bots backup by clicking the buttons below. Remember that your bots can go back online with our <b>Free</b> plan or you can buy a new plan <b><a href='https://discloudbot.com/plans'>by clicking here</a></b>.",
-        "texto_2": "You have 1 month to download your bot backup, otherwise it will be permanently deleted.",
-        "download_bot": "Download {{BOTNAME}} backup"
+        "texto_1": "Your bot(s) have been removed because your <b>{{PLAN}}</b> plan has ended. You can download your bots backup by clicking the buttons below. Remember that your bots can go back online with our <b>Free</b> plan or you can buy a new plan <b><a href='https://discloudbot.com/plans'>by clicking here.</a></b>.",
+        "texto_2": "Please ensure you download your bot files before 30 days, otherwise they will be subjected to permanent deletion for privacy.",
+        "download_bot": "Download {{BOTNAME}}'s backup files"
     }
 }
