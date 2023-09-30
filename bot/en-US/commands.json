@@ -191,7 +191,7 @@
             "duploip": "You have registered two different accounts on DisCloud, contact the team via @ModMail DM.",
             "limitefree": "The application limit in the Free Plan has been reached, try again later or buy one of our plans and host your application now without limits.",
             "startingbot": "Starting your application...",
-            "error": "There is something wrong with your ap, remove your application and resubmit using the commands: `.remove` and then `.upload`.",
+            "error": "There is something wrong with your application, remove your application and resubmit using the commands: `.remove` and then `.upload`.",
             "aguar": "Wait...",
             "iniciarerro": "There was an error starting your application.",
             "sucesso": "Your application has started successfully.",
