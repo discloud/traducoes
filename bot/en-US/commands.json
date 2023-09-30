@@ -405,7 +405,7 @@
             "domain": "If your subdomain does not contain any invalid words, please contact someone on the team.",
             "register": "The subdomain `{{collected}}` has been registered in your account and is now on a waiting list.\nWait for someone on the team to approve your subdomain.",
             "temp": "You took too long to type your subdomain name.",
-            "remove": "Subdomain **`{{subdomain}}`** has been removed from your domain list.",
+            "remove": "Subdomain **`{{subdomain}}`** has been removed from your subdomains list.",
             "dm": "Could not send message to this user because there dms aren't enabled.",
             "limitsub":"You have already registered the limited amount of subdomains available in your plan."
         },
