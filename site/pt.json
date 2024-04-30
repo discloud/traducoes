@@ -421,7 +421,7 @@
                 "ativo": "Ativo",
                 "nenhum":"Nenhum",
                 "modal":{
-                    "titulo":"Configurar DNS",
+                    "title":"Configurar DNS",
                     "subtitle":"Para configurar o seu domínio, você precisa adicionar os seguintes registros DNS:",
                     "nome": "Nome",
                     "tipo":"Tipo",

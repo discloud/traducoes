@@ -388,7 +388,7 @@
                 "ativo": "ACtif",
                 "nenhum": "Aucun",
                 "modal": {
-                    "titulo": "Configurer le DNS",
+                    "title": "Configurer le DNS",
                     "subtitle": "Pour configurer votre domaine, vous devez ajouter les enregistrements DNS suivants:",
                     "nome": "Nom",
                     "tipo": "Type",
